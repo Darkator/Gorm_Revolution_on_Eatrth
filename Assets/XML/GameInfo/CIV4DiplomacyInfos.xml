@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Diplomacy Infos -->
+<Civ4DiplomacyInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<DiplomacyInfos>
+		<DiplomacyInfo>
+			<Type>AI_DIPLOCOMMENT_DECLARE_WAR</Type>
+			<Responses>
+				<Response>
+					<Civilizations/>
+					<Leaders/>
+					<Attitudes/>
+					<DiplomacyPowers/>
+					<DiplomacyText>
+						<Text>AI_DIPLO_DECLARE_WAR_1</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_2</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_3</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_4</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_5</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_6</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_7</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_8</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_9</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_10</Text>
+					</DiplomacyText>
+				</Response>
+			</Responses>
+		</DiplomacyInfo>
+		
+	</DiplomacyInfos>
+</Civ4DiplomacyInfos>
