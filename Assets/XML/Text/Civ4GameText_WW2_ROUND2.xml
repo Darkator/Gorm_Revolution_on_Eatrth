@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WW2_BOM0_FRA2</Tag>
+		<English>Amiot 143</English>
+		<French>Amiot 143</French>
+		<German>Amiot 143</German>
+		<Italian>Bombowiec Amiot 143</Italian>
+		<Spanish>Amiot 143</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WW2_BOM1_FRA2</Tag>
+		<English>Amiot 340</English>
+		<French>Amiot 340</French>
+		<German>Amiot 340</German>
+		<Italian>Bombowiec Amiot 340</Italian>
+		<Spanish>Amiot 340</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WW2_BOM2_FRA2</Tag>
+		<English>Amiot 354</English>
+		<French>Amiot 354</French>
+		<German>Amiot 354</German>
+		<Italian>Bombowiec Amiot 354</Italian>
+		<Spanish>Amiot 354</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH18_STRATEGY2</Tag>
+		<English>Tank Destroyers leads to better infantry.</English>
+		<French>Tueurs de char permet de produire une meilleure infanterie.</French>
+		<German>Panzerzerst&#246;rer f&#252;hren zu besserer Infanterie.</German>
+		<Italian>Niszczyciele czo&#244;g&#243;w prowadz&#225; do lepszej piechoty.</Italian>
+		<Spanish>Los anticarros permiten una infanter&#237;a mejor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH182</Tag>
+		<English>Tank Destroyers</English>
+		<French>Tueurs de char</French>
+		<German>Panzerzerst&#246;rer</German>
+		<Italian>Niszczyciele czo&#244;g&#243;w</Italian>
+		<Spanish>Anticarros</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TIME_WEEK2</Tag>
+		<English>Fortnight %d1_WeekNum</English>
+		<French>Quinzaine %d1_WeekNum</French>
+		<German>2-Wochen-Abschnitt %d1_WeekNum</German>
+		<Italian>Tura %d1_WeekNum</Italian>
+		<Spanish>Quincena %d1_WeekNum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IS_DCM_BOMBARD</Tag>
+		<English>Ranged Bombardment</English>
+		<French>Bombardement &#224; distance</French>
+		<German>Fernbombardierung</German>
+		<Italian>Ostrza&#244; artyleryjski</Italian>
+		<Spanish>Ca&#241;oneo de alcance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMO_PARATROOP_HELP</Tag>
+		<English>Allows movement after drop</English>
+		<French>Permet de se d&#233;placer apr&#232;s un parachutage</French>
+		<German>Erm&#246;glicht Bewegung nach dem Absprung</German>
+		<Italian>Pozwala wykona&#226; ruch po zrzucie</Italian>
+		<Spanish>Permite moverse tras el salto en paraca&#237;das.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_ITALY2</Tag>
+		<English>Duce Mussolini</English>
+		<French>Mussolini</French>
+		<German>Duce Mussolini</German>
+		<Italian>Duce Mussolini</Italian>
+		<Spanish>Duce Mussolini</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WW2_JAN2_1936_TEXTB</Tag>
+		<English>Please choose your mode of play:[NEWLINE][NEWLINE][BOLD]Accurate Historical Events[\BOLD] with events occuring on the date they occured.  You will not be able to declare war or make peace in this mode as these are handled automatically to occur on their historic dates.  For example: The USA will declare war on Japan or Germany on Fortnight 1 December 1941.[NEWLINE][NEWLINE][BOLD]Random Historical Events[\BOLD] with events occuring near to the date they occured.  You will not be able to declare war or make peace in this mode as these are handled automatically to occur near the historic dates randomly.  For example: The USA will declare war on Japan or Germany between Fortnight 2 October 1941 and Fortnight 1 March 1942.[NEWLINE][NEWLINE][BOLD]Open Play[\BOLD] with no events and all options available.  You can declare war and make peace freely at any time.</English>
+		<French>Choisissez votre mode de jeu :[NEWLINE][NEWLINE]Mode historique (les &#233;v&#233;nements adviennent selon le calendrier historique). Vous ne pourrez pas d&#233;clarer la guerre ni faire la paix dans ce mode puisque les &#233;v&#233;nements surviendront automatiquement &#224; leur date r&#233;elle. Par exemple : les Etats-Unis d&#233;clareront la guerre au Japon ou &#224; l'Allemagne dans la quinzaine du 1er d&#233;cembre 1941.[NEWLINE][NEWLINE]Mode al&#233;atoire (les &#233;v&#233;nements adviennent &#224; une date proche de la date historique). Vous ne pourrez pas d&#233;clarer la guerre ni faire la paix dans ce mode puisque les &#233;v&#233;nements surviendront automatiquement &#224; une date proche de leur date r&#233;elle. Par exemple : les Etats-Unis d&#233;clareront la guerre au Japon ou &#224; l'Allemagne entre la quinzaine du 2 octobre 1941 et celle du 1er mars 1942.[NEWLINE][NEWLINE]Mode libre (aucun &#233;v&#233;nement historique et toutes les options disponibles).Vous pouvez d&#233;clarer la guerre ou faire la paix &#224; n'importe quel moment.</French>
+		<German>Bitte w&#228;hlen Sie einen Spielmodus:[NEWLINE][NEWLINE][BOLD]Genaue historische Ereignisse[\BOLD], wobei Ereignisse exakt an ihrem historischen Datum geschehen. Sie k&#246;nnen keinen Krieg erkl&#228;ren oder Frieden schlie&#223;en, da dies automatisch zum historischen Datum geschieht. Zum Beispiel werden die USA in den zwei Wochen nach dem 1. Dezember 1941 Japan oder Deutschland den Krieg erkl&#228;ren.[NEWLINE][NEWLINE][BOLD]Zuf&#228;llige historische Ereignisse[\BOLD], wobei Ereignisse ungef&#228;hr an ihrem historischen Datum geschehen. Sie k&#246;nnen keinen Krieg erkl&#228;ren oder Frieden schlie&#223;en, da dies automatisch in der ungef&#228;hren Zeit des historischen Datums geschieht. Zum Beispiel werden die USA zwischen den zwei Wochen nach dem 2. Oktober 1941 und den zwei Wochen nach dem 1. M&#228;rz 1942 Japan oder Deutschland den Krieg erkl&#228;ren.[NEWLINE][NEWLINE][BOLD]Freies Spiel[\BOLD] ohne Ereignisse und mit allen verf&#252;gbaren Optionen. Sie k&#246;nnen jederzeit Frieden schlie&#223;en oder Krieg erkl&#228;ren.</German>
+		<Italian>Wybierz tryb gry:[NEWLINE][NEWLINE][BOLD]Wierne odtworzenie historii[\BOLD] oznacza, &#235;e zdarzenia historyczne wydarz&#225; si&#234; dok&#244;adnie w dniu, w kt&#243;rym faktycznie mia&#244;y miejsce. Nie b&#234;dziesz m&#243;g&#244; wypowiada&#226; wojny, ani zawiera&#226; pokoju, gdy&#235; automatycznie zrobi to komputer. Przyk&#244;ad: Stany Zjednoczone wypowiedz&#225; wojn&#234; Japonii lub Niemcom w turze zaczynaj&#225;cej si&#234; 1 grudnia 1941r.[NEWLINE][NEWLINE][BOLD]Przybli&#235;one odtworzenie historii[\BOLD] oznacza, &#235;e zdarzenia historyczne wydarz&#225; si&#234; w okolicach dnia, w kt&#243;rym faktycznie mia&#244;y miejsce. Tu tak&#235;e komputer wypowiada wojn&#234; lub zawiera pok&#243;j. Przyk&#244;ad: Stany Zjednoczone wypowiedz&#225; wojn&#234; Japonii lub Niemcom pomi&#234;dzy tur&#225; 2 pa&#233;dziernika 1941r. a 1 marca 1942r.[NEWLINE][NEWLINE][BOLD]Otwarta rozgrywka[\BOLD] nie narzuca &#235;adnych ogranicze&#241;. Sam mo&#235;esz wypowiada&#226; wojn&#234; i zawiera&#226; pok&#243;j w dowolnym okresie.</Italian>
+		<Spanish>Escoge tu modo de juego:[NEWLINE][NEWLINE][BOLD]Hechos hist&#243;ricos exactos[\BOLD] : Los acontecimientos tienen lugar en la fecha en que sucedieron.  En este modo no podr&#225;s declarar la guerra ni firmar la paz, ya que estos asuntos se gestionan autom&#225;ticamente para que ocurran en las fechas precisas.  Por ejemplo: Los EE. UU. declarar&#225;n la guerra al Jap&#243;n o a Alemania en la primera quincena de diciembre de 1941.[NEWLINE][NEWLINE][BOLD]Hechos hist&#243;ricos al azar[\BOLD] : Los acontecimientos tienen lugar cerca de la fecha en que sucedieron.  En este modo no podr&#225;s declarar la guerra ni firmar la paz, ya que estos asuntos se gestionan autom&#225;ticamente para que ocurran aleatoriamente cerca de la fecha hist&#243;rica.  Por ejemplo: Los EE. UU. declarar&#225;n la guerra al Jap&#243;n o a Alemania entre la segunda quincena de octubre de 1941 y la primera de marzo de 1942.[NEWLINE][NEWLINE][BOLD]Juego abierto[\BOLD] : Sin acontecimientos y con todas las opciones disponibles.  Puedes declarar la guerra y firmar la paz libremente y en cualquier momento.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_HIST1</Tag>
+		<English>Accurate Historical Events</English>
+		<French>Mode historique</French>
+		<German>Genaue historische Ereignisse</German>
+		<Italian>Wierne odtworzenie historii</Italian>
+		<Spanish>Hechos hist&#243;ricos exactos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_HIST2</Tag>
+		<English>Random Historical Events</English>
+		<French>Mode al&#233;atoire</French>
+		<German>Zuf&#228;llige historische Ereignisse</German>
+		<Italian>Przybli&#235;one odtworzenie historii</Italian>
+		<Spanish>Hechos hist&#243;ricos al azar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_HIST3</Tag>
+		<English>Open Play</English>
+		<French>Mode libre</French>
+		<German>Freies Spiel</German>
+		<Italian>Otwarta rozgrywka</Italian>
+		<Spanish>Juego abierto</Spanish>
+	</TEXT>
+</Civ4GameText>

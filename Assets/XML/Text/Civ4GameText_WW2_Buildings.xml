@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_UNIQUE_PEDIA</Tag>
+		<English> </English>
+		<French/>
+		<German/>
+		<Italian/>
+		<Spanish/>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_ANGKOR_WAT_STRATEGY</Tag>
+		<English>Angkor Wat is a unique building for Bangkok</English>
+		<French>Angkor Vat est un monument unique pour Angkor</French>
+		<German>Der Angkor Wat ist das einzigartige Geb&#228;ude f&#252;r Bangkok</German>
+		<Italian>Angkor Wat jest unikaln&#225; budowl&#225; dla Bangkoku</Italian>
+		<Spanish>Angkor Wat es un edificio &#250;nico de Bangkok.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_ARC_STRATEGY</Tag>
+		<English>Arc de Triomphe is a unique building for Paris</English>
+		<French>L'Arc de Triomphe est un monument unique pour Paris</French>
+		<German>Der Triumphbogen ist das einzigartige Geb&#228;ude f&#252;r Paris</German>
+		<Italian>&#212;uk Triumfalny jest unikaln&#225; budowl&#225; dla Pary&#235;a</Italian>
+		<Spanish>El Arco del Triunfo es un monumento &#250;nico de Par&#237;s.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BIGBEN_STRATEGY</Tag>
+		<English>Big Ben is a unique building for London</English>
+		<French>Big Ben est un monument unique pour Londres</French>
+		<German>Big Ben ist das einzigartige Geb&#228;ude f&#252;r London</German>
+		<Italian>Big Ben jest unikaln&#225; budowl&#225; dla Londynu</Italian>
+		<Spanish>El Big Ben es un monumento &#250;nico de Londres.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_GREAT_PALACE_STRATEGY</Tag>
+		<English>Forbidden Palace is a unique building for Beijing</English>
+		<French>Le Palais Imp&#233;rial est un monument unique pour P&#233;kin</French>
+		<German>Die Verbotene Stadt ist das einzigartige Geb&#228;ude f&#252;r Peking</German>
+		<Italian>Zakazane Miasto jest unikaln&#225; budowl&#225; dla Pekinu</Italian>
+		<Spanish>La Ciudad Prohibida es un edificio &#250;nico de Pek&#237;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_KREMLIN_STRATEGY</Tag>
+		<English>Kremlin is a unique building for Moscow</English>
+		<French>Le Kremlin est un monument unique pour Moscou</French>
+		<German>Der Kreml ist das einzigartige Geb&#228;ude f&#252;r Moskau</German>
+		<Italian>Kreml jest unikaln&#225; budowl&#225; dla Moskwy</Italian>
+		<Spanish>El Kremlin es un edificio &#250;nico de Mosc&#250;.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_MOAI_STATUES_STRATEGY</Tag>
+		<English>Moai Statues is a unique building for Easter Island</English>
+		<French>Les Statues Moa&#239; sont des monuments uniques pour l'Ile de P&#226;ques</French>
+		<German>Die Moai-Statuen sind das einzigartige Geb&#228;ude f&#252;r die Osterinsel</German>
+		<Italian>Pos&#225;gi Moai s&#225; unikaln&#225; budowl&#225; dla Wyspy Wielkanocnej</Italian>
+		<Spanish>Los Moai son un edificio &#250;nico de la Isla de Pascua.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_PISA_STRATEGY</Tag>
+		<English>Leaning Tower of Pisa is a unique building for Bologna</English>
+		<French>La Tour de Pise est un monument unique pour Pise</French>
+		<German>Der Schiefe Turm von Pisa ist das einzigartige Geb&#228;ude f&#252;r Bologna</German>
+		<Italian>Krzywa Wie&#235;a jest unikaln&#225; budowl&#225; dla Bolonii</Italian>
+		<Spanish>La Torre Inclinada de Pisa es un edificio &#250;nico de Bolonia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_REICHSTAG_STRATEGY</Tag>
+		<English>Reichstag is a unique building for Berlin</English>
+		<French>Le Reichstag est un monument unique pour Berlin</French>
+		<German>Der Reichstag ist das einzigartige Geb&#228;ude f&#252;r Berlin</German>
+		<Italian>Reichstag jest unikaln&#225; budowl&#225; dla Berlina</Italian>
+		<Spanish>El Reichstag es un edificio &#250;nico de Berl&#237;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_TAJ_MAHAL_STRATEGY</Tag>
+		<English>Taj Mahal is a unique building for Agra</English>
+		<French>Le Taj Mahal est un monument unique pour Agra</French>
+		<German>Das Taj Mahal ist das einzigartige Geb&#228;ude f&#252;r Agra</German>
+		<Italian>Tad&#235; Mahal jest unikaln&#225; budowl&#225; dla Agry</Italian>
+		<Spanish>El Taj Mahal es un edificio &#250;nico de Agra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_TORII_STRATEGY</Tag>
+		<English>Torii is a unique building for Tokyo</English>
+		<French>Le Torii est un monument unique pour Tokyo</French>
+		<German>Das Torii ist das einzigartige Geb&#228;ude f&#252;r Tokio</German>
+		<Italian>Brama Torii jest unikaln&#225; budowl&#225; dla Tokio</Italian>
+		<Spanish>La Puerta Torii es un edificio &#250;nico de Tokio.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_WHOUSE_STRATEGY</Tag>
+		<English>White House is a unique building for Washington DC</English>
+		<French>La Maison Blanche est un monument unique pour Washington DC</French>
+		<German>Das Wei&#223;e Haus ist das einzigartige Geb&#228;ude f&#252;r Washington D.C.</German>
+		<Italian>Bia&#244;y Dom jest unikaln&#225; budowl&#225; dla Waszyngtonu</Italian>
+		<Spanish>La Casa Blanca es un edificio &#250;nico de la ciudad de Washington.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD01_PEDIA</Tag>
+		<English>[H1]Laboratory[\H1][PARAGRAPH:2]A laboratory is the place where advanced scientific research and prototyping occurs. Having a laboratory in your city will increase a city's science output.[PARAGRAPH:2]</English>
+		<French>[H1]Laboratoire[\H1][PARAGRAPH:2]Dans un laboratoire s'effectuent la recherche scientifique avanc&#233;e et l'&#233;laboration de prototypes. Si votre cit&#233; poss&#232;de un laboratoire, le niveau de science sera augment&#233;.[PARAGRAPH:2]</French>
+		<German>[H1]Labor[\H1][PARAGRAPH:2]Das Labor erm&#246;glicht neben verbesserter wissenschaftlicher Forschung auch die Prototypentwicklung und erh&#246;ht den Forschungsaussto&#223; einer Stadt.[PARAGRAPH:2]</German>
+		<Italian>[H1]Laboratorium[\H1][PARAGRAPH:2]Laboratorium to miejsce, w kt&#243;rym nieustannie tocz&#225; si&#234; badania nad zaawansowanymi technologiami. Obecno&#228;&#226; laboratorium w mie&#228;cie zwi&#234;ksza jego potencja&#244; naukowy.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Laboratorio[\H1][PARAGRAPH:2]En el laboratorio se desarrollan la investigaci&#243;n cient&#237;fica avanzada y los prototipos. Si en la ciudad hay un laboratorio, aumentar&#225; la producci&#243;n cient&#237;fica.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD02_PEDIA</Tag>
+		<English>[H1]Chain Reactor[\H1][PARAGRAPH:2]To create a nuclear bomb, a specific grade of nuclear material is required. The purpose of a chain reactor is to process uranium or plutonium into weapons grade material.[PARAGRAPH:2]</English>
+		<French>[H1]R&#233;acteur nucl&#233;aire[\H1][PARAGRAPH:2]Pour fabriquer une bombe atomique, il faut une certaine qualit&#233; de mat&#233;riau nucl&#233;aire. Le r&#233;acteur nucl&#233;aire permet de transformer l'uranium ou le plutonium &#224; des fins militaires.[PARAGRAPH:2]</French>
+		<German>[H1]Fusionsreaktor[\H1][PARAGRAPH:2]F&#252;r die Herstellung einer Atombombe wird spezielles Spaltmaterial ben&#246;tigt. Der Fusionsreaktor dient der Aufbereitung von Uran oder Plutonium in atomwaffenf&#228;higes Material.[PARAGRAPH:2]</German>
+		<Italian>[H1]Reaktor atomowy[\H1][PARAGRAPH:2]Aby zbudowa&#226; bomb&#234; atomow&#225;, trzeba posiada&#226; odpowiedni materia&#244; rozszczepialny. Zadaniem reaktora atomowego jest wytworzenie odpowiednio wzbogaconego uranu lub plutonu.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Reactor nuclear en cadena[\H1][PARAGRAPH:2]Para crear una bomba at&#243;mica se necesita un nivel espec&#237;fico de material nuclear. La funci&#243;n de un reactor en cadena es convertir el uranio o el plutonio en armas de gran potencia.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD03_PEDIA</Tag>
+		<English>[H1]Bomb Shelter[\H1][PARAGRAPH:2]A bomb shelter is a shelter for the population during air raids. These bunkers offer some protection from shrapnel and reduce deaths during the raid.[PARAGRAPH:2]</English>
+		<French>[H1]Abri anti-bombardement[\H1][PARAGRAPH:2]Un abri anti-bombardement permet de prot&#233;ger la population des raids a&#233;riens. Ces bunkers offrent une certaine protection contre les shrapnels et r&#233;duisent le nombre de victimes lors d'un bombardement.[PARAGRAPH:2]</French>
+		<German>[H1]Luftschutzkeller[\H1][PARAGRAPH:2]Ein Luftschutzkeller dient dem Schutz der Zivilbev&#246;lkerung w&#228;hrend feindlicher Luftangriffe. Er wehrt Schrapnellbeschuss ab und reduziert auf diese Weise die Zahl der Angriffsopfer.[PARAGRAPH:2]</German>
+		<Italian>[H1]Schron przeciwlotniczy[\H1][PARAGRAPH:2]To podstawowa kryj&#243;wka dla ludno&#228;ci, kt&#243;ra mo&#235;e w ten spos&#243;b ocali&#226; &#235;ycie podczas nalot&#243;w wroga. Nie zapewnia on wprawdzie pe&#244;nej ochrony, ale powa&#235;nie ogranicza straty zadane przez nalot.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Refugio antia&#233;reo[\H1][PARAGRAPH:2]Un refugio antia&#233;reo es el escondite para la poblaci&#243;n durante los bombardeos. Estos b&#250;nkeres protegen de la metralla y reducen el n&#250;mero de muertes durante el ataque a&#233;reo.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD04_PEDIA</Tag>
+		<English>[H1]Nuclear Shelter[\H1][PARAGRAPH:2]Nuclear shelters were concieved during the Cold War as a means to offer protection to the populace during a nuclear attack. Whilst the protection they could offer is questionable, they were valuable to keep the populace happy.[PARAGRAPH:2]</English>
+		<French>[H1]Abri anti-atomique[\H1][PARAGRAPH:2]Les abris anti-atomiques furent con&#231;us durant la Guerre Froide afin de prot&#233;ger les populations, dans l'&#233;ventualit&#233; d'une attaque nucl&#233;aire. Ils ont contribu&#233; &#224; rassurer l'opinion publique, m&#234;me sileur efficacit&#233; &#233;tait discutable.[PARAGRAPH:2]</French>
+		<German>[H1]Atomschutzbunker[\H1][PARAGRAPH:2]Atomschutzbunker wurden w&#228;hrend des Kalten Krieges zum Schutz der Zivilbev&#246;lkerung gegen atomare Angriffe entwickelt. Einerseits ist es zwar fraglich, in welchem Ma&#223;e sie den Menschen tats&#228;chlich sch&#252;tzen k&#246;nnen, andererseits tragen sie jedoch zur Zufriedenheit der Bev&#246;lkerung bei.[PARAGRAPH:2]</German>
+		<Italian>[H1]Schron atomowy[\H1][PARAGRAPH:2]Schrony atomowe opracowano w czasach Zimnej Wojny, jako form&#234; masowego zabezpieczenia ludno&#228;ci cywilnej przed skutkami wybuchu atomowego. Specjali&#228;ci kwestionowali ich praktyczn&#225; przydatno&#228;&#226;, ale samo wprowadzenie na rynek takiego produktu pozwoli&#244;o utrzyma&#226; morale ludno&#228;ci na odpowiednim poziomie.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Refugio nuclear[\H1][PARAGRAPH:2]Los refugios nucleares se crearon durante la Guerra Fr&#237;a como m&#233;todo de protecci&#243;n de la poblaci&#243;n en caso de ataque nuclear. La protecci&#243;n que ofrec&#237;an era m&#225;s que cuestionable, pero sirvieron para mantener a la poblaci&#243;n contenta.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD05_PEDIA</Tag>
+		<English>[H1]Airforce Base[\H1][PARAGRAPH:2]An airforce base is where air wings are based. Missions begin from an airforce base. They provide all the services required of an air wing.[PARAGRAPH:2]</English>
+		<French>[H1]Base a&#233;rienne[\H1][PARAGRAPH:2]Une base a&#233;rienne regroupe des unit&#233;s a&#233;riennes. Les missions a&#233;riennes sont lanc&#233;es depuis une base a&#233;rienne. Cette derni&#232;re fournit les moyens op&#233;rationnels n&#233;cessaires aux unit&#233;s a&#233;riennes.[PARAGRAPH:2]</French>
+		<German>[H1]Luftwaffenst&#252;tzpunkt[\H1][PARAGRAPH:2]Ein Luftwaffenst&#252;tzpunkt dient als Basis f&#252;r Luftwaffengeschwader. Von hier aus werden die Eins&#228;tze gestartet und hier werden auch alle Instandhaltungsdienstleistungen f&#252;r die Geschwader bereitgestellt.[PARAGRAPH:2]</German>
+		<Italian>[H1]Baza lotnicza[\H1][PARAGRAPH:2]To miejsce stacjonowania jednostek lotniczych. St&#225;d rozpoczynaj&#225; one loty bojowe, tutaj l&#225;duj&#225; i s&#225; naprawiane. Odpowiednie zaplecze techniczne umo&#235;liwia roztoczenie nad nimi w&#244;a&#228;ciwej opieki.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Base de la fuerza a&#233;rea[\H1][PARAGRAPH:2]Una base de la fuerza a&#233;rea es el lugar donde se ubican las escuadrillas. Las misiones empiezan en esta base. &#201;stas proveen todos los servicios que necesita una escuadrilla.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD06_PEDIA</Tag>
+		<English>[H1]Sewer[\H1][PARAGRAPH:2]Every modern city requires a method to disperse of human waste. Sewers are the system employed by cities to move waste from the residential areas to a location where it can be processed and released.[PARAGRAPH:2]</English>
+		<French>[H1]Egout[\H1][PARAGRAPH:2]Une cit&#233; moderne a besoin d'un syst&#232;me d'&#233;vacuation des eaux us&#233;es. C'est gr&#226;ce &#224; un r&#233;seau d'&#233;gouts que les eaux us&#233;es des zones r&#233;sidentielles sont &#233;vacu&#233;es vers des stations d'&#233;purations, o&#249; elles seront trait&#233;es.[PARAGRAPH:2]</French>
+		<German>[H1]Kanalisation[\H1][PARAGRAPH:2]Jede moderne Stadt braucht eine Entsorgungsm&#246;glichkeit f&#252;r die von den Menschen verursachten Abw&#228;sser und Abf&#228;lle. Die Kanalisation wird in St&#228;dten installiert, um das Schmutzwasser aus den Wohngebieten an einen anderen Ort abzuleiten, wo es behandelt und entsorgt werden kann.[PARAGRAPH:2]</German>
+		<Italian>[H1]Kana&#244;y[\H1][PARAGRAPH:2]Ka&#235;de nowoczesne miasto musi dysponowa&#226; systemem odprowadzenia nieczysto&#228;ci z dzielnic mieszkaniowych. Najcz&#234;&#228;ciej s&#225; one kierowane do miejsca, w kt&#243;rym mo&#235;na je przetworzy&#226; na zwi&#225;zki nieszkodliwe dla &#228;rodowiska i uwolni&#226; do ziemi.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Alcantarillado[\H1][PARAGRAPH:2]Toda ciudad moderna precisa un m&#233;todo de eliminaci&#243;n de desperdicios. Las alcantarillas forman el sistema que usan las ciudades para transportar los restos desde las zonas residenciales hacia un lugar donde puedan procesarse y soltarse.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD07_PEDIA</Tag>
+		<English>[H1]Bank[\H1][PARAGRAPH:2]A bank provides financial services to the city. They provide a means of securing finances and processing financial transactions.[PARAGRAPH:2]</English>
+		<French>[H1]Banque[\H1][PARAGRAPH:2]La banque procure des services financiers &#224; la cit&#233;. Les banques permettent de s'assurer des revenus et de r&#233;aliser des transactions financi&#232;res.[PARAGRAPH:2]</French>
+		<German>[H1]Bank[\H1][PARAGRAPH:2]Eine Bank bietet Finanzdienstleistungen in einer Stadt an und stellt M&#246;glichkeiten bereit, finanzielle Absicherungen und Transaktionen durchzuf&#252;hren.[PARAGRAPH:2]</German>
+		<Italian>[H1]Bank[\H1][PARAGRAPH:2]Ta budowla zapewnia miastu odpowiedni&#225; obs&#244;ug&#234; finansow&#225;, dbaj&#225;c o nale&#235;yte bezpiecze&#241;stwo zasob&#243;w p&#244;atniczych i przeprowadzanych transakcji.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Banco[\H1][PARAGRAPH:2]El banco proporciona servicios financieros a la ciudad. Ofrece sistemas para tener el dinero a buen recaudo as&#237; como para realizar transacciones financieras.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD08_PEDIA</Tag>
+		<English>[H1]Army Barracks[\H1][PARAGRAPH:2]An army barracks provides a base of operations for land-based military units. The formalised training area helps to promote experience in warfare.[PARAGRAPH:2]</English>
+		<French>[H1]Caserne[\H1][PARAGRAPH:2]La caserne procure une base op&#233;rationnelle pour les unit&#233;s militaires terrestres. La zone d'entra&#238;nement sp&#233;cifique permet aux militaires de se former au combat et de gagner en exp&#233;rience.[PARAGRAPH:2]</French>
+		<German>[H1]Armeekaserne[\H1][PARAGRAPH:2]Eine Armeekaserne dient als Operationsbasis f&#252;r milit&#228;rische Bodentruppen. Der spezielle Trainingsbereich hilft den Truppen, weitere Erfahrung auf dem Gebiet der Kriegsf&#252;hrung zu sammeln.[PARAGRAPH:2]</German>
+		<Italian>[H1]Koszary[\H1][PARAGRAPH:2]To miejsce stacjonowania i szkolenia jednostek naziemnych. Dzi&#234;ki odpowiedniemu procesowi kszta&#244;cenia poligonowego oddzia&#244;y twojej armii b&#234;d&#225; przygotowane do uzyskania kolejnych awans&#243;w.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Cuartel del ej&#233;rcito[\H1][PARAGRAPH:2]Los cuarteles son la base de operaciones de las unidades militares terrestres del ej&#233;rcito en tierra. Los campos de entrenamiento de rigor ayudan a ascender y adquirir experiencia en la guerra.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD09_PEDIA</Tag>
+		<English>[H1]Radio Station[\H1][PARAGRAPH:2]Radio stations broadcast messages to the city. In the past they have been used as a propaganda tool to reduce war weariness and increase patriotism.[PARAGRAPH:2]</English>
+		<French>[H1]Station radio[\H1][PARAGRAPH:2]Les stations de radio diffusent leurs messages dans la cit&#233;. Dans le pass&#233;, elles ont &#233;t&#233; utilis&#233;es comme instruments de propagande, afin de remotiver le peuple et de stimuler le patriotisme.[PARAGRAPH:2]</French>
+		<German>[H1]Rundfunkstation[\H1][PARAGRAPH:2]Rundfunkstationen &#252;bertragen Radiosendungen in eine Stadt. In der Vergangenheit wurden sie auch zur F&#246;rderung des Patriotismus und als Propagandawerkzeug zur Senkung der Kriegsm&#252;digkeit eingesetzt.[PARAGRAPH:2]</German>
+		<Italian>[H1]Stacja radiowa[\H1][PARAGRAPH:2]Ta budowla s&#244;u&#235;y do szybkiej dystrybucji informacji w mie&#228;cie. W przesz&#244;o&#228;ci radio by&#244;o g&#244;&#243;wn&#225; tub&#225; propagandow&#225;, dzi&#234;ki kt&#243;rej kszta&#244;towano morale ludno&#228;ci.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Emisora de radio[\H1][PARAGRAPH:2]La radio difunde mensajes entre la poblaci&#243;n de la ciudad. En el pasado se us&#243; como arma de propaganda para reducir el hast&#237;o b&#233;lico y enardecer el patriotismo.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD10_PEDIA</Tag>
+		<English>[H1]Coal Plant[\H1][PARAGRAPH:2]A coal plant provides the city with electricity. Electricity is required by all sectors so that services and manufacturing can proceed.[PARAGRAPH:2]</English>
+		<French>[H1]Centrale &#224; charbon[\H1][PARAGRAPH:2]Une centrale &#224; charbon alimente la cit&#233; en &#233;lectricit&#233;. Tous les secteurs ont besoin d'&#233;lectricit&#233;, l'industrie comme les services.[PARAGRAPH:2]</French>
+		<German>[H1]Kohlekraftwerk[\H1][PARAGRAPH:2]Ein Kohlekraftwerk versorgt eine Stadt mit Elektrizit&#228;t, die in allen Bereichen f&#252;r die Bereitstellung von Dienstleistungen und f&#252;r Produktionsvorg&#228;nge ben&#246;tigt wird.[PARAGRAPH:2]</German>
+		<Italian>[H1]Elektrownia w&#234;glowa[\H1][PARAGRAPH:2]Zapewnia miastu odpowiedni&#225; ilo&#228;&#226; energii elektrycznej. Jest ona niezb&#234;dna do funkcjonowania infrastruktury miejskiej, tak komercyjnej jak i przemys&#244;owej.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Central t&#233;rmica[\H1][PARAGRAPH:2]La central t&#233;rmica proporciona electricidad a la ciudad. No hay sector que no requiera electricidad para poner en marcha sus servicios y producci&#243;n.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD11_PEDIA</Tag>
+		<English>[H1]Courthouse[\H1][PARAGRAPH:2]A courthouse is where the city's laws are upheld. The processing of criminals begins in a courthouse.[PARAGRAPH:2]</English>
+		<French>[H1]Tribunal[\H1][PARAGRAPH:2]Le tribunal applique les lois de la cit&#233;. Le traitement de la criminalit&#233; commence par un passage au tribunal.[PARAGRAPH:2]</French>
+		<German>[H1]Gerichtsgeb&#228;ude[\H1][PARAGRAPH:2]Ein Gerichtsgeb&#228;ude gew&#228;hrleistet die Einhaltung der st&#228;dtischen Gesetze und kennzeichnet den Ausgangspunkt f&#252;r die rechtlichen Verfahren zur Aburteilung von Kriminellen.[PARAGRAPH:2]</German>
+		<Italian>[H1]S&#225;d[\H1][PARAGRAPH:2]S&#225;d jest ostoj&#225; &#244;adu prawnego i miejscem, w kt&#243;rym rozpoczyna swoj&#225; pokut&#234; ka&#235;dy schwytany przez policj&#234; przest&#234;pca.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Tribunal[\H1][PARAGRAPH:2]El tribunal es el lugar donde se defienden las leyes de la ciudad. El proceso a un delincuente empieza en este lugar.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD12_PEDIA</Tag>
+		<English>[H1]Naval Dock[\H1][PARAGRAPH:2]A naval dock provides a location for the navy to berth. Without a dock the navy will not be able to re-supply and re-fit their ships.[PARAGRAPH:2]</English>
+		<French>[H1]Installation portuaire[\H1][PARAGRAPH:2]L'installation portuaire permet le mouillage des navires. La marine a besoin de ces installations afin de pouvoir r&#233;parer et r&#233;approvisionner ses bateaux.[PARAGRAPH:2]</French>
+		<German>[H1]Marinedock[\H1][PARAGRAPH:2]Ein Marinedock dient als Marinest&#252;tzpunkt. Ohne dieses Dock k&#246;nnte die Marine ihre Schiffe nicht neu beladen und instand halten.[PARAGRAPH:2]</German>
+		<Italian>[H1]Doki[\H1][PARAGRAPH:2]Ka&#235;da flota musi uzupe&#244;nia&#226; swe si&#244;y i przeprowadza&#226; naprawy uszkodzonych jednostek. Temu w&#244;a&#228;nie s&#244;u&#235;&#225; doki.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Muelle naval[\H1][PARAGRAPH:2]El muelle es el lugar de la ciudad donde atracan los barcos. Sin muelles, la armada no podr&#237;a reabastecer ni reparar sus naves.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD13_PEDIA</Tag>
+		<English>[H1]Wheat Silo[\H1][PARAGRAPH:2]Wheat is the food backbone of civilisation. The wheat silo is where wheat is processed into flour to be used in all manner of food products.[PARAGRAPH:2]</English>
+		<French>[H1]Silo &#224; bl&#233;[\H1][PARAGRAPH:2]Le bl&#233; est la nourriture principale de toute civilisation. Le silo &#224; bl&#233; permet de transformer le bl&#233; en farine, qui sera ensuite utilis&#233;e dans la fabrication de divers aliments.[PARAGRAPH:2]</French>
+		<German>[H1]Weizensilo[\H1][PARAGRAPH:2]Weizen ist das Grundnahrungsmittel einer Zivilisation. Das Weizensilo dient der Verarbeitung von Weizen zu Mehl, das wiederum f&#252;r die Produktion zahlreicher Lebensmittel verwendet wird.[PARAGRAPH:2]</German>
+		<Italian>[H1]Silos zbo&#235;owy[\H1][PARAGRAPH:2]Zbo&#235;e jest podstaw&#225; wy&#235;ywienia wi&#234;kszo&#228;ci narod&#243;w cywilizowanych. Dzi&#234;ki silosowi nadwy&#235;ki zbior&#243;w nie ulegaj&#225; zniszczeniu i mo&#235;na je wykorzysta&#226; p&#243;&#233;niej.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Silo de trigo[\H1][PARAGRAPH:2]El trigo es el alimento b&#225;sico de la civilizaci&#243;n. En los silos el trigo se convierte en harina, lista para usar en la fabricaci&#243;n de cualquier producto alimenticio.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD14_PEDIA</Tag>
+		<English>[H1]Grocer[\H1][PARAGRAPH:2]The grocer is the shop that distributes food to the populace. Grocers are also historically linked to market places where information was spread through the population.[PARAGRAPH:2]</English>
+		<French>[H1]Marchand[\H1][PARAGRAPH:2]Le marchand fournit la population en nourriture. Les marchands sont &#233;galement souvent pr&#233;sents sur les places de march&#233;s, lieux o&#249; s'&#233;changent les informations.[PARAGRAPH:2]</French>
+		<German>[H1]Kr&#228;mer[\H1][PARAGRAPH:2]Im Laden des Kr&#228;mers kann sich die Bev&#246;lkerung mit Lebensmitteln eindecken. Aus historischer Sicht waren die Marktpl&#228;tze schon immer von Kr&#228;mern bev&#246;lkert, die nicht nur mit Waren handelten, sondern auch Informationen in der Bev&#246;lkerung verbreiteten.[PARAGRAPH:2]</German>
+		<Italian>[H1]Sklep[\H1][PARAGRAPH:2]Dzi&#234;ki obecno&#228;ci sklep&#243;w sie&#226; dystrybucji &#235;ywno&#228;ci w mie&#228;cie dzia&#244;a sprawnie. Historycznie ujmuj&#225;c spraw&#234;, sklepy zawsze powi&#225;zane by&#244;y z klasycznymi targowiskami, kt&#243;re s&#244;u&#235;y&#244;y nie tylko do wymiany towar&#243;w, ale tak&#235;e informacji.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Colmado[\H1][PARAGRAPH:2]El colmado es la tienda que abastece de alimentos a la poblaci&#243;n. Los tenderos est&#225;n hist&#243;ricamente ligados a los mercados, donde la informaci&#243;n se difund&#237;a entre la poblaci&#243;n.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD15_PEDIA</Tag>
+		<English>[H1]Hospital[\H1][PARAGRAPH:2]A hospital provides medical services to the city. Caring for the population goes a long way to ensure their loyalty and health.[PARAGRAPH:2]</English>
+		<French>[H1]H&#244;pital[\H1][PARAGRAPH:2]L'h&#244;pital procure les soins m&#233;dicaux &#224; la cit&#233;. Les soins permettent de garder la population en bonne sant&#233; et de s'assurer sa loyaut&#233;.[PARAGRAPH:2]</French>
+		<German>[H1]Krankenhaus[\H1][PARAGRAPH:2]Ein Krankenhaus gew&#228;hrleistet die medizinische Versorgung einer Stadt, welche einen wichtigen Aspekt f&#252;r die Sicherung der Loyalit&#228;t und Gesundheit der Bev&#246;lkerung ausmacht.[PARAGRAPH:2]</German>
+		<Italian>[H1]Szpital[\H1][PARAGRAPH:2]Zapewnia odpowiedni poziom ochrony zdrowia w mie&#228;cie. Dbanie o zdrowie poddanych nie tylko wyd&#244;u&#235;a &#228;redni czas &#235;ycia obywatela, ale tak&#235;e podnosi jego morale i lojalno&#228;&#226;.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Hospital[\H1][PARAGRAPH:2]El hospital proporciona servicios m&#233;dicos a la ciudad. El cuidado de la poblaci&#243;n contribuye a asegurar tanto su salud como su lealtad.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD16_PEDIA</Tag>
+		<English>[H1]Jail[\H1][PARAGRAPH:2]The jail is where criminals serve their sentence as handed down by the courts. Sometimes refered to as "reprogramming facilities" they serve to rehabilitate criminals.[PARAGRAPH:2]</English>
+		<French>[H1]Prison[\H1][PARAGRAPH:2]Les criminels purgent les peines inflig&#233;e par le tribunal dans la prison. Parfois appel&#233;e "maison de correction", la prison sert &#224; r&#233;habiliter les d&#233;linquants.[PARAGRAPH:2]</French>
+		<German>[H1]Gef&#228;ngnis[\H1][PARAGRAPH:2]Das Gef&#228;ngnis dient der Unterbringung von Kriminellen, die hier ihre vom Gericht verh&#228;ngten Strafen absitzen m&#252;ssen. Manchmal wird es auch als "Korrekturanstalt" bezeichnet, weil es zur Rehabilitierung Krimineller gedacht ist.[PARAGRAPH:2]</German>
+		<Italian>[H1]Wi&#234;zienie[\H1][PARAGRAPH:2]Miejsce, w kt&#243;rym przetrzymywani s&#225; przest&#234;pcy skazani prawomocnym wyrokiem. Czasami okre&#228;la si&#234; je mianem "o&#228;rodk&#243;w reedukacji", w kt&#243;rych kryminali&#228;ci schodz&#225; z drogi wyst&#234;pku.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]C&#225;rcel[\H1][PARAGRAPH:2]En la c&#225;rcel los delincuentes cumplen la sentencia que se ha dictado en los tribunales. Bajo el nombre de "servicios de reinserci&#243;n", sirven para rehabilitar a los delincuentes.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD17_PEDIA</Tag>
+		<English>[H1]Military Academy[\H1][PARAGRAPH:2]The military academy is where advanced military doctrines are researched. The military chiefs also run through military simulations to refine strategy.[PARAGRAPH:2]</English>
+		<French>[H1]Acad&#233;mie militaire[\H1][PARAGRAPH:2]Les doctrines militaires les plus &#233;volu&#233;es sont &#233;labor&#233;es au sein des acad&#233;mies militaires. Elles permettent &#233;galement aux chefs militaires d'affiner leur strat&#233;gie par le truchement de simulations.[PARAGRAPH:2]</French>
+		<German>[H1]Milit&#228;rakademie[\H1][PARAGRAPH:2]Die Milit&#228;rakademie dient der Erforschung und dem Studium fortschrittlicher milit&#228;rischer Lehren. Selbst ranghohe Milit&#228;rangeh&#246;rige absolvieren hier gezielte &#220;bungen, um ihre strategischen Fertigkeiten zu verbessern.[PARAGRAPH:2]</German>
+		<Italian>[H1]Akademia wojskowa[\H1][PARAGRAPH:2]Budowa tego obiektu jest mo&#235;liwa po uzyskaniu odpowiedniego poziomu zaawansowania technologicznego i poznaniu doktryn zwi&#225;zanych z militaryzmem. Szkolenie w akademii pozwala wykszta&#244;ci&#226; kadry ka&#235;dej nowoczesnej armii.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Academia militar[\H1][PARAGRAPH:2]La academia militar es el lugar donde se investigan doctrinas militares avanzadas. Los jefes militares tambi&#233;n realizan simulaciones de guerra para mejorar su estrategia.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD18_PEDIA</Tag>
+		<English>[H1]Stock Exchange[\H1][PARAGRAPH:2]The stock exchange is the financial heart of the city. Shares in the city's companies are bought and sold. You can be rich one minute and poor the next.[PARAGRAPH:2]</English>
+		<French>[H1]Bourse[\H1][PARAGRAPH:2]La bourse est le centre financier de la cit&#233;. On y ach&#232;te et on y vend les actions des soci&#233;t&#233;s de la cit&#233;. Il est possible de s'y enrichir rapidement mais on peut aussi tout y perdre.[PARAGRAPH:2]</French>
+		<German>[H1]B&#246;rse[\H1][PARAGRAPH:2]Die B&#246;rse stellt das Finanzzentrum einer Stadt dar, in dem die Aktien der st&#228;dtischen Unternehmen gehandelt werden. So kann man in einer Minute zu Reichtum gelangen und in der n&#228;chsten schon wieder arm wie eine Kirchenmaus sein.[PARAGRAPH:2]</German>
+		<Italian>[H1]Gie&#244;da[\H1][PARAGRAPH:2]To finansowe serce miasta. Tutaj sprzedawane i kupowane s&#225; akcje przedsi&#234;biorstw. W ci&#225;gu kilku chwil mo&#235;esz sta&#226; si&#234; milionerem. Oczywi&#228;cie ten system dzia&#244;a tak&#235;e w drug&#225; stron&#234;.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Bolsa[\H1][PARAGRAPH:2]La bolsa es el centro financiero de la ciudad. Es el lugar de compraventa de las acciones de las compa&#241;&#237;as de la ciudad. Puedes hacerte rico en un minuto y arruinarte al siguiente.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD19_PEDIA</Tag>
+		<English>[H1]Theatre[\H1][PARAGRAPH:2]Theatres provide entertainment to the population. A place of much laughter and tragedy.[PARAGRAPH:2]</English>
+		<French>[H1]Th&#233;&#226;tre[\H1][PARAGRAPH:2]Les th&#233;&#226;tres ont pour fonction de distraire la population. On y joue aussi bien des com&#233;dies que des trag&#233;dies.[PARAGRAPH:2]</French>
+		<German>[H1]Theater[\H1][PARAGRAPH:2]Ein Theater bietet der Bev&#246;lkerung Unterhaltung. Es ist gleicherma&#223;en ein Ort der Kom&#246;die und der Trag&#246;die.[PARAGRAPH:2]</German>
+		<Italian>[H1]Teatr[\H1][PARAGRAPH:2]Zapewnia odpowiedni poziom rozrywki lokalnej populacji. Miejsce, w kt&#243;rym &#228;miech przeplata si&#234; z tragedi&#225;.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Teatro[\H1][PARAGRAPH:2]Los teatros proporcionan espect&#225;culos a los ciudadanos. Son un lugar donde se dan cita la comedia y la tragedia.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD20_PEDIA</Tag>
+		<English>[H1]University[\H1][PARAGRAPH:2]Universities provide advanced education and research to the city. Most breakthroughs in science occur in universities.[PARAGRAPH:2]</English>
+		<French>[H1]Universit&#233;[\H1][PARAGRAPH:2]Les universit&#233;s fournissent &#233;ducation sup&#233;rieure et moyens de recherche &#224; la cit&#233;. La plupart des grandes avanc&#233;es scientifiques sont issues des universit&#233;s.[PARAGRAPH:2]</French>
+		<German>[H1]Universit&#228;t[\H1][PARAGRAPH:2]Universit&#228;ten erm&#246;glichen den B&#252;rgern einer Stadt bessere Bildung und Forschungsleistungen. Die meisten Durchbr&#252;che auf dem Gebiet der Wissenschaft werden an Universit&#228;ten erzielt.[PARAGRAPH:2]</German>
+		<Italian>[H1]Uniwersytet[\H1][PARAGRAPH:2]Uniwersytety podnosz&#225; poziom edukacji w mie&#228;cie, a tak&#235;e s&#225; samodzielnymi o&#228;rodkami naukowymi. Wiele z wa&#235;nych wynalazk&#243;w mia&#244;o sw&#243;j pocz&#225;tek w zakurzonych wn&#234;trzach szacownych katedr.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Universidad[\H1][PARAGRAPH:2]Las universidades proporcionan a la ciudad educaci&#243;n superior e investigaci&#243;n. Gran parte de los avances cient&#237;ficos tienen lugar en las universidades.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD21_PEDIA</Tag>
+		<English>[H1]Vehicle Factory[\H1][PARAGRAPH:2]A vehicle factory manufactures military vehicles. This is the first step to creating vehicle military units.[PARAGRAPH:2]</English>
+		<French>[H1]Usine de v&#233;hicules[\H1][PARAGRAPH:2]Une usine de v&#233;hicules fabrique des v&#233;hicules militaires. Il s'agit de la premi&#232;re &#233;tape dans le processus de cr&#233;ation de v&#233;hicules militaires.[PARAGRAPH:2]</French>
+		<German>[H1]Fahrzeugfabrik[\H1][PARAGRAPH:2]In einer Fahrzeugfabrik werden Milit&#228;rfahrzeuge gebaut. Sie bildet die Grundlage f&#252;r die Errichtung motorisierter Milit&#228;reinheiten.[PARAGRAPH:2]</German>
+		<Italian>[H1]Fabryka pojazd&#243;w[\H1][PARAGRAPH:2]Wytwarzane s&#225; tutaj pojazdy wojskowe. Wzniesienie tej budowli jest pierwszym krokiem ku stworzeniu mobilnych si&#244; wojskowych.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]F&#225;brica de veh&#237;culos[\H1][PARAGRAPH:2]Una f&#225;brica as&#237; produce veh&#237;culos militares. Es el primer paso en la creaci&#243;n de unidades militares motorizadas.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD22_PEDIA</Tag>
+		<English>[H1]Aircraft Factory[\H1][PARAGRAPH:2]An aircraft factory manufactures aircraft. This is the first step to creating air units.[PARAGRAPH:2]</English>
+		<French>[H1]Usine a&#233;ronautique[\H1][PARAGRAPH:2]L'usine a&#233;ronautique fabrique des avions. Il s'agit de la premi&#232;re &#233;tape dans le processus de cr&#233;ation d'unit&#233;s a&#233;riennes.[PARAGRAPH:2]</French>
+		<German>[H1]Flugzeugfabrik[\H1][PARAGRAPH:2]In einer Flugzeugfabrik werden Flugzeuge gebaut. Sie bildet die Grundlage f&#252;r die Errichtung von Lufteinheiten.[PARAGRAPH:2]</German>
+		<Italian>[H1]Fabryka samolot&#243;w[\H1][PARAGRAPH:2]Wytwarzane s&#225; tutaj samoloty. Wybudowanie tego obiektu jest pierwszym krokiem ku nowoczesnym si&#244;om powietrznym.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]F&#225;brica de aeronaves[\H1][PARAGRAPH:2]Una f&#225;brica de aeronaves produce aviones. Es el primer paso para crear unidades a&#233;reas.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD23_PEDIA</Tag>
+		<English>[H1]Naval Factory[\H1][PARAGRAPH:2]A naval factory manufactures ships. This is the first step to creating naval units.[PARAGRAPH:2]</English>
+		<French>[H1]Chantier naval[\H1][PARAGRAPH:2]Un chantier naval fabrique des navires. Il s'agit de la premi&#232;re &#233;tape dans le processus de cr&#233;ation d'unit&#233;s navales.[PARAGRAPH:2]</French>
+		<German>[H1]Marinewerft[\H1][PARAGRAPH:2]In einer Marinewerft werden Schiffe gebaut. Sie bildet die Grundlage f&#252;r die Errichtung von Marineeinheiten.[PARAGRAPH:2]</German>
+		<Italian>[H1]Stocznia[\H1][PARAGRAPH:2]Marynarka wojenna rodzi si&#234; na pochylniach stoczni. Budowa jednostek morskich zapewni ci dominacj&#234; na morzach.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]Astillero de la Marina[\H1][PARAGRAPH:2]En el astillero de la Marina se producen barcos. Es el primer paso para crear unidades navales.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD24_PEDIA</Tag>
+		<English>[H1]Goods Factory[\H1][PARAGRAPH:2]A goods factory manufactures items for sale to the populace. Some goods factories specialise in luxury items which help to increase happiness.[PARAGRAPH:2]</English>
+		<French>[H1]Usine[\H1][PARAGRAPH:2]Les usines fabriquent diff&#233;rents produits finis qui seront vendus &#224; la population. Les usines sp&#233;cialis&#233;es dans les biens de luxe contribuent &#224; augmenter le niveau de bonheur de la population.[PARAGRAPH:2]</French>
+		<German>[H1]Warenfabrik[\H1][PARAGRAPH:2]In einer Warenfabrik werden G&#252;ter hergestellt, die sp&#228;ter an die Bev&#246;lkerung verkauft werden. Einige dieser Fabriken sind auf die Fertigung von Luxusg&#252;tern spezialisiert, welche die Zufriedenheit der B&#252;rger erh&#246;hen.[PARAGRAPH:2]</German>
+		<Italian>[H1]Fabryka towar&#243;w[\H1][PARAGRAPH:2]Wytwarzane tutaj dobra konsumpcyjne zasilaj&#225; rynek nie zwi&#225;zany z dzia&#244;aniami militarnymi. Odpowiednia ilo&#228;&#226; towar&#243;w tego typu znacz&#225;co wp&#244;ywa na podniesienie zadowolenia w&#228;r&#243;d ludno&#228;ci.[PARAGRAPH:2]</Italian>
+		<Spanish>[H1]F&#225;brica de mercanc&#237;as[\H1][PARAGRAPH:2]Esta f&#225;brica produce art&#237;culos que se venden a la poblaci&#243;n. Algunas f&#225;bricas de mercanc&#237;as se especializan en art&#237;culos de lujo que contribuyen a aumentar la felicidad.[PARAGRAPH:2]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD01_STRATEGY</Tag>
+		<English>A laboratory increases a city's science.</English>
+		<French>Le laboratoire augmente le niveau de science d'une cit&#233;.</French>
+		<German>Ein Labor steigert die wissenschaftliche Forschung einer Stadt.</German>
+		<Italian>Laboratorium zwi&#234;ksza potencja&#244; naukowy miasta.</Italian>
+		<Spanish>Un laboratorio aumenta el saber cient&#237;fico de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD02_STRATEGY</Tag>
+		<English>A chain reactor converts uranium into weapons grade material.</English>
+		<French>Le r&#233;acteur nucl&#233;aire transforme l'uranium en mat&#233;riau &#224; usage militaire.</French>
+		<German>In einem Fusionsreaktor wird Uran in atomwaffenf&#228;higes Material aufbereitet.</German>
+		<Italian>Reaktor atomowy zmienia uran w materia&#244; s&#244;u&#235;&#225;cy do budowy broni.</Italian>
+		<Spanish>Un reactor nuclear en cadena convierte el uranio en un arma de gran potencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD03_STRATEGY</Tag>
+		<English>A bomb shelter reduces the effect of air raids on citizens.</English>
+		<French>Un abri anti-bombardement r&#233;duit l'effet d'un bombardement a&#233;rien sur la population civile.</French>
+		<German>Ein Luftschutzkeller reduziert die Auswirkungen von Luftangriffen auf die Bev&#246;lkerung.</German>
+		<Italian>Schron przeciwlotniczy redukuje wp&#244;yw nalot&#243;w na &#235;ycie miasta.</Italian>
+		<Spanish>Un refugio antia&#233;reo reduce el efecto de los bombardeos entre la poblaci&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD04_STRATEGY</Tag>
+		<English>A nuclear shelter reduces the effect of nuclear attacks on citizens.</English>
+		<French>Un abri anti-atomique r&#233;duit l'effet d'une attaque nucl&#233;aire sur la population civile.</French>
+		<German>Ein Atomschutzbunker reduziert die Auswirkungen von Atomangriffen auf die Bev&#246;lkerung.</German>
+		<Italian>Schron atomowy redukuje wp&#244;yw u&#235;ycia broni atomowej na &#235;ycie miasta.</Italian>
+		<Spanish>Un refugio nuclear reduce el efecto de un ataque nuclear sobre la poblaci&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD05_STRATEGY</Tag>
+		<English>An airforce base is where air units can gain more experience.</English>
+		<French>Les unit&#233;s a&#233;riennes gagnent plus d'exp&#233;rience sur les bases a&#233;riennes.</French>
+		<German>Ein Luftwaffenst&#252;tzpunkt gew&#228;hrt Lufteinheiten mehr Erfahrungspunkte.</German>
+		<Italian>Baza lotnicza jest miejscem, w kt&#243;rym jednostki powietrzne zyskuj&#225; dodatkowe do&#228;wiadczenie.</Italian>
+		<Spanish>Una base de la fuerza a&#233;rea es donde las unidades a&#233;reas pueden obtener m&#225;s experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD06_STRATEGY</Tag>
+		<English>A sewer increases a city's health.</English>
+		<French>Le r&#233;seau d'&#233;gouts am&#233;liore le niveau de sant&#233; d'une cit&#233;.</French>
+		<German>Eine Kanalisation erh&#246;ht die Gesundheit einer Stadt.</German>
+		<Italian>Kana&#244;y zwi&#234;kszaj&#225; poziom zdrowotno&#228;ci w mie&#228;cie.</Italian>
+		<Spanish>El alcantarillado mejora la salud de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD07_STRATEGY</Tag>
+		<English>A bank increases a city's commerce.</English>
+		<French>La banque augmente le niveau de commerce de la cit&#233;.</French>
+		<German>Eine Bank st&#228;rkt die Wirtschaft einer Stadt.</German>
+		<Italian>Bank zwi&#234;ksza wp&#244;ywy podatkowe z miasta.</Italian>
+		<Spanish>Un banco hace crecer el comercio de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD08_STRATEGY</Tag>
+		<English>An army barracks is where land units can gain more experience.</English>
+		<French>Les unit&#233;s militaires terrestres gagnent plus d'exp&#233;rience dans une caserne.</French>
+		<German>Eine Armeekaserne gew&#228;hrt Landeinheiten mehr Erfahrungspunkte.</German>
+		<Italian>Koszary s&#225; miejscem, w kt&#243;rym jednostki l&#225;dowe zyskuj&#225; dodatkowe do&#228;wiadczenie.</Italian>
+		<Spanish>El cuartel del ej&#233;rcito es el lugar donde las unidades terrestres pueden adquirir m&#225;s experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD09_STRATEGY</Tag>
+		<English>A radio station reduces a city's unhappy population.</English>
+		<French>La station de radio r&#233;duit le niveau de m&#233;contentement de la population d'une cit&#233;.</French>
+		<German>Eine Rundfunkstation reduziert die Unzufriedenheit der Bev&#246;lkerung einer Stadt.</German>
+		<Italian>Stacja radiowa zmniejsza niezadowolenie ludno&#228;ci cywilnej.</Italian>
+		<Spanish>Una emisora de radio reduce la infelicidad de los ciudadanos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD10_STRATEGY</Tag>
+		<English>A coal plant provides electricity to the city.</English>
+		<French>La centrale &#224; charbon approvisionne la cit&#233; en &#233;lectricit&#233;.</French>
+		<German>Ein Kohlekraftwerk versorgt eine Stadt mit Elektrizit&#228;t.</German>
+		<Italian>Elektrownia w&#234;glowa zapewnia zasilanie miasta w energi&#234; elektryczn&#225;.</Italian>
+		<Spanish>Una central t&#233;rmica proporciona electricidad a la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD11_STRATEGY</Tag>
+		<English>A courthouse reduces a city's maintenance costs.</English>
+		<French>Un tribunal r&#233;duit les co&#251;ts d'entretien d'une cit&#233;.</French>
+		<German>Ein Gerichtsgeb&#228;ude senkt die Verwaltungskosten einer Stadt.</German>
+		<Italian>S&#225;d zmniejsza koszty utrzymania miasta.</Italian>
+		<Spanish>Un tribunal reduce los costes de mantenimiento de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD12_STRATEGY</Tag>
+		<English>A naval dock is where sea units can gain more experience.</English>
+		<French>Les unit&#233;s maritimes gagnent plus d'exp&#233;rience dans une installation portuaire.</French>
+		<German>Ein Marinedock gew&#228;hrt Marineeinheiten mehr Erfahrungspunkte.</German>
+		<Italian>Doki s&#225; miejscem, w kt&#243;rym jednostki morskie zyskuj&#225; dodatkowe do&#228;wiadczenie.</Italian>
+		<Spanish>El muelle naval es el lugar donde las unidades mar&#237;timas adquieren m&#225;s experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD13_STRATEGY</Tag>
+		<English>A wheat silo increases a city's health.</English>
+		<French>Le silo &#224; bl&#233; augmente le niveau de sant&#233; de la cit&#233;.</French>
+		<German>Ein Weizensilo erh&#246;ht die Gesundheit einer Stadt.</German>
+		<Italian>Silos zbo&#235;owy zwi&#234;ksza zdrowotno&#228;&#226; miasta.</Italian>
+		<Spanish>Un silo de trigo aumenta la salud de la poblaci&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD14_STRATEGY</Tag>
+		<English>A grocer increases a city's commerce.</English>
+		<French>Le marchand augmente le niveau de commerce de la cit&#233;.</French>
+		<German>Ein Kr&#228;mer st&#228;rkt die Wirtschaft einer Stadt.</German>
+		<Italian>Sklep zwi&#234;ksza obr&#243;t handlowy w mie&#228;cie.</Italian>
+		<Spanish>Un colmado aumenta el comercio de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD15_STRATEGY</Tag>
+		<English>A hospital increases a city's health.</English>
+		<French>L'h&#244;pital augmente le niveau de sant&#233; de la cit&#233;.</French>
+		<German>Ein Krankenhaus erh&#246;ht die Gesundheit einer Stadt.</German>
+		<Italian>Szpital zwi&#234;ksza zdrowotno&#228;&#226; miasta.</Italian>
+		<Spanish>Un hospital mejora la salud de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD16_STRATEGY</Tag>
+		<English>A jail reduces a city's war weariness.</English>
+		<French>Une prison r&#233;duit la lassitude li&#233;e &#224; la guerre de la cit&#233;.</French>
+		<German>Ein Gef&#228;ngnis reduziert die Kriegsm&#252;digkeit einer Stadt.</German>
+		<Italian>Wi&#234;zienie redukuje zm&#234;czenie wojn&#225; ludno&#228;ci cywilnej.</Italian>
+		<Spanish>Una c&#225;rcel reduce el hast&#237;o b&#233;lico en la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD17_STRATEGY</Tag>
+		<English>A military academy transfers more experience to units.</English>
+		<French>L'acad&#233;mie militaire transmet plus d'exp&#233;rience aux unit&#233;s.</French>
+		<German>Eine Milit&#228;rakademie gew&#228;hrt Einheiten mehr Erfahrungspunkte.</German>
+		<Italian>Akademia wojskowa podnosi poziom do&#228;wiadczenia jednostek.</Italian>
+		<Spanish>Una academia militar ayuda a las unidades a adquirir m&#225;s experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD18_STRATEGY</Tag>
+		<English>A stock exchange increases a city's commerce.</English>
+		<French>La bourse augmente le niveau de commerce de la cit&#233;.</French>
+		<German>Eine B&#246;rse st&#228;rkt die Wirtschaft einer Stadt.</German>
+		<Italian>Gie&#244;da zwi&#234;ksza obr&#243;t finansowy w mie&#228;cie.</Italian>
+		<Spanish>Una bolsa aumenta el comercio de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD19_STRATEGY</Tag>
+		<English>A theatre increases a city's happiness.</English>
+		<French>Le th&#233;&#226;tre augmente le niveau de bonheur de la cit&#233;.</French>
+		<German>Ein Theater erh&#246;ht die Zufriedenheit einer Stadt.</German>
+		<Italian>Teatr podnosi zadowolenie ludno&#228;ci cywilnej.</Italian>
+		<Spanish>Un teatro aumenta la felicidad entre la ciudadan&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD20_STRATEGY</Tag>
+		<English>A university increases a city's science.</English>
+		<French>L'universit&#233; augmente le niveau de science de la cit&#233;.</French>
+		<German>Eine Universit&#228;t erh&#246;ht die wissenschaftliche Forschung einer Stadt.</German>
+		<Italian>Uniwersytet zwi&#234;ksza potencja&#244; naukowo-badawczy miasta.</Italian>
+		<Spanish>Una universidad aumenta el saber cient&#237;fico de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD21_STRATEGY</Tag>
+		<English>A vehicle factory allows vehicle units to be built.</English>
+		<French>L'usine de v&#233;hicules permet la fabrication de v&#233;hicules militaires.</French>
+		<German>Eine Fahrzeugfabrik erm&#246;glicht die Errichtung motorisierter Einheiten.</German>
+		<Italian>Fabryka pojazd&#243;w umo&#235;liwia budow&#234; jednostek zmechanizowanych.</Italian>
+		<Spanish>Una f&#225;brica de veh&#237;culos permite que existan unidades motorizadas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD22_STRATEGY</Tag>
+		<English>An aircraft factory allows air units to be built.</English>
+		<French>L'usine a&#233;ronautique permet la fabrication d'unit&#233;s a&#233;riennes.</French>
+		<German>Eine Flugzeugfabrik erm&#246;glicht die Errichtung von Lufteinheiten.</German>
+		<Italian>Fabryka samolot&#243;w umo&#235;liwia budow&#234; jednostek powietrznych.</Italian>
+		<Spanish>Una f&#225;brica de aeronaves permite que existan unidades a&#233;reas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD23_STRATEGY</Tag>
+		<English>A naval factory allows sea units to be built.</English>
+		<French>Le chantier naval permet la fabrication d'unit&#233;s maritimes.</French>
+		<German>Eine Marinewerft erm&#246;glicht die Errichtung von Marineeinheiten.</German>
+		<Italian>Stocznia umo&#235;liwia budow&#234; jednostek morskich.</Italian>
+		<Spanish>Un astillero de la Marina permite construir las unidades mar&#237;timas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WW2_BUILD24_STRATEGY</Tag>
+		<English>A goods factory reduces a city's war weariness.</English>
+		<French>L'usine r&#233;duit la lassitude li&#233;e &#224; la guerre de la cit&#233;.</French>
+		<German>Eine Warenfabrik reduziert die Kriegsm&#252;digkeit einer Stadt.</German>
+		<Italian>Fabryka towar&#243;w redukuje zm&#234;czenie wojn&#225;.</Italian>
+		<Spanish>Una f&#225;brica de mercanc&#237;as reduce el hast&#237;o b&#233;lico de la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHAIN_REACTOR_PEDIA</Tag>
+		<English>A nuclear chain reaction occurs when on average more than one nuclear reaction is caused by another nuclear reaction, thus leading to an exponential increase in the number of nuclear reactions. An uncontrolled chain reaction within a sufficiently large amount of fission fuel can lead to an explosive energy release and is the concept behind nuclear weapons. The chain reaction can also be adequately controlled and used as an energy source.</English>
+		<French>La r&#233;action nucl&#233;aire en cha&#238;ne survient lorsqu'une r&#233;action nucl&#233;aire en entra&#238;ne une autre, ce qui augmente de mani&#232;re exponentielle le risque de d&#233;clenchement d'une cha&#238;ne de r&#233;actions subs&#233;quentes. Une r&#233;action en cha&#238;ne incontr&#244;l&#233;e suffisamment aliment&#233;e en combustible nucl&#233;aire peut lib&#233;rer une grande quantit&#233; d'&#233;nergie sous forme d'explosion : c'est le principe m&#234;me de la bombe atomique. Si la r&#233;action en cha&#238;ne est ma&#238;tris&#233;e, elle peut alors &#234;tre utilis&#233;e comme source d'&#233;nergie.</French>
+		<German>Eine atomare Kettenreaktion findet dann statt, wenn eine Kernreaktion durchschnittlich mehrere weitere Kernreaktionen ausl&#246;st und somit zu einer exponentiellen Steigerung der Gesamtzahl der Kernreaktionen f&#252;hrt. Eine unkontrollierte Kettenreaktion mit einer ausreichend gro&#223;en Menge Spaltmaterial kann zur Freisetzung explosiver Aktivierungsenergie f&#252;hren und verk&#246;rpert das Prinzip der Atomwaffenherstellung. Findet diese Kettenreaktion allerdings kontrolliert statt, kann sie zur Energieerzeugung genutzt werden.</German>
+		<Italian>J&#225;drowa reakcja &#244;a&#241;cuchowa zachodzi, gdy jedna reakcja j&#225;drowa wywo&#244;uje &#228;rednio wi&#234;cej ni&#235; jedn&#225; nast&#234;pn&#225; reakcj&#234; j&#225;drow&#225;, co prowadzi do wyk&#244;adniczego wzrostu liczby tych reakcji. Niekontrolowana reakcja &#244;a&#241;cuchowa przy odpowiednio du&#235;ej ilo&#228;ci materia&#244;u rozszczepialnego mo&#235;e doprowadzi&#226; do wybuchowego uwolnienia energii, co stanowi podstaw&#234; dzia&#244;ania broni atomowej. Reakcj&#234; &#244;a&#241;cuchow&#225; mo&#235;na te&#235; kontrolowa&#226;, czyni&#225;c z niej &#233;r&#243;d&#244;o energii.</Italian>
+		<Spanish>Una reacci&#243;n nuclear en cadena tiene lugar normalmente cuando una o m&#225;s reacciones at&#243;micas son efecto de otra, lo que lleva a un incremento exponencial de las reacciones at&#243;micas. Una reacci&#243;n en cadena incontrolada en una cantidad suficientemente grande de combustible fisible puede desencadenar una gran explosi&#243;n y &#233;se es el principio que hay tras las armas nucleares. La reacci&#243;n en cadena tambi&#233;n puede usarse de modo controlado como fuente de energ&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHAIN_REACTOR_STRATEGY</Tag>
+		<English>Chain Reactors lead to the Manhattan Project and later nuclear weapons.</English>
+		<French>Les r&#233;acteurs nucl&#233;aires permettent le d&#233;veloppement du Projet Manhattan et de l'armement nucl&#233;aire.</French>
+		<German>Fusionsreaktoren erm&#246;glichen das Manhattan-Projekt und sp&#228;ter auch Atomwaffen.</German>
+		<Italian>Reaktor atomowy prowadzi do stworzenia Projektu Manhattan i opracowania w p&#243;&#233;niejszym czasie znacznie pot&#234;&#235;niejszych broni opartych na sile atomu.</Italian>
+		<Spanish>Los reactores nucleares en cadena llevaron al Proyecto Manhattan y m&#225;s tarde a las armas at&#243;micas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY</Tag>
+		<English>The Manhattan Project allows cities with chain reactors to build nuclear weapons.</English>
+		<French>Le Projet Manhattan autorise les cit&#233;s dot&#233;es de r&#233;acteurs nucl&#233;aires &#224; fabriquer des armes nucl&#233;aires.</French>
+		<German>Das Manhattan-Projekt erm&#246;glicht St&#228;dten mit Fusionsreaktoren den Bau von Atomwaffen.</German>
+		<Italian>Projekt Manhattan umo&#235;liwia budow&#234; broni atomowej w miastach, kt&#243;re posiadaj&#225; reaktor atomowy.</Italian>
+		<Spanish>El Proyecto Manhattan permite producir armas at&#243;micas a las ciudades con reactores nucleares en cadena.</Spanish>
+	</TEXT>
+</Civ4GameText>

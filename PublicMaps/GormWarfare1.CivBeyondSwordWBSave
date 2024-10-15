@@ -4,6 +4,13 @@ BeginGame
 	Speed=GAMESPEED_NORMAL
 	Calendar=CALENDAR_DEFAULT
 	Option=GAMEOPTION_LEAD_ANY_CIV
+	Option=GAMEOPTION_DCM_AIRBOMBING
+	Option=GAMEOPTION_DCM_RANGE_BOMBARD
+	Option=GAMEOPTION_DCM_FENGAGE
+	Option=GAMEOPTION_DCM_OPP_FIRE
+	Option=GAMEOPTION_DCM_ACTIVE_DEFENSE
+	Option=GAMEOPTION_DCM_STACK_ATTACK
+	Option=GAMEOPTION_DCM_ATTACK_SUPPORT
 	Victory=VICTORY_TIME
 	Victory=VICTORY_CONQUEST
 	Victory=VICTORY_DOMINATION
@@ -21,596 +28,717 @@ BeginGame
 EndGame
 BeginTeam
 	TeamID=0
-	Tech=TECH_MYSTICISM
-	Tech=TECH_HUNTING
 	ContactWithTeam=0
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=1
-	Tech=TECH_FISHING
-	Tech=TECH_HUNTING
 	ContactWithTeam=1
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=2
-	Tech=TECH_HUNTING
-	Tech=TECH_MINING
 	ContactWithTeam=2
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=3
-	Tech=TECH_THE_WHEEL
-	Tech=TECH_AGRICULTURE
 	ContactWithTeam=3
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=4
-	Tech=TECH_FISHING
-	Tech=TECH_MINING
 	ContactWithTeam=4
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=5
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_HUNTING
 	ContactWithTeam=5
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=6
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_HUNTING
 	ContactWithTeam=6
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=7
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_MINING
 	ContactWithTeam=7
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=8
-	Tech=TECH_HUNTING
-	Tech=TECH_MINING
 	ContactWithTeam=8
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=9
-	Tech=TECH_FISHING
-	Tech=TECH_THE_WHEEL
 	ContactWithTeam=9
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=10
-	Tech=TECH_MYSTICISM
-	Tech=TECH_FISHING
 	ContactWithTeam=10
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=11
-	Tech=TECH_FISHING
-	Tech=TECH_HUNTING
 	ContactWithTeam=11
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=12
-	Tech=TECH_FISHING
-	Tech=TECH_AGRICULTURE
 	ContactWithTeam=12
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=13
-	Tech=TECH_AGRICULTURE
-	Tech=TECH_HUNTING
 	ContactWithTeam=13
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=14
-	Tech=TECH_MYSTICISM
-	Tech=TECH_HUNTING
 	ContactWithTeam=14
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=15
-	Tech=TECH_MYSTICISM
-	Tech=TECH_MINING
 	ContactWithTeam=15
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=16
-	Tech=TECH_MYSTICISM
-	Tech=TECH_AGRICULTURE
 	ContactWithTeam=16
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=17
-	Tech=TECH_MYSTICISM
-	Tech=TECH_HUNTING
 	ContactWithTeam=17
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=18
+	ContactWithTeam=18
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=19
+	ContactWithTeam=19
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=20
+	ContactWithTeam=20
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=21
+	ContactWithTeam=21
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=22
+	ContactWithTeam=22
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=23
+	ContactWithTeam=23
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=24
+	ContactWithTeam=24
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=25
+	ContactWithTeam=25
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=26
+	ContactWithTeam=26
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=27
+	ContactWithTeam=27
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=28
+	ContactWithTeam=28
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=29
+	ContactWithTeam=29
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=30
+	ContactWithTeam=30
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=31
+	ContactWithTeam=31
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=32
+	ContactWithTeam=32
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=33
+	ContactWithTeam=33
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=34
+	ContactWithTeam=34
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=35
+	ContactWithTeam=35
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=36
+	ContactWithTeam=36
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=37
+	ContactWithTeam=37
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=38
+	ContactWithTeam=38
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=39
+	ContactWithTeam=39
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=40
+	ContactWithTeam=40
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=41
+	ContactWithTeam=41
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=42
+	ContactWithTeam=42
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=43
+	ContactWithTeam=43
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=44
+	ContactWithTeam=44
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=45
+	ContactWithTeam=45
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=46
+	ContactWithTeam=46
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=47
+	ContactWithTeam=47
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=48
+	ContactWithTeam=48
+	RevealMap=0
+EndTeam
+BeginTeam
+	TeamID=49
+	ContactWithTeam=49
 	RevealMap=0
 EndTeam
 BeginPlayer
 	Team=0
-	LeaderType=LEADER_BRENNUS
-	LeaderName=TXT_KEY_LEADER_BRENNUS
-	CivDesc=TXT_KEY_CIV_CELT_DESC
-	CivShortDesc=TXT_KEY_CIV_CELT_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_CELT_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_CelticCross.dds
+	LeaderType=LEADER_FRANKLIN_ROOSEVELT
+	LeaderName=darek
+	CivDesc=TXT_KEY_CIV_AMERICA_DESC
+	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
 	WhiteFlag=0
-	CivType=CIVILIZATION_CELT
-	Color=PLAYERCOLOR_LIGHT_ORANGE
+	CivType=CIVILIZATION_AMERICA
+	Color=PLAYERCOLOR_BLUE
 	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=53, StartingY=14
+	StartingX=28, StartingY=30
 	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=1
-	LeaderType=LEADER_ALEXANDER
-	LeaderName=TXT_KEY_LEADER_ALEXANDER
-	CivDesc=TXT_KEY_CIV_GREECE_DESC
-	CivShortDesc=TXT_KEY_CIV_GREECE_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_GREECE_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Helmet.dds
+	LeaderType=LEADER_SALADIN
+	LeaderName=TXT_KEY_LEADER_SALADIN
+	CivDesc=TXT_KEY_CIV_ARABIA_DESC
+	CivShortDesc=TXT_KEY_CIV_ARABIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_ARABIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Arabic.dds
 	WhiteFlag=0
-	CivType=CIVILIZATION_GREECE
-	Color=PLAYERCOLOR_LIGHT_BLUE
-	ArtStyle=ARTSTYLE_GRECO_ROMAN
+	CivType=CIVILIZATION_ARABIA
+	Color=PLAYERCOLOR_LIGHT_GREEN
+	ArtStyle=ARTSTYLE_MIDDLE_EAST
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=29, StartingY=25
+	StartingX=59, StartingY=13
 	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=2
-	LeaderType=LEADER_CATHERINE
-	LeaderName=TXT_KEY_LEADER_CATHERINE
-	CivDesc=TXT_KEY_CIV_RUSSIA_DESC
-	CivShortDesc=TXT_KEY_CIV_RUSSIA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_RUSSIA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_DoubleEagle.dds
+	LeaderType=LEADER_SALADIN
+	LeaderName=TXT_KEY_LEADER_SALADIN
+	CivDesc=TXT_KEY_CIV_ARABIA_DESC
+	CivShortDesc=TXT_KEY_CIV_ARABIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_ARABIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Arabic.dds
 	WhiteFlag=0
-	CivType=CIVILIZATION_RUSSIA
-	Color=PLAYERCOLOR_DARK_RED
-	ArtStyle=ARTSTYLE_EUROPEAN
+	CivType=CIVILIZATION_ARABIA
+	Color=PLAYERCOLOR_ORANGE_AND_GREEN
+	ArtStyle=ARTSTYLE_MIDDLE_EAST
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=40, StartingY=22
+	StartingX=39, StartingY=28
 	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=3
-	LeaderType=LEADER_RAMESSES
-	LeaderName=Ramesses II
-	CivDesc=TXT_KEY_CIV_EGYPT_DESC
-	CivShortDesc=TXT_KEY_CIV_EGYPT_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_EGYPT_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_EyeOfRa.dds
+	LeaderType=LEADER_LINCOLN
+	LeaderName=TXT_KEY_LEADER_LINCOLN
+	CivDesc=TXT_KEY_CIV_AMERICA_DESC
+	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
 	WhiteFlag=0
-	CivType=CIVILIZATION_EGYPT
-	Color=PLAYERCOLOR_YELLOW
-	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	CivType=CIVILIZATION_AMERICA
+	Color=PLAYERCOLOR_DARK_INDIGO_AND_WHITE
+	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=15, StartingY=30
+	StartingX=59, StartingY=20
 	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=4
-	LeaderType=LEADER_HANNIBAL
-	LeaderName=TXT_KEY_LEADER_HANNIBAL
-	CivDesc=TXT_KEY_CIV_CARTHAGE_DESC
-	CivShortDesc=TXT_KEY_CIV_CARTHAGE_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_CARTHAGE_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Carthage.dds
+	LeaderType=LEADER_LINCOLN
+	LeaderName=TXT_KEY_LEADER_LINCOLN
+	CivDesc=TXT_KEY_CIV_AMERICA_DESC
+	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
 	WhiteFlag=0
-	CivType=CIVILIZATION_CARTHAGE
-	Color=PLAYERCOLOR_ORANGE
-	ArtStyle=ARTSTYLE_GRECO_ROMAN
+	CivType=CIVILIZATION_AMERICA
+	Color=PLAYERCOLOR_CYAN_AND_GRAY
+	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=12, StartingY=12
+	StartingX=28, StartingY=19
 	StateReligion=
 	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=5
-	LeaderType=LEADER_SHAKA
-	LeaderName=TXT_KEY_LEADER_SHAKA
-	CivDesc=TXT_KEY_CIV_ZULU_DESC
-	CivShortDesc=TXT_KEY_CIV_ZULU_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_ZULU_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_ZuluShield.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_ZULU
-	Color=PLAYERCOLOR_LIGHT_YELLOW
-	ArtStyle=ARTSTYLE_MIDDLE_EAST
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=79, StartingY=10
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=6
-	LeaderType=LEADER_CYRUS
-	LeaderName=TXT_KEY_LEADER_CYRUS
-	CivDesc=TXT_KEY_CIV_PERSIA_DESC
-	CivShortDesc=TXT_KEY_CIV_PERSIA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_PERSIA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Scimitar.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_PERSIA
-	Color=PLAYERCOLOR_CYAN
-	ArtStyle=ARTSTYLE_MIDDLE_EAST
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=33, StartingY=32
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=7
-	LeaderType=LEADER_QIN_SHI_HUANG
-	LeaderName=TXT_KEY_LEADER_QIN_SHI_HUANG
-	CivDesc=TXT_KEY_CIV_CHINA_DESC
-	CivShortDesc=TXT_KEY_CIV_CHINA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_CHINA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Dragon.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_CHINA
-	Color=PLAYERCOLOR_DARK_PINK
-	ArtStyle=ARTSTYLE_ASIAN
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=8, StartingY=18
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=8
-	LeaderType=LEADER_SURYAVARMAN
-	LeaderName=TXT_KEY_LEADER_SURYAVARMAN
-	CivDesc=TXT_KEY_CIV_KHMER_DESC
-	CivShortDesc=TXT_KEY_CIV_KHMER_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_KHMER_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Khmer.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_KHMER
-	Color=PLAYERCOLOR_MIDDLE_BLUE
-	ArtStyle=ARTSTYLE_ASIAN
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=71, StartingY=10
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=9
-	LeaderType=LEADER_TOKUGAWA
-	LeaderName=TXT_KEY_LEADER_TOKUGAWA
-	CivDesc=TXT_KEY_CIV_JAPAN_DESC
-	CivShortDesc=TXT_KEY_CIV_JAPAN_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_JAPAN_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Dot.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_JAPAN
-	Color=PLAYERCOLOR_RED
-	ArtStyle=ARTSTYLE_ASIAN
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=32, StartingY=12
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=10
-	LeaderType=LEADER_ZARA_YAQOB
-	LeaderName=Kamehameha I
-	CivDesc=Polynesian Empire
-	CivShortDesc=Polynesia
-	CivAdjective=Polynesian
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Viking.dds
-	WhiteFlag=1
-	CivType=CIVILIZATION_VIKING
-	Color=PLAYERCOLOR_LIGHT_PURPLE
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=27, StartingY=18
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=11
-	LeaderType=LEADER_MANSA_MUSA
-	LeaderName=David Unaipom
-	CivDesc=Narrinjeri Empire
-	CivShortDesc=Narrinjeri
-	CivAdjective=Narrinjeri
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Mask.dds
-	WhiteFlag=1
-	CivType=CIVILIZATION_MALI
-	Color=PLAYERCOLOR_PEACH
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=48, StartingY=23
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=12
-	LeaderType=LEADER_SITTING_BULL
-	LeaderName=TXT_KEY_LEADER_SITTING_BULL
-	CivDesc=Sioux Empire
-	CivShortDesc=Sioux
-	CivAdjective=Sioux
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_NativeAmerica.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_NATIVE_AMERICA
-	Color=PLAYERCOLOR_LIGHT_BROWN
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=23, StartingY=40
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=13
-	LeaderType=LEADER_GENGHIS_KHAN
-	LeaderName=Hiawatha
-	CivDesc=Iroquois Empire
-	CivShortDesc=Iroquois
-	CivAdjective=Iroqouis
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_NativeAmerica.dds
-	WhiteFlag=1
-	CivType=CIVILIZATION_NATIVE_AMERICA
-	Color=PLAYERCOLOR_ORANGE_AND_GREEN
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=68, StartingY=41
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=14
-	LeaderType=LEADER_MONTEZUMA
-	LeaderName=TXT_KEY_LEADER_MONTEZUMA
-	CivDesc=TXT_KEY_CIV_AZTEC_DESC
-	CivShortDesc=TXT_KEY_CIV_AZTEC_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_AZTEC_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_AztecCalendar.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_AZTEC
-	Color=PLAYERCOLOR_GREEN
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=55, StartingY=20
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=15
-	LeaderType=LEADER_PACAL
-	LeaderName=TXT_KEY_LEADER_PACAL
-	CivDesc=TXT_KEY_CIV_MAYA_DESC
-	CivShortDesc=TXT_KEY_CIV_MAYA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_MAYA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Maya.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_MAYA
-	Color=PLAYERCOLOR_MIDDLE_CYAN
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=13, StartingY=41
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=16
-	LeaderType=LEADER_HUAYNA_CAPAC
-	LeaderName=TXT_KEY_LEADER_HUAYNA_CAPAC
-	CivDesc=TXT_KEY_CIV_INCA_DESC
-	CivShortDesc=TXT_KEY_CIV_INCA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_INCA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Sun.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_INCA
-	Color=PLAYERCOLOR_DARK_YELLOW
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=6, StartingY=29
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=17
-	LeaderType=LEADER_CHINESE_LEADER
-	LeaderName=Raoni Metuktire
-	CivDesc=Kayapo Empire
-	CivShortDesc=Kayapo
-	CivAdjective=Kayapo
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Maya.dds
-	WhiteFlag=1
-	CivType=CIVILIZATION_MAYA
-	Color=PLAYERCOLOR_DARK_INDIGO_AND_WHITE
-	ArtStyle=ARTSTYLE_SOUTH_AMERICA
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=68, StartingY=20
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=18
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=19
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=20
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=21
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=22
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=23
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=24
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=25
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=26
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=27
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=28
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=29
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=30
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=31
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=32
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=33
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=34
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=35
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=36
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=37
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=38
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=39
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=40
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=41
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=42
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=43
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=44
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=45
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=46
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=47
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=48
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=49
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginMap

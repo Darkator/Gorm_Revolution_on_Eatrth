@@ -19,6 +19,12 @@
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
+			<Type>ARTSTYLE_KISLEV</Type>
+			<StyleUnits>
+				
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_GRECO_ROMAN</Type>
 			<StyleUnits>
 				

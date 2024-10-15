@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Cities -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_GREECE_DESC</Tag>
+		<English>Greece</English>
+		<French>Greece</French>
+		<German>Greece</German>
+		<Italian>Grecja</Italian>
+		<Spanish>Greece</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_GREECE_SHORT_DESC</Tag>
+		<English>Greece</English>
+		<French>Greece</French>
+		<German>Greece</German>
+		<Italian>Grecja</Italian>
+		<Spanish>Greece</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_GREECE_ADJECTIVE</Tag>
+		<English>Greek</English>
+		<French>Greek</French>
+		<German>Greek</German>
+		<Italian>grecki</Italian>
+		<Spanish>Greek</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_GREECE</Tag>
+		<English>Prime Minister Metaxas</English>
+		<French>Prime Minister Metaxas</French>
+		<German>Prime Minister Metaxas</German>
+		<Italian>Premier Metaxas</Italian>
+		<Spanish>Prime Minister Metaxas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_GREECE_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_YUGOSLAVIA_DESC</Tag>
+		<English>Yugoslavia</English>
+		<French>Yugoslavia</French>
+		<German>Yugoslavia</German>
+		<Italian>Jugos&#244;awia</Italian>
+		<Spanish>Yugoslavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_YUGOSLAVIA_SHORT_DESC</Tag>
+		<English>Yugoslavia</English>
+		<French>Yugoslavia</French>
+		<German>Yugoslavia</German>
+		<Italian>Jugos&#244;awia</Italian>
+		<Spanish>Yugoslavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_YUGOSLAVIA_ADJECTIVE</Tag>
+		<English>Yugoslavian</English>
+		<French>Yugoslavian</French>
+		<German>Yugoslavian</German>
+		<Italian>jugos&#244;owia&#241;ski</Italian>
+		<Spanish>Yugoslavian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_YUGOSLAVIA</Tag>
+		<English>King Peter II</English>
+		<French>King Peter II</French>
+		<German>King Peter II</German>
+		<Italian>Kr&#243;l Piotr II</Italian>
+		<Spanish>King Peter II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_YUGOSLAVIA_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_HUNGARY_DESC</Tag>
+		<English>Hungary</English>
+		<French>Hungary</French>
+		<German>Hungary</German>
+		<Italian>W&#234;gry</Italian>
+		<Spanish>Hungary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_HUNGARY_SHORT_DESC</Tag>
+		<English>Hungary</English>
+		<French>Hungary</French>
+		<German>Hungary</German>
+		<Italian>W&#234;gry</Italian>
+		<Spanish>Hungary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_HUNGARY_ADJECTIVE</Tag>
+		<English>Hungarian</English>
+		<French>Hungarian</French>
+		<German>Hungarian</German>
+		<Italian>w&#234;gierski</Italian>
+		<Spanish>Hungarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_HUNGARY</Tag>
+		<English>Admiral Miklos Horthy</English>
+		<French>Admiral Miklos Horthy</French>
+		<German>Admiral Miklos Horthy</German>
+		<Italian>Admira&#244; Miklos Horthy</Italian>
+		<Spanish>Admiral Miklos Horthy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_HUNGARY_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ROMANIA_DESC</Tag>
+		<English>Romania</English>
+		<French>Romania</French>
+		<German>Romania</German>
+		<Italian>Rumunia</Italian>
+		<Spanish>Romania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ROMANIA_SHORT_DESC</Tag>
+		<English>Romania</English>
+		<French>Romania</French>
+		<German>Romania</German>
+		<Italian>Rumunia</Italian>
+		<Spanish>Romania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ROMANIA_ADJECTIVE</Tag>
+		<English>Romanian</English>
+		<French>Romanian</French>
+		<German>Romanian</German>
+		<Italian>rumu&#241;ski</Italian>
+		<Spanish>Romanian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_ROMANIA</Tag>
+		<English>King Michael</English>
+		<French>King Michael</French>
+		<German>King Michael</German>
+		<Italian>Kr&#243;l Micha&#244;</Italian>
+		<Spanish>King Michael</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_ROMANIA_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ALBANIA_DESC</Tag>
+		<English>Albania</English>
+		<French>Albania</French>
+		<German>Albania</German>
+		<Italian>Albania</Italian>
+		<Spanish>Albania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ALBANIA_SHORT_DESC</Tag>
+		<English>Albania</English>
+		<French>Albania</French>
+		<German>Albania</German>
+		<Italian>Albania</Italian>
+		<Spanish>Albania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WW2_ALBANIA_ADJECTIVE</Tag>
+		<English>Albanian</English>
+		<French>Albanian</French>
+		<German>Albanian</German>
+		<Italian>alba&#241;ski</Italian>
+		<Spanish>Albanian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_ALBANIA</Tag>
+		<English>King Zog I</English>
+		<French>King Zog I</French>
+		<German>King Zog I</German>
+		<Italian>Kr&#243;l Zog I</Italian>
+		<Spanish>King Zog I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WW2_ALBANIA_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,107 @@
+-----DCM 2.5-------
+-Added DCMBombAccuracyChange tag to Promotions.xml (accuracy promoction) from merged mod
+-Added Critical hit chance against seas units from merged mod
+
+-----DCM 2.4-------
+-Removed uneeded DCM Nukesokay tag
+-Removed max attempts SDK Code
+-Made Commenting easier by labeling starts
+-Modified RevDCM Defines to minimize SDK code
+-Removed BBAI Code except getBombardTurns
+-Removed uneed BBAI xml/python
+-Removed Civ Changer
+-Added Concept Text
+-Removed uneeded Text entries
+
+-----DCM 2.3-------
+-unit alert button, unit specific message for Port/Hangar Airbomb missions.
+-RangeBombard Gameoption Fix
+-Archer Bombard Mission Code removed
+-Unit Destroyed, hidden nationality, barbarian archer code added to rbombard code
+-Merged parts from Ranged Bombardment 3.19 by Orion/Dale
+-Active Defense Message includes "via Active Defense"
+-Opportunity Fire/Range Bombard Message changed to include damage amount/defender/City Attacked
+-Airbomb missions trigger plot recon
+-Applicable Air Missions can only target visible plots
+-Applicable Air missions only target plots with targetable buildings
+-population decrease always a random chance on air missions victory/defeat
+-Added a RevDCM CTD fix
+-Route Bombing checkbox
+-Messages need adjectives 
+-Prereq Tech RADIO & FISSION for Atom Bomber
+-translation(later date)
+-DCM Promos-later
+-bitter winter/obsolete noTarget SDK code removed
+-added missing bTarget SDK code
+
+------DCM 2.2------ 
+-Civ Changer is operational
+-New Civ Changer Art
+-Uneeded XML files Deleted 
+
+-----DCM 2.1--------
+-Incorporated Roamty's sourcecode fixes
+-Incorporated Roamty's XML changes
+-Added Route bombing AI from Route AI Bombing Mod v1.1
+-Enabled route bombing & no man's land bombing from Route AI Bombing Mod v1.1
+-Included Documents for BetterBTSAI & Route Air Bombing
+-Range Bombardment message fix from History in the Making-postponed for later
+-Custom Game Option-postponed for later 
+
+----DCM v2.0-------
+-Field bombardment can inflict damage on single units again. 
+-Hangar Airbomb Mission-Military planes not in intercept mode can be targeted and destroyed (similar to the port airbomb mission).
+-Fighter Engagement Mission can ONLY target fighters that are intercepting.
+-3 of the mission buttons changed.
+-Sunk message bug fixed.
+-Accuracychange xml tag removed from Civ4UnitSchema.xml 
+
+-----DCM v1.9-----
+-added back in WW2 Style A-Bomb 
+
+-----DCM v1.8-----
+-Isolated DCM standalone components from RevDCM 
+
+-----DCM v1.7----- 
+- Removed Civ Customiser 
+
+-----DCM v1.6-----
+-Battle Effect length maxed at 10 turns
+-MHP requires Fission
+-Various bug fixes
+-Port Airbomb ships in forts
+-Solver's unofficial patch 
+
+----DCM v1.5-----
+- Many bug fixes
+- Many balance changes
+- Been so long I've forgotten all of them 
+
+----DCM v1.3-----
+- Added Fighter Engagement mission
+- Added CASA complete
+- Fixed Ranged Bombardment bug
+- Fixed Battle Effects bug
+- Fixed Nuke Bomber intercept bug 
+
+---DCM v1.2------
+- Updated Airbomb Missions to 1.3
+- Added Archer Bombard
+- Added Nuke Bomber Unit
+- Fixed Interface mode bug
+- Fixed Battle Effect bugs 
+
+---DCM v1.1------
+- Updated Airbomb Missions to 1.2
+- Added Ranged Bombardment
+- Added Civ Changer
+- Added Combined Arms Stack Attack (beta)
+- Added Opportunity Fire
+- Added Active Defense 
+
+
+----DCM v1.0------
+- Added Airbomb Missions
+- Added Civ Customiser
+- Added Battle Effects
+- Added required code for DCM Concepts and Status popup 

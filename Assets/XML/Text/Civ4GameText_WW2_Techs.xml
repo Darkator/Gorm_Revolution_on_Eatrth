@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECHNOLOGY_PEDIA</Tag>
+		<English>Technology during World War II played a crucial and significant role in determining the outcome of the war. Much of it had begun development during the interwar years of the 1920s and 1930s. Some was developed in response to lessons learned during the war, and yet more was only beginning to be developed as the war ended. The massive research and development demands of the war had a great impact on the scientific community. Given the scope of the war and the rapid technological escalation which happened during the war, a vast array of technology was employed, as different nations and different units found themselves equipped with different levels of technology. No area of military technology went without development during the war. After the war ended, these developments opened out to new sciences like cybernetics and computer science.</English>
+		<French>Pendant la Seconde Guerre Mondiale, la technologie a jou&#233; un r&#244;le significatif et d&#233;terminant dans l'&#233;volution du cours de la guerre. La plupart des mat&#233;riels militaires mis en oeuvre pendant les hostilit&#233;s avaient &#233;t&#233; con&#231;us pendant l'entre-deux guerres, dans les ann&#233;es 20 et 30. Quelques-uns furent d&#233;velopp&#233;s en r&#233;ponse aux enseignements du combat et d'autres encore &#233;taient en cours de r&#233;alisation quand la guerre pris fin. Les efforts de recherche massifs ainsi que les demandes de d&#233;veloppement de mat&#233;riels, exig&#233;s par la guerre, eurent un impact consid&#233;rable sur la communaut&#233; scientifique. En raison de l'ampleur du conflit et des d&#233;couvertes technologiques rapides, une grande vari&#233;t&#233; de technologie fut employ&#233;e, m&#234;me si les unit&#233;s combattantes des diff&#233;rentes nations ne b&#233;n&#233;fici&#232;rent pas du m&#234;me degr&#233; de progr&#232;s technique au niveau de leur &#233;quipement et de leur armement. Aucun domaine de la technologie militaire ne fut n&#233;glig&#233; pendant la guerre. Quand la paix advint, ces d&#233;veloppements et ces inventions permirent &#224; de nouvelles disciplines scientifiques de voir le jour, tels que la cybern&#233;tique et l'informatique ou la recherche spatiale.</French>
+		<German>Der technologische Fortschritt spielte eine bedeutende Rolle f&#252;r den Ausgang des Zweiten Weltkriegs. Die Entwicklungsarbeiten an vielen technischen Neuerungen hatten bereits in den Jahren 1920 bis 1930, also zwischen den beiden Weltkriegen begonnen. Manche von ihnen ergaben sich aufgrund der im Krieg gewonnenen Erfahrungen, ein Gro&#223;teil wurde jedoch erst gegen Ende des Krieges in Angriff genommen. Der durch den Krieg ausgel&#246;ste enorme Forschungs- und Entwicklungsbedarf hatte gro&#223;en Einfluss auf die Welt der Wissenschaft. Angesichts des Kriegsausma&#223;es und der rasanten technologischen Fortschritte, die w&#228;hrend des Krieges erzielt wurden, entstanden dadurch, dass die verschiedenen Nationen versuchten, ihre Einheiten mit immer fortschrittlicheren Ausr&#252;stungen auszustatten, Unmengen neuer Technologien. Kein Bereich der Milit&#228;rtechnologie kam w&#228;hrend des Krieges ohne Entwicklungsarbeit aus. Nach Kriegsende ebneten diese Errungenschaften den Weg f&#252;r neue Wissenschaften wie die Kybernetik und die Informatik.</German>
+		<Italian>Podczas II wojny &#228;wiatowej zwyci&#234;stwa i kl&#234;ski jak nigdy wcze&#228;niej uzale&#235;nione by&#244;y od techniki. Wi&#234;kszo&#228;&#226; rozwi&#225;za&#241; technicznych zacz&#234;to opracowywa&#226; w okresie mi&#234;dzywojennym - w latach 20. i 30. XX wieku. Cz&#234;&#228;&#226; z nich tworzono na bazie do&#228;wiadcze&#241; podczas I wojny &#228;wiatowej, znacznie wi&#234;cej zacz&#234;&#244;o powstawa&#226; w jaki&#228; czas po jej zako&#241;czeniu. Ogromne zapotrzebowanie si&#244; zbrojnych na badania i wynalazki techniczne mia&#244;o wielki wp&#244;yw na spo&#244;eczno&#228;&#226; naukow&#225;. Globalny zasi&#234;g wojny i tempo rozwoju techniki spowodowa&#244;y wprowadzenie mn&#243;stwa nowych rozwi&#225;za&#241;, za&#228; r&#243;&#235;ne kraje wesz&#244;y w posiadanie rozmaitych technologii. Post&#234;p nie omin&#225;&#244; &#235;adnego obszaru techniki wojskowej. Po zako&#241;czeniu wojny, dokonane osi&#225;gni&#234;cia przyczyni&#244;y si&#234; do powstania nowych ga&#244;&#234;zi nauki, takich jak cybernetyka czy informatyka.</Italian>
+		<Spanish>Durante la Segunda Guerra Mundial la tecnolog&#237;a jug&#243; un papel muy importante en el desenlace del conflicto. La mayor&#237;a se hab&#237;a empezado a desarrollar en el periodo de entreguerras de los a&#241;os 20 y 30. Parte de ella se hab&#237;a desarrollado en respuesta a las lecciones aprendidas durante la guerra, y estaba solo a&#250;n en fase de desarrollo cuando la Gran Guerra termin&#243;. La gran demanda de investigaci&#243;n y desarrollo en tiempos de guerra tuvo un fuerte impacto en la comunidad cient&#237;fica. Dado el alcance de la guerra y la escalada tecnol&#243;gica que tuvo lugar durante la misma, se emple&#243; una gran variedad de tecnolog&#237;as, y cada naci&#243;n y unidad se vieron equipadas con elementos tecnol&#243;gicos dispares. Ninguna &#225;rea de la tecnolog&#237;a militar se vio privada de desarrollo durante la guerra. Una vez termin&#243; el conflicto, estos avances se abrieron a nuevas ciencias, como la cibern&#233;tica o la computaci&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECHNOLOGY_QUOTE</Tag>
+		<English>"Progress is only possible through science."</English>
+		<French>"Il n'y a de progr&#232;s possible qu'&#224; travers la science."</French>
+		<German>"Fortschritt ist nur durch wissenschaftliche Forschung m&#246;glich."</German>
+		<Italian>"Post&#234;p jest mo&#235;liwy jedynie dzi&#234;ki nauce."</Italian>
+		<Spanish>"El progreso solo es posible a trav&#233;s de la ciencia."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_INITIAL1_STRATEGY</Tag>
+		<English>The acquired knowledge of history.</English>
+		<French>L'enseignement de l'Histoire.</French>
+		<German>Das erworbene Wissen der Geschichte.</German>
+		<Italian>Nabyta wiedza historyczna.</Italian>
+		<Spanish>El conocimiento adquirido de la historia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_INITIAL2_STRATEGY</Tag>
+		<English>The acquired knowledge of history.</English>
+		<French>L'enseignement de l'Histoire.</French>
+		<German>Das erworbene Wissen der Geschichte.</German>
+		<Italian>Nabyta wiedza historyczna.</Italian>
+		<Spanish>El conocimiento adquirido de la historia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH00_STRATEGY</Tag>
+		<English>Fascism allows Fascist industries to produce efficiently.</English>
+		<French>Le fascisme a pour effet d'augmenter la productivit&#233; des industries.</French>
+		<German>Der Faschismus erm&#246;glicht faschistischen Industrien eine effizientere Produktion.</German>
+		<Italian>Faszyzm zapewnia faszystowskiemu przemys&#244;owi efektywno&#228;&#226; produkcji.</Italian>
+		<Spanish>El fascismo permite a la industria fascista producir eficazmente.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH01_STRATEGY</Tag>
+		<English>Basic Weapons allows early military weapons.</English>
+		<French>Armement standard autorise l'acc&#232;s au mat&#233;riel militaire standard.</French>
+		<German>Die Technologie Einfache Waffen erm&#246;glicht den Einsatz fr&#252;her Milit&#228;rwaffen.</German>
+		<Italian>Bro&#241; podstawowa umo&#235;liwia tworzenie wczesnego uzbrojenia.</Italian>
+		<Spanish>El armamento b&#225;sico permite obtener el armamento militar temprano.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH02_STRATEGY</Tag>
+		<English>Basic Tank allows early tanks.</English>
+		<French>Blind&#233; standard autorise l'acc&#232;s aux chars standards.</French>
+		<German>Die Technologie Einfacher Panzer erm&#246;glicht den Einsatz fr&#252;her Panzer.</German>
+		<Italian>Poznanie technologii wczesnych czo&#244;g&#243;w umo&#235;liwia tworzenie wczesnych czo&#244;g&#243;w.</Italian>
+		<Spanish>El tanque b&#225;sico permite obtener los tanques tempranos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH03_STRATEGY</Tag>
+		<English>Basic Fighter allows early fighters.</English>
+		<French>Chasseur standard autorise l'acc&#232;s aux chasseurs standards.</French>
+		<German>Die Technologie Einfacher J&#228;ger erm&#246;glicht den Einsatz fr&#252;her J&#228;ger.</German>
+		<Italian>Poznanie technologii wczesnych my&#228;liwc&#243;w umo&#235;liwia tworzenie wczesnych my&#228;liwc&#243;w.</Italian>
+		<Spanish>El caza b&#225;sico permite obtener los cazas tempranos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH04_STRATEGY</Tag>
+		<English>Propaganda allows you to control your population with propaganda units.</English>
+		<French>Propagande permet de contr&#244;ler votre population gr&#226;ce aux unit&#233;s de propagande.</French>
+		<German>Die Technologie Propaganda erm&#246;glicht die Kontrolle der Bev&#246;lkerung durch Propagandaeinheiten.</German>
+		<Italian>Propaganda umo&#235;liwia sterowanie spo&#244;ecze&#241;stwami za pomoc&#225; jednostek propagandowych.</Italian>
+		<Spanish>La propaganda permite controlar a la poblaci&#243;n con las unidades de propaganda.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH05_STRATEGY</Tag>
+		<English>Basic Artillery allows early artillery units.</English>
+		<French>Artillerie standard autorise l'acc&#232;s aux unit&#233;s d'artillerie standards.</French>
+		<German>Die Technologie Einfache Artillerie erm&#246;glicht den Einsatz fr&#252;her Artillerieeinheiten.</German>
+		<Italian>Poznanie technologii wczesnej artylerii umo&#235;liwia tworzenie jednostek wczesnej artylerii.</Italian>
+		<Spanish>La artiller&#237;a b&#225;sica permite obtener las unidades tempranas de artiller&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH06_STRATEGY</Tag>
+		<English>Basic Warships allows early naval ships.</English>
+		<French>Navires de guerre standard autorise l'acc&#232;s aux b&#226;timents de guerre standards.</French>
+		<German>Die Technologie Einfaches Kriegsschiff erm&#246;glicht den Einsatz fr&#252;her Marineschiffe.</German>
+		<Italian>Poznanie technologii wczesnych okr&#234;t&#243;w umo&#235;liwia tworzenie wczesnych okr&#234;t&#243;w bojowych.</Italian>
+		<Spanish>El barco de guerra b&#225;sico permite obtener los barcos de guerra tempranos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH07_STRATEGY</Tag>
+		<English>Basic Submarine allows early submarines.</English>
+		<French>Sous-marin standard autorise l'acc&#232;s aux submersibles standards.</French>
+		<German>Die Technologie Einfaches U-Boot erm&#246;glicht den Einsatz fr&#252;her U-Boote.</German>
+		<Italian>Poznanie technologii wczesnych okr&#234;t&#243;w podwodnych umo&#235;liwia tworzenie wczesnych okr&#234;t&#243;w podwodnych.</Italian>
+		<Spanish>El submarino b&#225;sico permite obtener el submarino temprano.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH08_STRATEGY</Tag>
+		<English>Basic Bomber allows early bombers.</English>
+		<French>Bombardier standard autorise l'acc&#232;s aux bombardiers standards.</French>
+		<German>Die Technologie Einfacher Bomber erm&#246;glicht den Einsatz fr&#252;her Bomber.</German>
+		<Italian>Poznanie technologii wczesnych bombowc&#243;w umo&#235;liwia tworzenie wczesnych bombowc&#243;w.</Italian>
+		<Spanish>El bombardero b&#225;sico permite obtener los bombarderos tempranos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH09_STRATEGY</Tag>
+		<English>Basic Rocket design leads to jet fighters and missiles.</English>
+		<French>Conception de fus&#233;e standard permet le d&#233;veloppement d'avions &#224; r&#233;action et de missiles.</French>
+		<German>Die Technologie Einfaches Raketendesign erm&#246;glicht den Einsatz von Kampffliegern und Raketen.</German>
+		<Italian>Poznanie technologii wczesnych silnik&#243;w rakietowych umo&#235;liwia prace nad my&#228;liwcami odrzutowymi i pociskami rakietowymi.</Italian>
+		<Spanish>El dise&#241;o de cohete b&#225;sico permite acceder a los cazas a reacci&#243;n y a los misiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH10_STRATEGY</Tag>
+		<English>Plastics is the first step to efficient industries.</English>
+		<French>Plasturgie est la premi&#232;re &#233;tape vers des industries performantes.</French>
+		<German>Die Technologie Plastik erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Tworzywa sztuczne to pierwszy krok na drodze do efektywnego przemys&#244;u.</Italian>
+		<Spanish>El pl&#225;stico es el primer paso para tener industrias eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH11_STRATEGY</Tag>
+		<English>Medical Service allows the medic promotions.</English>
+		<French>Service M&#233;dical conditionne l'acc&#232;s aux progr&#232;s m&#233;dicaux.</French>
+		<German>Die Technologie Sanit&#228;tswesen erm&#246;glicht Sanit&#228;ter-Bef&#246;rderungen.</German>
+		<Italian>S&#244;u&#235;ba medyczna umo&#235;liwia awanse medyczne.</Italian>
+		<Spanish>La asistencia m&#233;dica permite obtener los ascensos a unidad m&#233;dica.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH12_STRATEGY</Tag>
+		<English>Light Tank allows early WW2 tanks.</English>
+		<French>Blind&#233; l&#233;ger autorise l'acc&#232;s aux chars l&#233;gers standards.</French>
+		<German>Die Technologie Leichter Panzer erm&#246;glicht den Einsatz von WK2-Panzern.</German>
+		<Italian>Poznanie technologii lekkich czo&#244;g&#243;w umo&#235;liwia tworzenie wczesnych czo&#244;g&#243;w II wojny &#228;wiatowej.</Italian>
+		<Spanish>El tanque ligero permite obtener los tanques tempranos de la Segunda Guerra Mundial.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH13_STRATEGY</Tag>
+		<English>Amphibious Warfare allows marines.</English>
+		<French>Guerre amphibie conditionne l'acc&#232;s aux marines.</French>
+		<German>Die Technologie Amphibische Kriegsf&#252;hrung erm&#246;glicht den Einsatz von Marines.</German>
+		<Italian>Desant morski umo&#235;liwia tworzenie piechoty morskiej.</Italian>
+		<Spanish>La guerra anfibia permite obtener los marines.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH14_STRATEGY</Tag>
+		<English>Basic Anti-Air allows early anti-air guns.</English>
+		<French>D&#233;fense anti-a&#233;rienne standard autorise l'acc&#232;s aux canons anti-a&#233;riens standards.</French>
+		<German>Die Technologie Einfache Luftabwehr erm&#246;glicht den Einsatz fr&#252;her Luftabwehrwaffen.</German>
+		<Italian>Poznanie technologii wczesnej broni plot. umo&#235;liwia tworzenie wczesnych dzia&#244; przeciwlotniczych.</Italian>
+		<Spanish>El antia&#233;reo b&#225;sico permite obtener los ca&#241;ones antia&#233;reos tempranos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH15_STRATEGY</Tag>
+		<English>Laboratory allows cities to build labs.</English>
+		<French>Laboratoire permet aux villes de construire des laboratoires.</French>
+		<German>Die Technologie Labor erm&#246;glicht die Errichtung von Labors in St&#228;dten.</German>
+		<Italian>Poznanie tej technologii umo&#235;liwia miastom budowanie laboratori&#243;w.</Italian>
+		<Spanish>Los laboratorios permiten a las ciudades construir m&#225;s laboratorios.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH16_STRATEGY</Tag>
+		<English>Household Goods leads to efficient industries.</English>
+		<French>Biens d'&#233;quipement m&#233;nagers permet des industries performantes.</French>
+		<German>Die Technologie Haushaltswaren erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Dobra konsumpcyjne sprzyjaj&#225; efektywnemu przemys&#244;owi.</Italian>
+		<Spanish>Los bienes para el hogar permiten obtener unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH17_STRATEGY</Tag>
+		<English>Improved Weapons allows better infantry.</English>
+		<French>Armement am&#233;lior&#233; permet de produire une meilleure infanterie.</French>
+		<German>Die Technologie Verbesserte Waffen erm&#246;glicht den Einsatz effizienterer Infanterie.</German>
+		<Italian>Ulepszona bro&#241; zwi&#234;ksza skuteczno&#228;&#226; piechoty.</Italian>
+		<Spanish>El armamento mejorado permite obtener una mejor infanter&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH18_STRATEGY</Tag>
+		<English>Assault Guns and Tank Destroyers leads to better infantry.</English>
+		<French>Canons d'assaut et Chasseur de char permet de produire une meilleure infanterie.</French>
+		<German>Die Technologie Angriffswaffen und Panzerzerst&#246;rer erm&#246;glicht den Einsatz effizienterer Infanterie.</German>
+		<Italian>Dzia&#244;a szturmowe i niszczyciele czo&#244;g&#243;w zwi&#234;kszaj&#225; skuteczno&#228;&#226; piechoty.</Italian>
+		<Spanish>Los ca&#241;ones de asalto y anticarros permiten que mejore la infanter&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH19_STRATEGY</Tag>
+		<English>Airborne Warfare allows paratroopers.</English>
+		<French>Guerre a&#233;rienne conditionne l'acc&#232;s aux unit&#233;s parachutistes.</French>
+		<German>Die Technologie Luftkriegsf&#252;hrung erm&#246;glicht den Einsatz von Fallschirmj&#228;gern.</German>
+		<Italian>Poznanie technologii desantu powietrznego umo&#235;liwia tworzenie jednostek spadochroniarzy.</Italian>
+		<Spanish>La guerra aerotransportada permite obtener paracaidistas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH20_STRATEGY</Tag>
+		<English>Jet Engine leads to jet aircraft.</English>
+		<French>Moteur &#224; r&#233;action conditionne l'acc&#232;s &#224; l'avion &#224; r&#233;action.</French>
+		<German>Die Technologie D&#252;senantrieb erm&#246;glicht den Einsatz von D&#252;senflugzeugen.</German>
+		<Italian>Poznanie technologii silnika odrzutowego umo&#235;liwia tworzenie samolot&#243;w odrzutowych.</Italian>
+		<Spanish>El motor a reacci&#243;n permite los aviones a reacci&#243;n.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH21_STRATEGY</Tag>
+		<English>Polymerisation leads to efficient industries.</English>
+		<French>Polym&#233;risation permet des industries performantes.</French>
+		<German>Die Technologie Polymerisation erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii polimeryzacji pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>La polimerizaci&#243;n permite obtener unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH22_STRATEGY</Tag>
+		<English>Sloped Armour leads to better tanks.</English>
+		<French>Armure inclin&#233;e permet de produire de meilleurs blind&#233;s.</French>
+		<German>Die Technologie Schr&#228;gpanzerung erm&#246;glicht den Einsatz effizienterer Panzer.</German>
+		<Italian>Poznanie technologii pancerza pochy&#244;ego pozwala tworzy&#226; lepsze czo&#244;gi.</Italian>
+		<Spanish>El blindaje inclinado permite mejores tanques.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH23_STRATEGY</Tag>
+		<English>Improved Fighter allows better fighters.</English>
+		<French>Chasseur am&#233;lior&#233; permet de produire de meilleurs chasseurs.</French>
+		<German>Die Technologie Verbesserter J&#228;ger erm&#246;glicht den Einsatz effizienterer J&#228;ger.</German>
+		<Italian>Poznanie technologii ulepszonych my&#228;liwc&#243;w umo&#235;liwia tworzenie lepszych my&#228;liwc&#243;w.</Italian>
+		<Spanish>El caza mejorado permite obtener cazas superiores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH24_STRATEGY</Tag>
+		<English>Chain Reactor leads to nuclear weapons.</English>
+		<French>R&#233;acteur nucl&#233;aire conditionne l'acc&#232;s aux armes atomiques.</French>
+		<German>Die Technologie Fusionsreaktor erm&#246;glicht den Einsatz von Atomwaffen.</German>
+		<Italian>Poznanie technologii reaktora atomowego umo&#235;liwia tworzenie broni j&#225;drowej.</Italian>
+		<Spanish>El reactor nuclear en cadena permite las armas nucleares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH25_STRATEGY</Tag>
+		<English>Mass-Production leads to efficient industries.</English>
+		<French>Production de masse permet des industries performantes.</French>
+		<German>Die Technologie Massenfertigung erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Produkcja masowa pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>La producci&#243;n en masa permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH26_STRATEGY</Tag>
+		<English>Civil Awareness allows bomb shelters.</English>
+		<French>S&#233;curit&#233; civile autorise l'acc&#232;s aux abris anti-bombardement.</French>
+		<German>Die Technologie &#214;ffentliche Aufmerksamkeit erm&#246;glicht die Errichtung von Luftschutzkellern.</German>
+		<Italian>&#196;wiadomo&#228;&#226; spo&#244;eczna umo&#235;liwia tworzenie schron&#243;w bombowych.</Italian>
+		<Spanish>La concienciaci&#243;n civil permite los refugios antia&#233;reos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH27_STRATEGY</Tag>
+		<English>Improved C3I and Logistics leads to a better army.</English>
+		<French>C3I et Logistique augmente l'efficacit&#233; de l'arm&#233;e.</French>
+		<German>Die Technologie Verbesserte C3I-Systeme und -Logistik erm&#246;glicht den Einsatz einer effizienteren Armee.</German>
+		<Italian>Dowodzenie strategiczne zwi&#234;ksza skuteczno&#228;&#226; armii.</Italian>
+		<Spanish>Los sistemas de C3I y log&#237;stica mejorados permiten un ej&#233;rcito superior.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH28_STRATEGY</Tag>
+		<English>Improved Submarine allows better subs.</English>
+		<French>Sous-marin am&#233;lior&#233; permet de produire de meilleurs submersibles.</French>
+		<German>Die Technologie Verbessertes U-Boot erm&#246;glicht den Einsatz effizienterer U-Boote.</German>
+		<Italian>Poznanie technologii ulepszonych okr&#234;t&#243;w podwodnych umo&#235;liwia tworzenie lepszych okr&#234;t&#243;w podwodnych.</Italian>
+		<Spanish>El submarino mejorado permite obtener submarinos superiores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH29_STRATEGY</Tag>
+		<English>Improved Bomber allows better bombers.</English>
+		<French>Bombardier am&#233;lior&#233; permet de produire de meilleurs bombardiers.</French>
+		<German>Die Technologie Verbesserter Bomber erm&#246;glicht den Einsatz effizienterer Bomber.</German>
+		<Italian>Poznanie technologii ulepszonych bombowc&#243;w umo&#235;liwia tworzenie lepszych bombowc&#243;w.</Italian>
+		<Spanish>El bombardero mejorado permite obtener bombarderos superiores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH30_STRATEGY</Tag>
+		<English>Hydroforming leads to efficient industries.</English>
+		<French>Hydroformage permet des industries performantes.</French>
+		<German>Die Technologie Hydroformen erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii hydroformowania pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>La hidrogenaci&#243;n permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH31_STRATEGY</Tag>
+		<English>Advanced Weapons leads to better infantry.</English>
+		<French>Armement avanc&#233; permet de produire une meilleure infanterie.</French>
+		<German>Die Technologie Fortgeschrittene Waffen erm&#246;glicht den Einsatz effizienterer Infanterie.</German>
+		<Italian>Zaawansowana bro&#241; zwi&#234;ksza skuteczno&#228;&#226; piechoty.</Italian>
+		<Spanish>El armamento avanzado permite una infanter&#237;a mejor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH32_STRATEGY</Tag>
+		<English>Heavy Tanks allows better tanks.</English>
+		<French>Blind&#233; lourd permet de produire de meilleurs chars.</French>
+		<German>Die Technologie Schwerer Panzer erm&#246;glicht den Einsatz effizienterer Panzer.</German>
+		<Italian>Poznanie technologii ci&#234;&#235;kich czo&#244;g&#243;w umo&#235;liwia tworzenie ci&#234;&#235;kich czo&#244;g&#243;w.</Italian>
+		<Spanish>El tanque pesado permite obtener mejores tanques.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH33_STRATEGY</Tag>
+		<English>Improved Anti-Air allows better anti-air units.</English>
+		<French>D&#233;fense anti-a&#233;rienne am&#233;lior&#233;e permet de produire de meilleures d&#233;fenses anti-a&#233;riennes.</French>
+		<German>Die Technologie Verbesserte Luftabwehr erm&#246;glicht den Einsatz effizienterer Luftabwehreinheiten.</German>
+		<Italian>Poznanie technologii ulepszonej broni plot. umo&#235;liwia tworzenie skuteczniejszych jednostek plot.</Italian>
+		<Spanish>El antia&#233;reo mejorado permite obtener unidades antia&#233;reas superiores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH34_STRATEGY</Tag>
+		<English>Catalytic Polymerisation leads to efficient industries.</English>
+		<French>Polym&#233;risation catalytique permet des industries performantes.</French>
+		<German>Die Technologie Katalytische Polymerisation erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii polimeryzacji katalitycznej pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>La polimerizaci&#243;n catal&#237;tica permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH35_STRATEGY</Tag>
+		<English>Heavy Artillery allows better artillery.</English>
+		<French>Artillerie lourde permet de produire une meilleure artillerie.</French>
+		<German>Die Technologie Schwere Artillerie erm&#246;glicht den Einsatz effizienterer Artillerie.</German>
+		<Italian>Poznanie technologii ci&#234;&#235;kiej artylerii umo&#235;liwia tworzenie skuteczniejszej artylerii.</Italian>
+		<Spanish>La artiller&#237;a pesada permite una mejor artiller&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH36_STRATEGY</Tag>
+		<English>Advanced Warships leads to modern naval vessels.</English>
+		<French>Navires de guerre avanc&#233;s permet de produire des vaisseaux de guerre modernes.</French>
+		<German>Die Technologie Fortgeschrittenes Kriegsschiff erm&#246;glicht den Einsatz moderner Marineschiffe.</German>
+		<Italian>Poznanie technologii zaawansowanych okr&#234;t&#243;w pozwala tworzy&#226; nowoczesne okr&#234;ty wojenne.</Italian>
+		<Spanish>El barco de guerra avanzado permite los barcos de guerra modernos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH37_STRATEGY</Tag>
+		<English>Flying Bomb allows missiles.</English>
+		<French>Bombe volante permet de produire des missiles.</French>
+		<German>Die Technologie Flugbombe erm&#246;glicht den Einsatz von Raketen.</German>
+		<Italian>Poznanie technologii lataj&#225;cej bomby umo&#235;liwia tworzenie pocisk&#243;w rakietowych.</Italian>
+		<Spanish>La bomba volante permite los misiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH38_STRATEGY</Tag>
+		<English>Modular Assembly leads to efficient industries.</English>
+		<French>Assemblage modulaire permet des industries performantes.</French>
+		<German>Die Technologie Baukastensystem erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii konstrukcji modu&#244;owej pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>El montaje modular permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH39_STRATEGY</Tag>
+		<English>Advanced C3I and Logistics leads to a better army.</English>
+		<French>C3I et Logistique avanc&#233;s augmente l'efficacit&#233; de l'arm&#233;e.</French>
+		<German>Die Technologie Fortgeschrittene C3I-Systeme und -Logistik erm&#246;glicht den Einsatz einer besseren Armee.</German>
+		<Italian>Dowodzenie strategiczne zwi&#234;ksza skuteczno&#228;&#226; armii.</Italian>
+		<Spanish>Los sistemas de C3I y log&#237;stica avanzados permiten un ej&#233;rcito superior.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH40_STRATEGY</Tag>
+		<English>Atomic Bomb allows A-bombs (with Manhattan Project).</English>
+		<French>Bombe atomique conditionne l'acc&#232;s &#224; la bombe A (en conjonction avec Projet Manhattan).</French>
+		<German>Die Technologie Atombombe erm&#246;glicht den Einsatz von Atombomben (mit Manhattan-Projekt).</German>
+		<Italian>Poznanie technologii bomby atomowej umo&#235;liwia tworzenie bomb atomowych (z Projektem Manhattan).</Italian>
+		<Spanish>La bomba at&#243;mica permite la bomba A (con el Proyecto Manhattan).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH41_STRATEGY</Tag>
+		<English>Fluid Catalytic Cracking leads to efficient industries.</English>
+		<French>Proc&#233;d&#233; de craquage catalytique fluide permet des industries performantes.</French>
+		<German>Die Technologie Fluid-Catalytic-Cracken erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii krakowania katalitycznego pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>El craqueo catal&#237;tico fluido permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH42_STRATEGY</Tag>
+		<English>Modern Weapons allows better infantry.</English>
+		<French>Armements modernes permet de produire une meilleure infanterie.</French>
+		<German>Die Technologie Moderne Waffen erm&#246;glicht den Einsatz effizienterer Infanterie.</German>
+		<Italian>Nowoczesna bro&#241; umo&#235;liwia zwi&#234;kszenie skuteczno&#228;ci piechoty.</Italian>
+		<Spanish>El armamento moderno permite obtener una mejor infanter&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH43_STRATEGY</Tag>
+		<English>Modern Fighter allows better fighters.</English>
+		<French>Chasseur moderne permet de produire de meilleurs chasseurs.</French>
+		<German>Die Technologie Moderner J&#228;ger erm&#246;glicht den Einsatz effizienterer J&#228;ger.</German>
+		<Italian>Poznanie technologii nowoczesnych my&#228;liwc&#243;w pozwala budowa&#226; lepsze my&#228;liwce.</Italian>
+		<Spanish>El caza moderno permite obtener cazas mejores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH44_STRATEGY</Tag>
+		<English>Nuclear Bomb Delivery leads to ICBMs.</English>
+		<French>Possession de bombe nucl&#233;aire permet le d&#233;veloppement de missiles balistiques intercontinentaux (MBIC).</French>
+		<German>Die Technologie Atombombenlieferung erm&#246;glicht den Einsatz von ICBMs.</German>
+		<Italian>Poznanie technologii przenoszenia bomby atomowej sprzyja stworzeniu mi&#234;dzykontynentalnych rakiet balistycznych.</Italian>
+		<Spanish>El lanzamiento de la bomba nuclear permite los ICBM.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH45_STRATEGY</Tag>
+		<English>Cold Polymerisation leads to efficient industries.</English>
+		<French>Polym&#233;risation &#224; froid permet des industries performantes.</French>
+		<German>Die Technologie Kaltpolymerisation erm&#246;glicht effizientere Industrien.</German>
+		<Italian>Poznanie technologii zimnej polimeryzacji pozwala zwi&#234;kszy&#226; efektywno&#228;&#226; przemys&#244;u.</Italian>
+		<Spanish>La polimerizaci&#243;n en fr&#237;o permite unas industrias m&#225;s eficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH46_STRATEGY</Tag>
+		<English>Cold War Awareness allows nuclear bunkers.</English>
+		<French>Alerte guerre froide conditionne l'acc&#232;s aux abris anti-atomiques.</French>
+		<German>Die Technologie Erkenntnis des Kalten Krieges erm&#246;glicht die Errichtung von Atomschutzbunkern.</German>
+		<Italian>&#196;wiadomo&#228;&#226; zimnowojenna umo&#235;liwia tworzenie schron&#243;w atomowych.</Italian>
+		<Spanish>La concienciaci&#243;n de guerra fr&#237;a permite los refugios nucleares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH47_STRATEGY</Tag>
+		<English>Modern Artillery allows better artillery.</English>
+		<French>Artillerie moderne permet de produire une meilleure artillerie.</French>
+		<German>Die Technologie Moderne Artillerie erm&#246;glicht den Einsatz effizienterer Artillerie.</German>
+		<Italian>Poznanie technologii nowoczesnej artylerii umo&#235;liwia tworzenie lepszej artylerii.</Italian>
+		<Spanish>La artiller&#237;a moderna permite una mejor artiller&#237;a.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH48_STRATEGY</Tag>
+		<English>Modern Tank allows better tanks.</English>
+		<French>Blind&#233; moderne permet de produire de meilleurs chars.</French>
+		<German>Die Technologie Moderner Panzer erm&#246;glicht den Einsatz effizienterer Panzer.</German>
+		<Italian>Poznanie technologii nowoczesnych czo&#244;g&#243;w umo&#235;liwia tworzenie lepszych czo&#244;g&#243;w.</Italian>
+		<Spanish>El tanque moderno permite obtener mejores tanques.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH49_STRATEGY</Tag>
+		<English>Modern Warships allows frigates.</English>
+		<French>Navires de guerre moderne conditionne l'acc&#232;s aux fr&#233;gates.</French>
+		<German>Die Technologie Modernes Kriegsschiff erm&#246;glicht den Einsatz effizienterer Fregatten.</German>
+		<Italian>Poznanie technologii nowoczesnych okr&#234;t&#243;w umo&#235;liwia tworzenie fregat.</Italian>
+		<Spanish>El barco de guerra moderno permite acceder a las fragatas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH50_STRATEGY</Tag>
+		<English>Nuclear Submarine allows better subs.</English>
+		<French>Sous-marin nucl&#233;aire permet de produire de meilleurs submersibles.</French>
+		<German>Die Technologie Atom-U-Boot erm&#246;glicht den Einsatz effizienterer U-Boote.</German>
+		<Italian>Poznanie technologii atomowych okr&#234;t&#243;w podwodnych umo&#235;liwia tworzenie lepszych okr&#234;t&#243;w podwodnych.</Italian>
+		<Spanish>El submarino nuclear permite obtener mejores submarinos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH51_STRATEGY</Tag>
+		<English>Modern Bomber allows better bombers.</English>
+		<French>Bombardier moderne permet de produire de meilleurs bombardiers.</French>
+		<German>Die Technologie Moderner Bomber erm&#246;glicht den Einsatz effizienterer Bomber.</German>
+		<Italian>Poznanie technologii nowoczesnych bombowc&#243;w umo&#235;liwia tworzenie lepszych bombowc&#243;w.</Italian>
+		<Spanish>El bombardero moderno permite obtener bombarderos superiores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH52_STRATEGY</Tag>
+		<English>Ballistic Missile allows ICBMs.</English>
+		<French>Missile balistique conditionne l'acc&#232;s aux MBIC.</French>
+		<German>Die Technologie Raketen erm&#246;glicht den Einsatz von ICBMs.</German>
+		<Italian>Poznanie technologii rakiet balistycznych umo&#235;liwia tworzenie mi&#234;dzykontynentalnych rakiet balistycznych.</Italian>
+		<Spanish>El misil bal&#237;stico permite obtener los ICBM.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WW2_TECH53_STRATEGY</Tag>
+		<English>Nuclear Power allows nuclear power plants.</English>
+		<French>Energie nucl&#233;aire conditionne l'acc&#232;s aux centrales &#233;nerg&#233;tiques nucl&#233;aires.</French>
+		<German>Die Technologie Atomenergie erm&#246;glicht die Errichtung von Atomkraftwerken.</German>
+		<Italian>Poznanie technologii energii atomowej umo&#235;liwia tworzenie elektrowni j&#225;drowych.</Italian>
+		<Spanish>La energ&#237;a nuclear permite obtener las centrales nucleares.</Spanish>
+	</TEXT>
+</Civ4GameText>
