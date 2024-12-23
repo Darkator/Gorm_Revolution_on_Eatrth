@@ -117,8 +117,8 @@
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_CW_JAPAN</Type>
 			<Button>Art/Interface/Buttons/Civilizations/JapFlag.dds</Button>
-			<Path>Art/Interface/TeamColor/FlagDECAL_Dot.dds</Path>
-			<bWhiteFlag>0</bWhiteFlag>
+			<Path>Art/Interface/TeamColor/japanCW.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_KHMER</Type>

@@ -146,12 +146,28 @@
 					<ImprovementType>IMPROVEMENT_FACTORY</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
-						<iYield>3</iYield>
+						<iYield>4</iYield>
 						<iYield>0</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
-					<ImprovementType>IMPROVEMENT_FACTORY</ImprovementType>
+					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>2</iYield>
@@ -435,7 +451,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_BARBARISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_BARBARISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Pacifism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_ACTIVE_PLAYER</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -500,7 +516,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_BARBARISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_BARBARISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Pacifism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_SECOND_PLAYER</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -565,7 +581,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_BARBARISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_BARBARISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Pacifism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_NEUTRAL_PLAYER</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -630,7 +646,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_BARBARISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_BARBARISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Barbarism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,1,1</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_GORM_FOLKS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -695,7 +711,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_BARBARISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_BARBARISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/TechTree/Communism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_COMMUNISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1209,7 +1225,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_PAGANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Strategy>
 			<Button>Art/Interface/Buttons/Religions/Christian.dds</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_CHRISTIANITY</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1274,7 +1290,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_PAGANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Strategy>
 			<Button>Art/Interface/Buttons/Religions/Jewish.dds</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_JUDAISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1339,7 +1355,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_PAGANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Strategy>
 			<Button>Art/Interface/Buttons/Religions/Islam.dds</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_ISLAM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1404,7 +1420,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_PAGANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/TechTree/Communism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_ATHEISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1469,7 +1485,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_PAGANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Paganism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,4,2</Button>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_GORM_FOLKS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>
@@ -1569,7 +1585,7 @@
 			<bNoForeignTrade>0</bNoForeignTrade>
 			<bNoCorporations>0</bNoCorporations>
 			<bNoForeignCorporations>0</bNoForeignCorporations>
-			<iCivicPercentAnger>100</iCivicPercentAnger>
+			<iCivicPercentAnger>10</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
@@ -1608,7 +1624,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_DECENTRALIZATION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_DECENTRALIZATION_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/TechTree/Communism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,2</Button>
-			<TechPrereq>TECH_COMMUNISM</TechPrereq>
+			<TechPrereq>TECH_PROSOVIET</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iAIWeight>0</iAIWeight>

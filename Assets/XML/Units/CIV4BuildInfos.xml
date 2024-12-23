@@ -101,7 +101,7 @@
 			<Type>BUILD_SOLAR_PANELS</Type>
 			<Description>Build Solar Panels</Description>
 			<Help/>
-			<PrereqTech>NONE</PrereqTech>
+			<PrereqTech>TECH_INTERGATEDCURCUIT</PrereqTech>
 			<iTime>300</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>

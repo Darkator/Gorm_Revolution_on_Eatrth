@@ -8,7 +8,7 @@
 	<CivicOptionInfos>
 		<CivicOptionInfo>
 			<Type>CIVICOPTION_SIDE</Type>
-			<Description>GOVETMENT</Description>
+			<Description>GOVERMENT</Description>
 			<TraitNoUpkeeps/>
 		</CivicOptionInfo>
 		<CivicOptionInfo>

@@ -2,7 +2,7 @@ Version=11
 BeginGame
 	Era=ERA_ANCIENT
 	Speed=GAMESPEED_NORMAL
-	Calendar=CALENDAR_DEFAULT
+	Calendar=CALENDAR_SEASONS
 	Option=GAMEOPTION_LEAD_ANY_CIV
 	Option=GAMEOPTION_DCM_AIRBOMBING
 	Option=GAMEOPTION_DCM_RANGE_BOMBARD
@@ -11,6 +11,14 @@ BeginGame
 	Option=GAMEOPTION_DCM_ACTIVE_DEFENSE
 	Option=GAMEOPTION_DCM_STACK_ATTACK
 	Option=GAMEOPTION_DCM_ATTACK_SUPPORT
+	Option=GAMEOPTION_NO_CITY_RAZING
+	Option=GAMEOPTION_NO_CITY_FLIPPING
+	Option=GAMEOPTION_NO_BARBARIANS
+	Option=GAMEOPTION_AGGRESSIVE_AI
+	Option=GAMEOPTION_NO_TECH_TRADING
+	Option=GAMEOPTION_NEW_RANDOM_SEED
+	Option=GAMEOPTION_NO_VASSAL_STATES
+	Option=GAMEOPTION_NO_GOODY_HUTS
 	Victory=VICTORY_TIME
 	Victory=VICTORY_CONQUEST
 	Victory=VICTORY_DOMINATION
@@ -22,62 +30,143 @@ BeginGame
 	MaxCityElimination=0
 	NumAdvancedStartPoints=600
 	TargetScore=0
-	StartYear=-4000
+	StartYear=1945
 	Description=
-	ModPath=
+	ModPath=GormRevolutin
 EndGame
 BeginTeam
 	TeamID=0
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=0
+	ContactWithTeam=5
+	
+	ContactWithTeam=14
+	ContactWithTeam=18
+	ContactWithTeam=24
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=1
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ATHEISM
 	ContactWithTeam=1
+	ContactWithTeam=16
+	ContactWithTeam=20
+	ContactWithTeam=25
+	ContactWithTeam=28
+	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=2
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=2
+	ContactWithTeam=7
+	ContactWithTeam=13
+	ContactWithTeam=27
+	ContactWithTeam=33
+	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=3
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_CHRISTIANITY
 	ContactWithTeam=3
+	ContactWithTeam=9
+	ContactWithTeam=30
+	ContactWithTeam=39
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=4
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=4
+	ContactWithTeam=31
+	ContactWithTeam=41
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=5
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=0
 	ContactWithTeam=5
+	
+	ContactWithTeam=14
+	ContactWithTeam=18
+	ContactWithTeam=24
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=6
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=6
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=7
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=2
 	ContactWithTeam=7
+	ContactWithTeam=13
+	ContactWithTeam=27
+	ContactWithTeam=33
+	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=8
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=8
+	ContactWithTeam=19
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=9
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_ISLAM
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=3
 	ContactWithTeam=9
+	ContactWithTeam=30
+	ContactWithTeam=39
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=10
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_CHRISTIANITY
 	ContactWithTeam=10
 	RevealMap=0
 EndTeam
@@ -88,151 +177,367 @@ BeginTeam
 EndTeam
 BeginTeam
 	TeamID=12
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=12
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=13
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_FASCISM
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=2
+	ContactWithTeam=7
 	ContactWithTeam=13
+	ContactWithTeam=27
+	ContactWithTeam=33
+	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=14
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ISLAM
+	Tech=TECH_SECOND_PLAYER
+	ContactWithTeam=0
+	ContactWithTeam=5
+	
 	ContactWithTeam=14
+	ContactWithTeam=18
+	ContactWithTeam=24
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=15
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=15
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=16
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=1
 	ContactWithTeam=16
+	ContactWithTeam=20
+	ContactWithTeam=25
+	ContactWithTeam=28
+	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=17
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=17
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=18
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=0
+	ContactWithTeam=5
+	
+	ContactWithTeam=14
 	ContactWithTeam=18
+	ContactWithTeam=24
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=19
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ATHEISM
+	ContactWithTeam=8
 	ContactWithTeam=19
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=20
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=1
+	ContactWithTeam=16
 	ContactWithTeam=20
+	ContactWithTeam=25
+	ContactWithTeam=28
+	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=21
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_ISLAM
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=21
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=22
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=22
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=23
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ATHEISM
 	ContactWithTeam=23
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=24
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ATHEISM
+	ContactWithTeam=0
+	ContactWithTeam=5
+	
+	ContactWithTeam=14
+	ContactWithTeam=18
 	ContactWithTeam=24
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=25
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ISLAM
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=1
+	ContactWithTeam=16
+	ContactWithTeam=20
 	ContactWithTeam=25
+	ContactWithTeam=28
+	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=26
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ISLAM
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=26
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=27
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ISLAM
+	Tech=TECH_SECOND_PLAYER
+	ContactWithTeam=2
+	ContactWithTeam=7
+	ContactWithTeam=13
 	ContactWithTeam=27
+	ContactWithTeam=33
+	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=28
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_ISLAM
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=1
+	ContactWithTeam=16
+	ContactWithTeam=20
+	ContactWithTeam=25
 	ContactWithTeam=28
+	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=29
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_THREEWORDCOUNTRY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
 	ContactWithTeam=29
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=30
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_ATHEISM
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=3
+	ContactWithTeam=9
 	ContactWithTeam=30
+	ContactWithTeam=39
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=31
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=4
 	ContactWithTeam=31
+	ContactWithTeam=41
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=32
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=32
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=33
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_SECOND_PLAYER
+	ContactWithTeam=2
+	ContactWithTeam=7
+	ContactWithTeam=13
+	ContactWithTeam=27
 	ContactWithTeam=33
+	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=34
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_SECOND_PLAYER
+	ContactWithTeam=1
+	ContactWithTeam=16
+	ContactWithTeam=20
+	ContactWithTeam=25
+	ContactWithTeam=28
 	ContactWithTeam=34
+	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=35
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=35
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=36
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=36
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=37
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_ACTIVE_PLAYER
 	ContactWithTeam=37
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=38
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_COMMUNISM
+	Tech=TECH_PROSOVIET
+	Tech=TECH_ATHEISM
+	ContactWithTeam=1
+	ContactWithTeam=16
+	ContactWithTeam=20
+	ContactWithTeam=25
+	ContactWithTeam=28
+	ContactWithTeam=34
 	ContactWithTeam=38
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=39
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_NEUTRAL_PLAYER
+	ContactWithTeam=3
+	ContactWithTeam=9
+	ContactWithTeam=30
 	ContactWithTeam=39
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=40
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_FASCISM
+	Tech=TECH_CHRISTIANITY
+	Tech=TECH_SECOND_PLAYER
+	ContactWithTeam=2
+	ContactWithTeam=7
+	ContactWithTeam=13
+	ContactWithTeam=27
+	ContactWithTeam=33
 	ContactWithTeam=40
 	RevealMap=0
 EndTeam
 BeginTeam
 	TeamID=41
+	Tech=TECH_HUMAN_CIV
+	Tech=TECH_CAPITALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_JUDAISM
+	Tech=TECH_ACTIVE_PLAYER
+	ContactWithTeam=4
+	ContactWithTeam=31
 	ContactWithTeam=41
 	RevealMap=0
 EndTeam
@@ -278,155 +583,288 @@ BeginTeam
 EndTeam
 BeginPlayer
 	Team=0
-	LeaderType=LEADER_FRANKLIN_ROOSEVELT
-	LeaderName=darek
-	CivDesc=TXT_KEY_CIV_AMERICA_DESC
-	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
-	WhiteFlag=0
+	LeaderType=LEADER_EISENHOVER
+	LeaderName=Dwight Eisenhover
+	CivDesc=TXT_KEY_CIV_WW2_USA_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_USA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_USA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/usa.dds
+	WhiteFlag=1
 	CivType=CIVILIZATION_AMERICA
 	Color=PLAYERCOLOR_BLUE
 	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=28, StartingY=30
+	StartingX=10, StartingY=6
 	StateReligion=
-	StartingEra=ERA_ANCIENT
+	StartingEra=ERA_INDUSTRIAL
 	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=1
-	LeaderType=LEADER_SALADIN
-	LeaderName=TXT_KEY_LEADER_SALADIN
-	CivDesc=TXT_KEY_CIV_ARABIA_DESC
-	CivShortDesc=TXT_KEY_CIV_ARABIA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_ARABIA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Arabic.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_ARABIA
-	Color=PLAYERCOLOR_LIGHT_GREEN
-	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	LeaderType=LEADER_USSR_BREZNEW
+	LeaderName=Leonid Brezhnev
+	CivDesc=USSR
+	CivShortDesc=TXT_KEY_CIV_RUSSIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_RUSSIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/ussr.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_USSR
+	Color=PLAYERCOLOR_RED
+	ArtStyle=
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=59, StartingY=13
+	StartingX=34, StartingY=2
 	StateReligion=
-	StartingEra=ERA_ANCIENT
+	StartingEra=ERA_INDUSTRIAL
 	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_STALINCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ATHEISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=2
-	LeaderType=LEADER_SALADIN
-	LeaderName=TXT_KEY_LEADER_SALADIN
-	CivDesc=TXT_KEY_CIV_ARABIA_DESC
-	CivShortDesc=TXT_KEY_CIV_ARABIA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_ARABIA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Arabic.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_ARABIA
-	Color=PLAYERCOLOR_ORANGE_AND_GREEN
-	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	LeaderType=LEADER_ADENAUER
+	LeaderName=Konrad Adenauer
+	CivDesc=Germany
+	CivShortDesc=Germany
+	CivAdjective=TXT_KEY_CIV_WW2_GERMANY_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/germanyDEMO.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_GERMANY
+	Color=PLAYERCOLOR_GRAY
+	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=39, StartingY=28
+	StartingX=9, StartingY=15
 	StateReligion=
-	StartingEra=ERA_ANCIENT
+	StartingEra=ERA_INDUSTRIAL
 	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=3
-	LeaderType=LEADER_LINCOLN
-	LeaderName=TXT_KEY_LEADER_LINCOLN
-	CivDesc=TXT_KEY_CIV_AMERICA_DESC
-	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_AMERICA
-	Color=PLAYERCOLOR_DARK_INDIGO_AND_WHITE
-	ArtStyle=ARTSTYLE_EUROPEAN
+	LeaderType=LEADER_GOMULKA
+	LeaderName=Wladyslaw Gomulka
+	CivDesc=Warsaw Pact
+	CivShortDesc=Warsaw Pact
+	CivAdjective=_
+	FlagDecal=Art/Interface/TeamColor/WARSAWPACT.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WARSAW_PACT
+	Color=PLAYERCOLOR_DARK_PINK
+	ArtStyle=
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=59, StartingY=20
+	StartingX=40, StartingY=13
 	StateReligion=
-	StartingEra=ERA_ANCIENT
+	StartingEra=ERA_INDUSTRIAL
 	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_GOMULKACOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=4
-	LeaderType=LEADER_LINCOLN
-	LeaderName=TXT_KEY_LEADER_LINCOLN
-	CivDesc=TXT_KEY_CIV_AMERICA_DESC
-	CivShortDesc=TXT_KEY_CIV_AMERICA_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_AMERICA_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Star.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_AMERICA
-	Color=PLAYERCOLOR_CYAN_AND_GRAY
+	LeaderType=LEADER_RSA_CW_MANDELA
+	LeaderName=Nelson Mandela
+	CivDesc=Republic South Africa
+	CivShortDesc=RSA
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/south_africa.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_SOUTH_AFRICA
+	Color=PLAYERCOLOR_GREEN
 	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=0
-	StartingX=28, StartingY=19
+	StartingX=47, StartingY=21
 	StateReligion=
-	StartingEra=ERA_ANCIENT
+	StartingEra=ERA_INDUSTRIAL
 	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=5
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_DEMOKONGO
+	LeaderName=Democratic Republic Kongo Leader
+	CivDesc=Democratic Republic Kongo
+	CivShortDesc=Democratic Kongo
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/demokong.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_DEMOKONGO
+	Color=PLAYERCOLOR_DARK_YELLOW
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=10, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=6
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_KONGOGABON
+	LeaderName=Leadr of Kongo-Gabon
+	CivDesc=Kongo-Gabon
+	CivShortDesc=Kongo-Gabon
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/kongogabon.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_KONGOGABON
+	Color=PLAYERCOLOR_PURPLE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=41, StartingY=5
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=7
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_MOZAMBIK
+	LeaderName=Mozambique Leader
+	CivDesc=Mozambique
+	CivShortDesc=Mozambique
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/mozambik.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_MOZAMBIK
+	Color=PLAYERCOLOR_BROWN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=15
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=8
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_CHAD
+	LeaderName=Chad Leader
+	CivDesc=Chad
+	CivShortDesc=Chad
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/czad.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_CZAD
+	Color=PLAYERCOLOR_YELLOW
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=50, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=9
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_SUDAN
+	LeaderName=Leader of Sudan
+	CivDesc=Sudan
+	CivShortDesc=Sudan
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/sudan.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_SUDAN
+	Color=PLAYERCOLOR_DARK_LEMON
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=40, StartingY=13
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=10
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_ETIOPHIA
+	LeaderName=Leader of ethiopia
+	CivDesc=Ethiopia
+	CivShortDesc=Ethiopia
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AFRICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/ethiopia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_ETHIOPIA
+	Color=PLAYERCOLOR_ORANGE_AND_GREEN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=46, StartingY=27
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_MAOCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -439,242 +877,782 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=12
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_INDII
+	LeaderName=Indira Gandhi
+	CivDesc=India
+	CivShortDesc=India
+	CivAdjective=TXT_KEY_CIV_INDIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/indi.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_INDIA
+	Color=PLAYERCOLOR_ORANGE
+	ArtStyle=ARTSTYLE_ASIAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=9
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=13
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_FRANCO
+	LeaderName=Fransisco Franco
+	CivDesc=TXT_KEY_CIV_WW2_NIBERIA_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_NIBERIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_NIBERIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/iberia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_IBERIA
+	Color=PLAYERCOLOR_PEACH
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=15
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_AUSTRIAN_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_FASICM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=14
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_RUHOLLAH_CHOMEJNI_IRAN
+	LeaderName=Ruhollah Chomejni
+	CivDesc=Iran-Pakistan
+	CivShortDesc=TXT_KEY_CIV_WW2_PERSIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_PERSIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/persia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_IRAN_PAKISTAN
+	Color=PLAYERCOLOR_DARK_INDIGO_AND_WHITE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=10, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=15
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_MEXICO
+	LeaderName=Leadr of Mexico
+	CivDesc=TXT_KEY_CIV_WW2_MEXICO_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_MEXICO_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_MEXICO_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/mexico.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_MEXICO
+	Color=PLAYERCOLOR_MIDDLE_CYAN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=17, StartingY=21
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=16
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_GRACE
+	LeaderName=Konstantinos Tsatsos
+	CivDesc=TXT_KEY_CIV_WW2_GREECE_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_GREECE_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_GREECE_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/greece.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_GREECE
+	Color=PLAYERCOLOR_LIGHT_BLUE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=17
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_CANADA
+	LeaderName=Pierre Trudeau
+	CivDesc=Canada
+	CivShortDesc=Canada
+	CivAdjective=TXT_KEY_CIV_WW2_CANADA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/canada.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_CANADA
+	Color=PLAYERCOLOR_MIDDLE_PURPLE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=6, StartingY=28
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_SOCIAL_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=18
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_TITO_YUGOSLAVIA
+	LeaderName=Josip Broz Tito
+	CivDesc=Sweicerland-Austria
+	CivShortDesc=Yugoslavia
+	CivAdjective=TXT_KEY_CIV_WW2_YUGOSLAVIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/yugoslavia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_YUGOSLAVIA
+	Color=PLAYERCOLOR_LIGHT_BROWN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=10, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_GOMULKACOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ATHEISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=19
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_ANGOLA
+	LeaderName=Agostinho Neto
+	CivDesc=Angola
+	CivShortDesc=Angola
+	CivAdjective=_
+	FlagDecal=Art/Interface/TeamColor/angola.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_ANGOLA
+	Color=PLAYERCOLOR_LIGHT_PURPLE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=50, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_MAOCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=20
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_TANGANIKA
+	LeaderName=Tanzania Leader
+	CivDesc=Tanzania
+	CivShortDesc=Tanzania
+	CivAdjective=_
+	FlagDecal=Art/Interface/TeamColor/tanzania.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_TANGANIKA
+	Color=PLAYERCOLOR_PINK
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=21
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_ALGIER
+	LeaderName=Rabah Bitat
+	CivDesc=Algieria-Maroco
+	CivShortDesc=Algieria-Maroco
+	CivAdjective=_
+	FlagDecal=Art/Interface/TeamColor/algmaro.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_ALGIERMAROCO
+	Color=PLAYERCOLOR_CYAN_AND_GRAY
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=43, StartingY=21
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=22
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_MALYINDONEZIA
+	LeaderName=Leadr of Malaysia-Indonesia
+	CivDesc=Indonesia-Malaysia
+	CivShortDesc=Indonesia-Malaysia
+	CivAdjective=TXT_KEY_CIV_WW2_PHILIPPINES_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/malezjaindonezja.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_INDONESIA
+	Color=PLAYERCOLOR_GREEN_AND_WHITE
+	ArtStyle=ARTSTYLE_ASIAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=21
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=23
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_HOCHIMIN_VIETNAM
+	LeaderName=Ho Chi Minh
+	CivDesc=Vietnam
+	CivShortDesc=Vietnam
+	CivAdjective=TXT_KEY_CIV_WW2_PHILIPPINES_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/vietnam.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_VIETNAM
+	Color=PLAYERCOLOR_DARK_PURPLE
+	ArtStyle=ARTSTYLE_ASIAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=42, StartingY=27
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_POLPOTCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ATHEISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=24
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CHINESE_LEADER_CW_JIANG
+	LeaderName=Jiang Zemin
+	CivDesc=People's Republic of China
+	CivShortDesc=China
+	CivAdjective=TXT_KEY_CIV_WW2_CHINA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/china.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_CHINA
+	Color=PLAYERCOLOR_DARK_RED
+	ArtStyle=ARTSTYLE_ASIAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=10, StartingY=6
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_MAOCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ATHEISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=25
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_FAISAL
+	LeaderName=Faisal
+	CivDesc=Saudi Arabia
+	CivShortDesc=Saudi Arabia
+	CivAdjective=TXT_KEY_CIV_WW2_ARABIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/arabia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_ARABIA
+	Color=PLAYERCOLOR_BLACK_AND_GREEN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=26
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_KADAFI
+	LeaderName=Kadafi
+	CivDesc=Libya
+	CivShortDesc=Libya
+	CivAdjective=TXT_KEY_CIV_WW2_ARABIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/libya.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_LIBYA
+	Color=PLAYERCOLOR_DARK_GREEN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=24, StartingY=18
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=27
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_NASER_EGYPT
+	LeaderName=Nasser
+	CivDesc=Egypt
+	CivShortDesc=Egypt
+	CivAdjective=TXT_KEY_CIV_WW2_ARABIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/egypt.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_EGYPT
+	Color=PLAYERCOLOR_LIGHT_YELLOW
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=15
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=28
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_TURKEY
+	LeaderName=Cemal Gursel
+	CivDesc=TXT_KEY_CIV_WW2_TURKEY_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_TURKEY_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_TURKEY_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/turkey.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_TURKEY
+	Color=PLAYERCOLOR_DARK_CYAN_AND_LEMON
+	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ISLAM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=29
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_MALINIGER
+	LeaderName=Leadr of Mali-Niger
+	CivDesc=Niger-Mali
+	CivShortDesc=Niger-Mali
+	CivAdjective=TXT_KEY_CIV_MALI_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/nigermali.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_NIGER_MALI
+	Color=PLAYERCOLOR_GREEN_AND_BLACK
+	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=20, StartingY=3
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=30
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_JAPAN_CW
+	LeaderName=Chung Il-kwon
+	CivDesc=Japan-Korea
+	CivShortDesc=TXT_KEY_CIV_WW2_JAPAN_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_JAPAN_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Dot.dds
+	WhiteFlag=0
+	CivType=CIVILIZATION_WW2_JAPAN
+	Color=PLAYERCOLOR_GOLD_AND_BLACK
+	ArtStyle=ARTSTYLE_ASIAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=40, StartingY=13
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_ATHEISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=31
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_NORWAY
+	LeaderName=Lars Korvald
+	CivDesc=TXT_KEY_CIV_WW2_SCANDINAVIA_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_SCANDINAVIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_SCANDINAVIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/scandinavia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_SCANDINAVIA
+	Color=PLAYERCOLOR_RED_AND_GOLD
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=47, StartingY=21
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_SOCIAL_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=32
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_AUSTRALIA
+	LeaderName=William McMahon
+	CivDesc=TXT_KEY_CIV_WW2_AUSTRALIA_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_AUSTRALIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_AUSTRALIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/oz.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_AUSTRALIA
+	Color=PLAYERCOLOR_DARK_BLUE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=16, StartingY=16
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=33
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_BRAZIL
+	LeaderName=Tancredo Neves
+	CivDesc=Brazil
+	CivShortDesc=Brazil
+	CivAdjective=TXT_KEY_CIV_WW2_BRAZIL_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/brazil.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_BRAZIL
+	Color=PLAYERCOLOR_DARK_INDIGO
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=15
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=34
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_PERUCOLUMBIA
+	LeaderName=Leadr of Peru-Columbia
+	CivDesc=Peru-Columbia
+	CivShortDesc=Peru-Columbia
+	CivAdjective=TXT_KEY_CIV_WW2_BRAZIL_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/perucolumbia.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_PERUCOLUMBIA
+	Color=PLAYERCOLOR_DARK_DARK_GREEN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=35
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_ITALY
+	LeaderName=Amintore Fanfani
+	CivDesc=TXT_KEY_CIV_WW2_ITALY_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_ITALY_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_ITALY_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/italy.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_ITALY
+	Color=PLAYERCOLOR_DARK_ORANGE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=47, StartingY=12
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=36
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_BRITAIN
+	LeaderName=Margaret Thatcher
+	CivDesc=TXT_KEY_CIV_WW2_ENGLAND_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_ENGLAND_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_ENGLAND_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/england.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_ENGLAND
+	Color=PLAYERCOLOR_WHITE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=16, StartingY=27
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=37
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_FRANCE
+	LeaderName=Charles de Gaulles
+	CivDesc=TXT_KEY_CIV_WW2_FRANCE_DESC
+	CivShortDesc=TXT_KEY_CIV_WW2_FRANCE_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_FRANCE_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/france.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_FRANCE
+	Color=PLAYERCOLOR_MIDDLE_BLUE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=18, StartingY=9
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=38
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_CASTRO
+	LeaderName=Fidel Castro
+	CivDesc=Cuba
+	CivShortDesc=Cuba
+	CivAdjective=TXT_KEY_CIV_WW2_CENTRAL_AMERICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/central_america.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_CENTRAL_AMERICA
+	Color=PLAYERCOLOR_MIDDLE_GREEN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=34, StartingY=2
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_MAOCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_SOVIET_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_NO_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_COMMUNISM_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=39
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_SWEDEN
+	LeaderName=Leader of Sweden-Finland
+	CivDesc=Sweden-Finland
+	CivShortDesc=TXT_KEY_CIV_WW2_SWEDEN_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_WW2_SWEDEN_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/sweden.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_SWEDEN
+	Color=PLAYERCOLOR_DARK_GRAY
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=40, StartingY=13
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_NEUTRAL_PLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_SOCIAL_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THREE_SIDE
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=40
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_CHILE_PINOCHET
+	LeaderName=Augusto Pinochet
+	CivDesc=Argentina-Chile
+	CivShortDesc=Argentina-Chile
+	CivAdjective=TXT_KEY_CIV_WW2_SOUTH_AMERICA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/chileargent.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_WW2_SOUTH_AMERICA
+	Color=PLAYERCOLOR_LIGHT_ORANGE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=9, StartingY=15
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_KEYNESIAN_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_CHRISTIAN
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
 	Team=41
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
+	LeaderType=LEADER_CW_ISRAEL
+	LeaderName=Dawid Ben Gurion
+	CivDesc=Israel
+	CivShortDesc=Israel
+	CivAdjective=
+	FlagDecal=Art/Interface/TeamColor/izrael.dds
+	WhiteFlag=1
+	CivType=CIVILIZATION_CW_IZRAEL
+	Color=PLAYERCOLOR_DARK_CYAN
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=0
+	StartingX=47, StartingY=21
+	StateReligion=
+	StartingEra=ERA_INDUSTRIAL
+	RandomStartLocation=false
+	CivicOption=CIVICOPTION_SIDE, Civic=CIVIC_NONCOMMUNISM
+	CivicOption=CIVICOPTION_STATUS, Civic=CIVIC_ACTIVEPLAYER
+	CivicOption=CIVICOPTION_CAPITALISM, Civic=CIVIC_MARKET_CAPITALISM
+	CivicOption=CIVICOPTION_COMMUNISM, Civic=CIVIC_JUDAISM
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEMOCRATIC
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer

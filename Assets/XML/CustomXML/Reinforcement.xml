@@ -1,0 +1,54 @@
+################################### Reinforcement Script ##########################################
+## Modified by Platyping
+##
+## Change Reinforcement.loadEvents("Mods/ReinforcementScript/Assets/XML/CustomXML/Reinforcement.xml") in CvEventManager
+## to point to correct location after merging to own mods
+##
+## <Owner> Specific Civilization or Specific Leader
+## <iDate> "NONE" to ignore, "-" to represent BC
+## <iTurn> "-1" to ignore, <iTurn> overwrites <iDate>
+## <sTriggerMap> Specific Map to Trigger
+## <sIgnoreMap> Specific Map to Ignore
+##
+## <Type>	Unit Type or Unit Class Type
+## <LeaderUnit>	Unit Type or Unit Class Type
+## <iQuantity>
+## <iPlotX>
+## <iPlotY>
+## <bCapital>	Spawns at Capital, Overwrites <iPlotX> and </iPlotY>
+## <sName>
+## <iLevel>
+## <iExperience>
+## <iImmobile>	Number of Immobile Turns
+## <iDamage>	% Damage
+## <Promotion>	List of Promotions
+## <Message>	"NONE" to ignore, Adds a pop up for Human Player
+##
+###############################################################################################
+
+<SkriptInfo>
+		<Event>
+			<Owner>CIVILIZATION_WW2_FRANCE</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>2</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			<Units>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>1</iQuantity>
+					<bCapital>1</bCapital>
+					<iPlotX>1</iPlotX>
+					<iPlotY>1</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			<Message>NONE</Message>
+		</Event>		
+</SkriptInfo>

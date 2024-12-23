@@ -100,6 +100,10 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
 					<TechType>TECH_DEMOCRACY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
@@ -107,8 +111,65 @@
 					<TechType>TECH_CAPITALISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -214,15 +275,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -312,8 +434,73 @@
 					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_STALINCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -377,15 +564,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -441,15 +689,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -505,15 +814,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -569,15 +939,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -633,15 +1064,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -697,15 +1189,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -761,15 +1314,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_MAOCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -918,15 +1532,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -1021,15 +1696,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_FASCISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -1050,7 +1786,7 @@
 		<CivilizationInfo>
 			<Type>CIVILIZATION_IRAN_PAKISTAN</Type>
 			<Description>Iran-Pakistan</Description>
-			<ShortDescription>TXT_KEY_CIV_WW2_PERSIA_SHORT_DESC</ShortDescription>
+			<ShortDescription>Iran-Pakistan</ShortDescription>
 			<Adjective>TXT_KEY_CIV_WW2_PERSIA_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_CIV_WW2_PEDIA</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_GREEN</DefaultPlayerColor>
@@ -1085,15 +1821,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -1141,11 +1938,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -1197,15 +2059,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -1253,15 +2176,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -1317,15 +2301,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_GOMULKACOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -1381,15 +2426,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_MAOCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -1445,15 +2551,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -1510,15 +2677,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -1613,15 +2841,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -1677,15 +2966,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_POLPOTCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -1781,15 +3131,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_MAOCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -1888,15 +3299,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -1960,15 +3432,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2079,15 +3612,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2182,15 +3776,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2272,15 +3927,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -2376,20 +4092,81 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
 				<CivicType>CIVIC_MARKET_CAPITALISM</CivicType>
-				<CivicType>CIVIC_CHRISTIAN</CivicType>
+				<CivicType>CIVIC_ATHEISM</CivicType>
 				<CivicType>CIVIC_DEMOCRATIC</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2483,15 +4260,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2586,15 +4424,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2642,15 +4541,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -2698,15 +4658,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -2796,8 +4817,73 @@
 					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_GOMULKACOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -2990,15 +5076,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -3094,15 +5241,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -3198,15 +5406,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -3262,15 +5531,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_COMMUNISM</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_ATHEISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_PROSOVIET</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_MAOCOMMUNISM</CivicType>
 				<CivicType>CIVIC_SOVIET_PLAYER</CivicType>
@@ -3356,8 +5686,77 @@
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
 			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUMAN_CIV</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>				
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_NEUTRAL_PLAYER</CivicType>
@@ -3414,15 +5813,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_FASCISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -3485,15 +5945,76 @@
 			</FreeBuildingClasses>
 			<FreeTechs>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_HUMAN_CIV</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 				<FreeTech>
-					<TechType>NONE</TechType>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
 					<bFreeTech>1</bFreeTech>
 				</FreeTech>
 			</FreeTechs>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
@@ -3712,7 +6233,72 @@
 			<FreeUnitClasses/>
 			<FreeBuildingClasses/>
 			<FreeTechs/>
-			<DisableTechs/>
+			<DisableTechs>
+				<DisableTech>
+					<TechType>TECH_EXP</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_START</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_JUDAISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ISLAM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ATHEISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CHRISTIANITY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_CAPITALISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_COMMUNISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_DEMOCRACY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_PROSOVIET</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_THREEWORDCOUNTRY</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_FASCISM</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_ACTIVE_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_SECOND_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_NEUTRAL_PLAYER</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+				<DisableTech>
+					<TechType>TECH_GORM_FOLKS</TechType>
+					<bDisableTech>1</bDisableTech>
+				</DisableTech>
+			</DisableTechs>
 			<InitialCivics>
 				<CivicType>CIVIC_NONCOMMUNISM</CivicType>
 				<CivicType>CIVIC_ACTIVEPLAYER</CivicType>
