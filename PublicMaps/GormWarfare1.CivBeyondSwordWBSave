@@ -32,7 +32,7 @@ BeginGame
 	TargetScore=0
 	StartYear=1945
 	Description=
-	ModPath=GormRevolutin
+	ModPath=GormRevolution
 EndGame
 BeginTeam
 	TeamID=0

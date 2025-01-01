@@ -21,15 +21,26 @@ import CvWorldBuilderScreen
 import CvAdvisorUtils
 import CvTechChooser
 
+import pickle
+
 ## Reinforcement Script ##
 import Reinforcement
 ## Reinforcement Script ##
+
+## GORM ##
+import Gormutility
+from CustomScriptData import csd
+
+## GORM ##
+
+GORM = Gormutility
+
 
 gc = CyGlobalContext()
 localText = CyTranslator()
 PyPlayer = PyHelpers.PyPlayer
 PyInfo = PyHelpers.PyInfo
-
+game = CyGame()
 
 # globals
 ###################################################
@@ -175,6 +186,10 @@ class CvEventManager:
 			CvUtil.EventWBScriptPopup : ('WBScriptPopup', self.__eventWBScriptPopupApply, self.__eventWBScriptPopupBegin),
 			CvUtil.EventWBStartYearPopup : ('WBStartYearPopup', self.__eventWBStartYearPopupApply, self.__eventWBStartYearPopupBegin),
 			CvUtil.EventShowWonder: ('ShowWonder', self.__eventShowWonderApply, self.__eventShowWonderBegin),
+### Cold War Events ###
+			CvUtil.EventCWstartPopup : ('CW Escalation choice', self.CWEscalationChooseD, self.CWEscalationChoose),
+			CvUtil.EventCWwarYearPopup : ('CW War Year choice', self.CWWarYearChooseD, self.CWWarYearChoose),
+### Cold War Events ###
 		}	
 #################### EVENT STARTERS ######################
 	def handleEvent(self, argsList):
@@ -326,15 +341,39 @@ class CvEventManager:
 	def onLoadGame(self, argsList):
 		CvAdvisorUtils.resetNoLiberateCities()
 ## Reinforcement Script ##
-		Reinforcement.loadEvents("Mods/GormRevolutin/Assets/XML/CustomXML/Reinforcement.xml")
+		Reinforcement.loadEvents("Mods/GormRevolution/Assets/XML/CustomXML/Reinforcement.xml")
 ## Reinforcement Script ##
+## GORM ##
+		
+## GORM ##
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 ## Reinforcement Script ##
-		Reinforcement.loadEvents("Mods/GormRevolutin/Assets/XML/CustomXML/Reinforcement.xml")
+		Reinforcement.loadEvents("Mods/GormRevolution/Assets/XML/CustomXML/Reinforcement.xml")
 ## Reinforcement Script ##
+
+## GORM ##
+#		if (not gc.getGame().isPbem()):
+#			GORM.Escalation(self, argsList)
+		for iPlayer in range(gc.getMAX_PLAYERS()):
+			player = gc.getPlayer(iPlayer)
+			if (player.isAlive() and player.isHuman()):
+				count = 0
+				if (player.isAlive() and player.isHuman() and count == 0):
+					count = 1
+					GORM.Escalation(self, argsList)
+					GORM.WarYear(self, argsList)
+					
+			if (gc.getGame().isPbem()):
+				count = 0
+				if (player.isAlive() and player.isHuman() and count == 0):
+					count = 1
+					GORM.Escalation(self, argsList)
+					GORM.WarYear(self, argsList)
+## GORM ##
+
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):
 				player = gc.getPlayer(iPlayer)
@@ -374,11 +413,273 @@ class CvEventManager:
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
+		self.WarYear = csd.get(game, "self.EscalationLEVEL")
+		self.EscalationLEVEL = csd.get(game, "self.WarYear")
+#		if iGameTurn == 1:
+			
+#		if iGameTurn == 2:
+#			if (self.EscalationLEVEL == 0):
+#				self.pUSSRTEAM = gc.getTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+#				self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+#			if (self.EscalationLEVEL > 0):
+#				self.pUSSRTEAM = gc.getTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+#				self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+#				self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(5)).getTeam())
+		if iGameTurn == 11:
+			gc.getTeam(gc.getPlayer(GORM.Country(12)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.PkisIndiI()
+		if iGameTurn == 12:
+			self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+			GORM.EWGstart()
+		if iGameTurn == 15:
+			gc.getTeam(gc.getPlayer(GORM.Country(12)).getTeam()).makePeace(GORM.Country(14))
+		if iGameTurn == 26:
+			gc.getTeam(gc.getPlayer(GORM.Country(30)).getTeam()).declareWar(GORM.Country(24), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.KoreaWar()
+		if iGameTurn == 34:
+			gc.getTeam(gc.getPlayer(GORM.Country(30)).getTeam()).makePeace(GORM.Country(24))
+			if self.WarYear == 0:
+				self.pUSSRTEAM = gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam())
+				self.pNATO = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+				gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(4), false, WarPlanTypes.WARPLAN_TOTAL)
+				if (self.EscalationLEVEL == 0):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+
+				if (self.EscalationLEVEL == 1):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+
+				if (self.EscalationLEVEL == 2):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(32)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(41)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+
+		if iGameTurn == 36:
+			gc.getTeam(gc.getPlayer(GORM.Country(23)).getTeam()).declareWar(GORM.Country(4), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.WARinIndoChina()
+		if iGameTurn == 38:
+			gc.getTeam(gc.getPlayer(GORM.Country(23)).getTeam()).makePeace(GORM.Country(4))
+			
+		if iGameTurn == 62:
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).declareWar(GORM.Country(29), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).declareWar(GORM.Country(7), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).declareWar(GORM.Country(6), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).declareWar(GORM.Country(6), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).declareWar(GORM.Country(20), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).declareWar(GORM.Country(9), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).declareWar(GORM.Country(5), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).declareWar(GORM.Country(10), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).declareWar(GORM.Country(21), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.decoloniztion()
+		if iGameTurn == 65:
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).makePeace(GORM.Country(29))
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).makePeace(GORM.Country(7))
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).makePeace(GORM.Country(6))
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).makePeace(GORM.Country(6))
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).makePeace(GORM.Country(20))
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).makePeace(GORM.Country(9))
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).makePeace(GORM.Country(5))
+			gc.getTeam(gc.getPlayer(GORM.Country(37)).getTeam()).makePeace(GORM.Country(10))
+			gc.getTeam(gc.getPlayer(GORM.Country(38)).getTeam()).makePeace(GORM.Country(21))
+			GORM.LandinginCuba()
+			if self.WarYear == 1:
+				self.pUSSRTEAM = gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam())
+				self.pNATO = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+				gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(4), false, WarPlanTypes.WARPLAN_TOTAL)
+				if (self.EscalationLEVEL == 0):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+
+				if (self.EscalationLEVEL == 1):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(42)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+
+				if (self.EscalationLEVEL == 2):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(38)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(32)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(42)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(41)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(25)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(27)).getTeam())
+		if iGameTurn == 72:
+			gc.getTeam(gc.getPlayer(GORM.Country(3)).getTeam()).declareWar(GORM.Country(23), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.VietnamWar()
+
+		if iGameTurn == 81:
+			gc.getTeam(gc.getPlayer(GORM.Country(12)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.PkisIndiII()
+
+		if iGameTurn == 83:
+			gc.getTeam(gc.getPlayer(GORM.Country(12)).getTeam()).makePeace(GORM.Country(14))
+
+		if iGameTurn == 93:
+			GORM.czechSpring()
+
+		if iGameTurn == 112:
+			self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+
+		if iGameTurn == 121:
+			gc.getTeam(gc.getPlayer(GORM.Country(3)).getTeam()).makePeace(GORM.Country(23))
+			GORM.VietnamWarEND()
+			GORM.ANOLGAmozbiqueIndependent()
+			gc.getTeam(gc.getPlayer(GORM.Country(13)).getTeam()).declareWar(GORM.Country(8), false, WarPlanTypes.WARPLAN_TOTAL)
+			gc.getTeam(gc.getPlayer(GORM.Country(13)).getTeam()).declareWar(GORM.Country(19), false, WarPlanTypes.WARPLAN_TOTAL)
+
+			if self.WarYear == 2:
+				self.pUSSRTEAM = gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam())
+				self.pNATO = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+				gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(4), false, WarPlanTypes.WARPLAN_TOTAL)
+				if (self.EscalationLEVEL == 0):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+
+				if (self.EscalationLEVEL == 1):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(42)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+
+				if (self.EscalationLEVEL == 2):
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
+					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(32)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(42)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(41)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(39)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(25)).getTeam())
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(27)).getTeam())
+					
+		if iGameTurn == 123:
+			gc.getTeam(gc.getPlayer(GORM.Country(13)).getTeam()).makePeace(GORM.Country(8))
+			gc.getTeam(gc.getPlayer(GORM.Country(13)).getTeam()).makePeace(GORM.Country(19))
+		if iGameTurn == 130:
+			if self.WarYear == 2:
+				if (self.EscalationLEVEL == 2):
+					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(8)).getTeam())
+		if iGameTurn == 139:
+			gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
+			SovietAghanWar()
+		if iGameTurn == 144:
+			self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
+		if iGameTurn == 149:
+			gc.getTeam(gc.getPlayer(GORM.Country(41)).getTeam()).declareWar(GORM.Country(37), false, WarPlanTypes.WARPLAN_TOTAL)
+			GORM.WarofFaklands()
+		if iGameTurn == 150:
+			gc.getTeam(gc.getPlayer(GORM.Country(41)).getTeam()).makePeace(GORM.Country(37))
+		if iGameTurn == 139:
+			gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
+			SovietAghanWar()
+		if iGameTurn == 164:
+			self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
+			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
+		if iGameTurn == 176:
+			gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).makePeace(GORM.Country(14))
+		
 
 	def onEndGameTurn(self, argsList):
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
-		
+## Reinforcement Script ##
+		Reinforcement.triggerEvents(iGameTurn)
+## Reinforcement Script ##
+
+
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -1090,3 +1391,21 @@ class CvEventManager:
 		iStartYear = popupReturn.getSpinnerWidgetValue(int(0))
 		CvScreensInterface.getWorldBuilderScreen().setStartYearCB(iStartYear)
 		return
+
+#################### Cold War Events ##################
+	def CWEscalationChoose(self, argsList):
+		GORM.Escalation(self, argsList)
+		return
+
+	def CWEscalationChooseD(self, playerID, userData, popupReturn):
+		GORM.EscalationCLICKED(self, playerID, userData, popupReturn)
+		return
+
+	def CWWarYearChoose(self, argsList):
+		GORM.WarYear(self, argsList)
+		return
+
+	def CWWarYearChooseD(self, playerID, userData, popupReturn):
+		GORM.WarYearCLICKED(self, playerID, userData, popupReturn)
+		return
+#################### GORM Events ##################

@@ -4749,8 +4749,8 @@
 			<Type>CIVILIZATION_WARSAW_PACT</Type>
 			<Description>Warsaw Pact</Description>
 			<ShortDescription>Warsaw Pact</ShortDescription>
-			<Adjective>_</Adjective>
-			<Civilopedia>_</Civilopedia>
+			<Adjective>Warsaw Pact</Adjective>
+			<Civilopedia>Warsaw Pact</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_DARK_PINK</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_WARSAWPACT</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_KISLEV</ArtStyleType>
