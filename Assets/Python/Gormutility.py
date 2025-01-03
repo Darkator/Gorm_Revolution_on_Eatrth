@@ -28,6 +28,33 @@ game = CyGame()
 
 
 #################### GORM CW STAFF ##################
+def JomKippurWar():
+    popup = PyPopup.PyPopup(-1)
+    szTitle = localText.getText("Jom Kippur War", ())
+    szText = localText.getText("Jom Kippur War", ())
+    popup.setHeaderString(szTitle)
+    popup.addSeparator()
+    popup.setBodyString(szText)
+    popup.launch()
+
+def sixdaywar():
+    popup = PyPopup.PyPopup(-1)
+    szTitle = localText.getText("Six day war", ())
+    szText = localText.getText("Six day war", ())
+    popup.setHeaderString(szTitle)
+    popup.addSeparator()
+    popup.setBodyString(szText)
+    popup.launch()
+
+def SynajWar():
+    popup = PyPopup.PyPopup(-1)
+    szTitle = localText.getText("Israel army attacking Synai", ())
+    szText = localText.getText("Israel army attacking Synai", ())
+    popup.setHeaderString(szTitle)
+    popup.addSeparator()
+    popup.setBodyString(szText)
+    popup.launch()
+
 def ANOLGAmozbiqueIndependent():
     popup = PyPopup.PyPopup(-1)
     szTitle = localText.getText("Angola and Mozabique", ())
@@ -75,7 +102,7 @@ def VietnamWarEND():
 
 def PkisIndiII():
     popup = PyPopup.PyPopup(-1)
-    szTitle = localText.getText("Indo–Pakistani II", ())
+    szTitle = localText.getText("Indo Paskistan war II", ())
     szText = localText.getText("Indo–Pakistani war of 1965", ())
     popup.setHeaderString(szTitle)
     popup.addSeparator()
@@ -84,7 +111,7 @@ def PkisIndiII():
 
 def PkisIndiI():
     popup = PyPopup.PyPopup(-1)
-    szTitle = localText.getText("Indo-Pakistani I", ())
+    szTitle = localText.getText("Indo Paskistan war I", ())
     szText = localText.getText("Indo-Pakistani war of 1947", ())
     popup.setHeaderString(szTitle)
     popup.addSeparator()
@@ -159,16 +186,16 @@ def Escalation(self, argsList):
     popup.launch(False)
 
 def EscalationCLICKED(self, playerID, netUserData, popupReturn):
-                autoIdx = popupReturn.getButtonClicked()
-                if(autoIdx == 0):
-                        self.EscalationLEVEL = 0 # True events
-                        csd.set(game, "self.EscalationLEVEL", 0)
-                elif(autoIdx == 1):
-                        self.EscalationLEVEL = 1 # Rand events
-                        csd.set(game, "self.EscalationLEVEL", 1)
-                elif(autoIdx == 2):
-                        self.EscalationLEVEL = 2 # No events
-                        csd.set(game, "self.EscalationLEVEL", 2)
+    autoIdx = popupReturn.getButtonClicked()
+    if(autoIdx == 0):
+            self.EscalationLEVEL = 0 # True events
+            csd.set(game, "self.EscalationLEVEL", 0)
+    elif(autoIdx == 1):
+            self.EscalationLEVEL = 1 # Rand events
+            csd.set(game, "self.EscalationLEVEL", 1)
+    elif(autoIdx == 2):
+            self.EscalationLEVEL = 2 # No events
+            csd.set(game, "self.EscalationLEVEL", 2)
                 
                 
 def WarYear(self, argsList):
@@ -185,16 +212,16 @@ def WarYear(self, argsList):
     popup.launch(False)
 
 def WarYearCLICKED(self, playerID, netUserData, popupReturn):
-                autoIdx = popupReturn.getButtonClicked()
-                if(autoIdx == 0):
-                        self.WarYear = 0 # 50s
-                        csd.set(game, "self.WarYear", 0)
-                elif(autoIdx == 1):
-                        self.WarYear = 1 # 60s
-                        csd.set(game, "self.WarYear", 1)
-                elif(autoIdx == 2):
-                        self.WarYear = 2 # 70s
-                        csd.set(game, "self.WarYear", 2)
+    autoIdx = popupReturn.getButtonClicked()
+    if(autoIdx == 0):
+            self.WarYear = 0 # 50s
+            csd.set(game, "self.WarYear", 0)
+    elif(autoIdx == 1):
+            self.WarYear = 1 # 60s
+            csd.set(game, "self.WarYear", 1)
+    elif(autoIdx == 2):
+            self.WarYear = 2 # 70s
+            csd.set(game, "self.WarYear", 2)
                 
                 
 def Country(pCountry):

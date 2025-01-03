@@ -102,14 +102,14 @@
 		<Event>
 			<Owner>CIVILIZATION_NIGER_MALI</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>52</iPlotX>
 					<iPlotY>41</iPlotY>
@@ -123,7 +123,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>53</iPlotX>
 					<iPlotY>38</iPlotY>
@@ -137,7 +137,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>56</iPlotX>
 					<iPlotY>41</iPlotY>
@@ -151,7 +151,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>38</iPlotY>
@@ -165,7 +165,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>62</iPlotX>
 					<iPlotY>40</iPlotY>
@@ -179,7 +179,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>41</iPlotY>
@@ -193,7 +193,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>57</iPlotX>
 					<iPlotY>37</iPlotY>
@@ -210,14 +210,14 @@
 		<Event>
 			<Owner>CIVILIZATION_CW_KONGOGABON</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>63</iPlotX>
 					<iPlotY>36</iPlotY>
@@ -231,7 +231,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>63</iPlotX>
 					<iPlotY>34</iPlotY>
@@ -245,7 +245,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>63</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -262,14 +262,14 @@
 		<Event>
 			<Owner>CIVILIZATION_CW_DEMOKONGO</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>64</iPlotX>
 					<iPlotY>31</iPlotY>
@@ -283,7 +283,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>66</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -297,7 +297,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>68</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -311,7 +311,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>68</iPlotX>
 					<iPlotY>35</iPlotY>
@@ -325,7 +325,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>66</iPlotX>
 					<iPlotY>35</iPlotY>
@@ -339,7 +339,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>71</iPlotX>
 					<iPlotY>36</iPlotY>
@@ -356,14 +356,14 @@
 		<Event>
 			<Owner>CIVILIZATION_TANGANIKA</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>74</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -377,7 +377,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>73</iPlotX>
 					<iPlotY>35</iPlotY>
@@ -391,7 +391,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>71</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -408,14 +408,14 @@
 		<Event>
 			<Owner>CIVILIZATION_WW2_CZAD</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>66</iPlotX>
 					<iPlotY>42</iPlotY>
@@ -429,7 +429,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>15</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>65</iPlotX>
 					<iPlotY>39</iPlotY>
@@ -443,7 +443,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>67</iPlotX>
 					<iPlotY>40</iPlotY>
@@ -460,14 +460,14 @@
 		<Event>
 			<Owner>CIVILIZATION_CW_SUDAN</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>70</iPlotX>
 					<iPlotY>43</iPlotY>
@@ -481,7 +481,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>70</iPlotX>
 					<iPlotY>40</iPlotY>
@@ -498,14 +498,14 @@
 		<Event>
 			<Owner>CIVILIZATION_WW2_SOUTH_AFRICA</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>68</iPlotX>
 					<iPlotY>28</iPlotY>
@@ -519,10 +519,94 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>69</iPlotX>
 					<iPlotY>29</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>69</iPlotX>
+					<iPlotY>21</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>68</iPlotX>
+					<iPlotY>25</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>66</iPlotX>
+					<iPlotY>22</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>65</iPlotX>
+					<iPlotY>25</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>70</iPlotX>
+					<iPlotY>27</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>8</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>71</iPlotX>
+					<iPlotY>23</iPlotY>
 					<sName>NONE</sName>
 					<iLevel>1</iLevel>
 					<iExperience>0</iExperience>
@@ -536,14 +620,14 @@
 		<Event>
 			<Owner>CIVILIZATION_ALGIERMAROCO</Owner>
 			<iDate>NONE</iDate>
-			<iTurn>64</iTurn>
+			<iTurn>63</iTurn>
 			<sTriggerMap>NONE</sTriggerMap>
 			<sIgnoreMap>NONE</sIgnoreMap>
 			<Units>
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>56</iPlotX>
 					<iPlotY>48</iPlotY>
@@ -557,7 +641,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>58</iPlotX>
 					<iPlotY>45</iPlotY>
@@ -571,7 +655,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>45</iPlotY>
@@ -585,7 +669,7 @@
 				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>8</iQuantity>
+					<iQuantity>12</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>49</iPlotY>
@@ -713,6 +797,78 @@
 					<bCapital>0</bCapital>
 					<iPlotX>64</iPlotX>
 					<iPlotY>40</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_BARBARIAN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>47</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			<Units>
+				<Unit>
+					<Type>UNIT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>73</iPlotX>
+					<iPlotY>39</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_BARBARIAN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>90</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			<Units>
+				<Unit>
+					<Type>UNIT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>73</iPlotX>
+					<iPlotY>39</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_BARBARIAN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>115</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			<Units>
+				<Unit>
+					<Type>UNIT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>73</iPlotX>
+					<iPlotY>39</iPlotY>
 					<sName>NONE</sName>
 					<iLevel>1</iLevel>
 					<iExperience>0</iExperience>

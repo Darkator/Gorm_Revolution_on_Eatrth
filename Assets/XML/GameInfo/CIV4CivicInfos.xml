@@ -1740,8 +1740,8 @@
 			<CapitalYieldModifiers/>
 			<TradeYieldModifiers/>
 			<CommerceModifiers>
+				<iCommerce>30</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
 				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<CapitalCommerceModifiers/>

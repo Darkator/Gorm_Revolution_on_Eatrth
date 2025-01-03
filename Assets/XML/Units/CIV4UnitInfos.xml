@@ -17548,7 +17548,7 @@
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_ALUMINUM</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
@@ -18108,7 +18108,7 @@
 			<TechTypes/>
 			<BonusType>BONUS_OIL</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_ALUMINUM</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
@@ -18656,7 +18656,7 @@
 			<TechTypes/>
 			<BonusType>BONUS_OIL</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_ALUMINUM</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
@@ -20323,7 +20323,7 @@
 			<TechTypes/>
 			<BonusType>BONUS_OIL</BonusType>
 			<PrereqBonuses>
-				<BonusType>BONUS_ALUMINUM</BonusType>
+				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>
 				<BonusType>NONE</BonusType>

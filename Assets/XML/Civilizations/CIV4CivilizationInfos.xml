@@ -5908,7 +5908,7 @@
 			<Type>CIVILIZATION_CW_IZRAEL</Type>
 			<Description>Israel</Description>
 			<ShortDescription>Israel</ShortDescription>
-			<Adjective></Adjective>
+			<Adjective>Israel</Adjective>
 			<Civilopedia></Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_BLUE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_IZRAEL</ArtDefineTag>
