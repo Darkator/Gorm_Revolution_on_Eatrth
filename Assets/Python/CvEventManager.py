@@ -582,7 +582,7 @@ class CvEventManager:
 		if iGameTurn == 83:
 			gc.getTeam(gc.getPlayer(GORM.Country(12)).getTeam()).makePeace(GORM.Country(14))
 		if iGameTurn == 90:
-			sixdaywar()
+			GORM.sixdaywar()
 		if iGameTurn == 93:
 			GORM.czechSpring()
 
@@ -591,8 +591,8 @@ class CvEventManager:
 			self.pEUborn.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
 
 		if iGameTurn == 115:
-			JomKippurWar()
-			
+			GORM.JomKippurWar()
+
 		if iGameTurn == 121:
 			gc.getTeam(gc.getPlayer(GORM.Country(3)).getTeam()).makePeace(GORM.Country(23))
 			GORM.VietnamWarEND()
