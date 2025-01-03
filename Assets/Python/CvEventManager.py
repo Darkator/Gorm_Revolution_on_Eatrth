@@ -454,6 +454,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 
@@ -467,6 +468,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(17)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
@@ -484,6 +486,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(41)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
@@ -533,6 +536,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 
@@ -547,6 +551,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(42)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
@@ -565,6 +570,7 @@ class CvEventManager:
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(41)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(16)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(28)).getTeam())
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(2)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(24)).getTeam())
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(11)).getTeam())
@@ -607,7 +613,7 @@ class CvEventManager:
 				if (self.EscalationLEVEL == 0):
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
-					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
@@ -619,7 +625,7 @@ class CvEventManager:
 				if (self.EscalationLEVEL == 1):
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
-					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
@@ -635,7 +641,7 @@ class CvEventManager:
 				if (self.EscalationLEVEL == 2):
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(13)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(37)).getTeam())
-					
+					self.pNATO.addTeam(gc.getPlayer(GORM.Country(31)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(36)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(30)).getTeam())
 					self.pNATO.addTeam(gc.getPlayer(GORM.Country(3)).getTeam())
