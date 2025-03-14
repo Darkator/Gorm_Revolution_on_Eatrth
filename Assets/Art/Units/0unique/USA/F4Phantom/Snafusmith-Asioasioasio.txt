@@ -1,0 +1,5 @@
+This unit was created by Asioasioasio and Snafusmith.  If you use this unit in a published mod, please give credit.  The skin was heavily modified from one originally created by Sundowner @ the Combat Aces forums.
+
+Uses Jet Fighter animations, team color is not supported.
+
+-Smitty
