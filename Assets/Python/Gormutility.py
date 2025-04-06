@@ -479,5 +479,4 @@ def Country(pCountry):
             iTCountry = gc.getInfoTypeForString("CIVILIZATION_CW_IZRAEL")
             if pPlayer.getCivilizationType ()==iTCountry:
                 return iCivs
-    if iCivs == -1:
-        return
+    

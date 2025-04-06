@@ -2899,7 +2899,7 @@
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_CWADVANDEELECTRONIC</Type>
-			<Description>Advandced Eloctronic</Description>
+			<Description>Advandced Electronic</Description>
 			<Civilopedia>TXT_KEY_TECH_INDUSTRIALISM_PEDIA</Civilopedia>
 			<Help/>
 			<Strategy>TXT_KEY_TECH_INDUSTRIALISM_STRATEGY</Strategy>

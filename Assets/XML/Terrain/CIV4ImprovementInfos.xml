@@ -275,7 +275,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
@@ -607,7 +607,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWINDUSTRIALISM</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -615,7 +615,7 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWBIGMANFACTURE</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -684,7 +684,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_HVINDUSTRIALISMII</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -692,10 +692,10 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWBIGMANFACTURE</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 						<iYield>0</iYield>
 					</TechYields>
 				</TechYieldChange>
@@ -754,7 +754,7 @@
 			<TechYieldChanges/>
 			<RouteYieldChanges>
 				<RouteYieldChange>
-					<RouteType>NONE</RouteType>
+					<RouteType>ROUTE_RAILROAD</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -804,7 +804,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWINDUSTRIALISM</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -812,11 +812,11 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_INTERGATEDCURCUIT</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 					</TechYields>
 				</TechYieldChange>
 			</TechYieldChanges>
@@ -916,7 +916,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWINDUSTRIALISM</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -924,7 +924,7 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_INTERGATEDCURCUIT</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -1558,7 +1558,7 @@
 			<ImprovementUpgrade>IMPROVEMENT_TOWN</ImprovementUpgrade>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWCOMPUTER</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -1610,7 +1610,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>NONE</PrereqTech>
+					<PrereqTech>TECH_CWCOMPUTER</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>

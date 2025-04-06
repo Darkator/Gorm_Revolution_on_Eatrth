@@ -467,15 +467,6 @@
 			<DefaultUnit>UNIT_WORKBOAT</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_IRONCLAD</Type>
-			<Description>TXT_KEY_UNIT_IRONCLAD</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_IRONCLAD</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_TRANSPORT</Type>
 			<Description>TXT_KEY_UNIT_TRANSPORT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>

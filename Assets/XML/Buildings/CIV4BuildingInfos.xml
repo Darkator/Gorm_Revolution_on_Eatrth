@@ -583,7 +583,7 @@
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
 			<ObsoleteTech>NONE</ObsoleteTech>
-			<PrereqTech>TECH_HVINDUSTRIALISMII</PrereqTech>
+			<PrereqTech>TECH_HVINDUSTRIALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>

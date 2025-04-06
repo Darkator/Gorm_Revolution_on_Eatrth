@@ -3409,7 +3409,7 @@ BeginPlayer
 	CivShortDesc=TXT_KEY_CIV_WW2_JAPAN_SHORT_DESC
 	CivAdjective=TXT_KEY_CIV_WW2_JAPAN_ADJECTIVE
 	FlagDecal=Art/Interface/TeamColor/japanCW.dds
-	WhiteFlag=0
+	WhiteFlag=1
 	CivType=CIVILIZATION_WW2_JAPAN
 	Color=PLAYERCOLOR_GOLD_AND_BLACK
 	ArtStyle=ARTSTYLE_ASIAN
@@ -3697,7 +3697,7 @@ BeginPlayer
 	FlagDecal=Art/Interface/TeamColor/izrael.dds
 	WhiteFlag=1
 	CivType=CIVILIZATION_CW_IZRAEL
-	Color=PLAYERCOLOR_DARK_CYAN
+	Color=PLAYERCOLOR_BLUE
 	ArtStyle=ARTSTYLE_EUROPEAN
 	PlayableCiv=1
 	MinorNationStatus=0

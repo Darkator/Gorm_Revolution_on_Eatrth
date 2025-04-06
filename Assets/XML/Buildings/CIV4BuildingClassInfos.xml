@@ -367,21 +367,9 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_KREMLIN</Type>
-			<Description>TXT_KEY_BUILDING_KREMLIN</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_KREMLIN</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TAJ_MAHAL</Type>
 			<Description>TXT_KEY_BUILDING_TAJ_MAHAL</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
@@ -393,7 +381,7 @@
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WW2_PISA</Type>
 			<Description>TXT_KEY_BUILDING_WW2_PISA</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
@@ -405,7 +393,7 @@
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WW2_BIGBEN</Type>
 			<Description>TXT_KEY_BUILDING_WW2_BIGBEN</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
@@ -417,7 +405,7 @@
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GREAT_PALACE</Type>
 			<Description>TXT_KEY_BUILDING_GREAT_PALACE</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
@@ -429,7 +417,7 @@
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WW2_WHOUSE</Type>
 			<Description>TXT_KEY_BUILDING_WW2_WHOUSE</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
@@ -441,7 +429,7 @@
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CW_PCAS</Type>
 			<Description>Palace of Culture and Science</Description>
-			<iMaxGlobalInstances>0</iMaxGlobalInstances>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
