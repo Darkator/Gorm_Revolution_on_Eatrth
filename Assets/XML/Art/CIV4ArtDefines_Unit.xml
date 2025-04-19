@@ -14251,7 +14251,7 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_NAGMACHON</Type>
-			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,6,11</Button>
+			<Button>,Art/Interface/Buttons/Units/MechanizedInfantry.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,8</Button>
 			<fScale>0.43</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
@@ -14284,7 +14284,7 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ACHZARIT</Type>
-			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,6,11</Button>
+			<Button>,Art/Interface/Buttons/Units/MechanizedInfantry.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,8</Button>
 			<fScale>0.43</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
