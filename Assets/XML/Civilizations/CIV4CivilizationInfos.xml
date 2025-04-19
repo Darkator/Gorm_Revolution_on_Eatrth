@@ -2486,7 +2486,12 @@
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_WW2_AUSTRALIA1</City>
 			</Cities>
-			<Buildings/>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FUEL_RAFINERY</BuildingClassType>
+					<BuildingType>BUILDING_SYNTHETHIC_RAFINERY</BuildingType>
+				</Building>
+			</Buildings>
 			<Units/>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -3389,7 +3394,12 @@
 			<Cities>
 				<City>Hanoi</City>
 			</Cities>
-			<Buildings/>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FUEL_RAFINERY</BuildingClassType>
+					<BuildingType>BUILDING_SYNTHETHIC_RAFINERY</BuildingType>
+				</Building>
+			</Buildings>
 			<Units/>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -6151,6 +6161,18 @@
 					<UnitClassType>UNITCLASS_TANK_DESTROYER</UnitClassType>
 					<UnitType>UNIT_M10</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+					<UnitType>UNIT_CHAPRAL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATE_MOBILE_SAM</UnitClassType>
+					<UnitType>UNIT_ROLAND</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWLIGHT_TANK</UnitClassType>
+					<UnitType>UNIT_AMX10RC</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -6275,7 +6297,12 @@
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_HAWARA</City>
 			</Cities>
-			<Buildings/>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FUEL_RAFINERY</BuildingClassType>
+					<BuildingType>BUILDING_SYNTHETHIC_RAFINERY</BuildingType>
+				</Building>
+			</Buildings>
 			<Units/>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -6687,9 +6714,165 @@
 				<City>Tel-Awiw</City>
 				
 			</Cities>
-			<Buildings/>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FUEL_RAFINERY</BuildingClassType>
+					<BuildingType>BUILDING_SYNTHETHIC_RAFINERY</BuildingType>
+				</Building>
+			</Buildings>
 			<Units>
-				
+				<Unit>
+					<UnitClassType>UNITCLASS_TANK_DESTROYER</UnitClassType>
+					<UnitType>UNIT_M10</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PREAPC</UnitClassType>
+					<UnitType>UNIT_HALFTTRACK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+					<UnitType>UNIT_METOER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TRANSPORT_GUNSHIP</UnitClassType>
+					<UnitType>UNIT_CH47</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SP_FIGHTER</UnitClassType>
+					<UnitType>UNIT_SPITFIREMK24</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TANK</UnitClassType>
+					<UnitType>UNIT_M51</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANKIIGEN</UnitClassType>
+					<UnitType>UNIT_MERKAVA</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANKIIIGEN</UnitClassType>
+					<UnitType>UNIT_MERKAVAMK3</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANK</UnitClassType>
+					<UnitType>UNIT_CENTURION</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+					<UnitType>UNIT_S199</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWSPH</UnitClassType>
+					<UnitType>UNIT_M109</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LCWAGUNSHIP</UnitClassType>
+					<UnitType>UNIT_AH64</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATE_GUNSHIP</UnitClassType>
+					<UnitType>UNIT_UH60</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CWAPC</UnitClassType>
+					<UnitType>UNIT_NAGMASHOT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IFV</UnitClassType>
+					<UnitType>UNIT_NAGMACHON</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GUNSHIP</UnitClassType>
+					<UnitType>UNIT_HUEY</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EARLY_JET_FIGHTER</UnitClassType>
+					<UnitType>UNIT_OURAGAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EARLY_CV_JET_FIGHTER</UnitClassType>
+					<UnitType>UNIT_SEA_METEOR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EARLYCW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_VAUTOUR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_JETCAS</UnitClassType>
+					<UnitType>UNIT_A4E</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_AGUNSHIP</UnitClassType>
+					<UnitType>UNIT_AH1</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CWSPH</UnitClassType>
+					<UnitType>UNIT_M108</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CWTD</UnitClassType>
+					<UnitType>UNIT_PEREH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_LATE_ROCKET_SPA</UnitClassType>
+					<UnitType>UNIT_MRLS270</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATE_MOBILE_SAM</UnitClassType>
+					<UnitType>UNIT_PATRIOT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWLIGHT_TANK</UnitClassType>
+					<UnitType>UNIT_GAL_BATASH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW1LIGHT_TANK</UnitClassType>
+					<UnitType>UNIT_MAGAH3</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WW2_CASCV</UnitClassType>
+					<UnitType>UNIT_A1SKY</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWAPC</UnitClassType>
+					<UnitType>UNIT_ACHZARIT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EARLYAPC</UnitClassType>
+					<UnitType>UNIT_M113</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CWAPC</UnitClassType>
+					<UnitType>UNIT_NAGMASHOT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IV_BOMBERFIGHTER</UnitClassType>
+					<UnitType>UNIT_F16BARAK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IV_INTER_FIGHTER</UnitClassType>
+					<UnitType>UNIT_F15</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IV_FIGHTER</UnitClassType>
+					<UnitType>UNIT_F16</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_III_INTER_FIGHTER</UnitClassType>
+					<UnitType>UNIT_F4</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_II_BOMBERFIGHTER</UnitClassType>
+					<UnitType>UNIT_MIRAGE5F</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_II_INTER_FIGHTER</UnitClassType>
+					<UnitType>UNIT_MIRAGEIIIC</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_I_FIGHTER</UnitClassType>
+					<UnitType>UNIT_MYSTERE</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>

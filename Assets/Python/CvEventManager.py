@@ -681,7 +681,7 @@ class CvEventManager:
 					self.pUSSRTEAM.addTeam(gc.getPlayer(GORM.Country(8)).getTeam())
 		if iGameTurn == 139:
 			gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
-			SovietAghanWar()
+			GORM.SovietAghanWar()
 		if iGameTurn == 144:
 			if gc.getPlayer(GORM.Country(16)).getTeam() > gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam()) or gc.getPlayer(GORM.Country(16)).getTeam() < gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam()):
 				self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
@@ -691,9 +691,6 @@ class CvEventManager:
 			GORM.WarofFaklands()
 		if iGameTurn == 150:
 			gc.getTeam(gc.getPlayer(GORM.Country(41)).getTeam()).makePeace(GORM.Country(37))
-		if iGameTurn == 139:
-			gc.getTeam(gc.getPlayer(GORM.Country(1)).getTeam()).declareWar(GORM.Country(14), false, WarPlanTypes.WARPLAN_TOTAL)
-			SovietAghanWar()
 		if iGameTurn == 164:
 			if gc.getPlayer(GORM.Country(13)).getTeam() > GORM.Country(4) or gc.getPlayer(GORM.Country(13)).getTeam() < GORM.Country(4):
 				self.pEUborn = gc.getTeam(gc.getPlayer(GORM.Country(4)).getTeam())
