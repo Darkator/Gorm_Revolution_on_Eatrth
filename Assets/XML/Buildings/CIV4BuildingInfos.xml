@@ -4696,7 +4696,7 @@
 			<SpecialistCounts/>
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
-					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+					<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 					<iFreeSpecialistCount>2</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>

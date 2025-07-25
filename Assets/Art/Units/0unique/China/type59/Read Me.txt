@@ -1,0 +1,9 @@
+This file contains my reskin of Snafusmith's T-55 from the Warlords Modern Warfare Mod. I have included his animations in this file along with the .nif.
+
+!!!!!!!!!Important-!!!!!!!!!!!!!!!!
+
+I have modified the .nif file for a better scale and to use three textures: grey metal .dds, gloss .dds, and t55 .dds. You must use all three .dds files with this .nif for the Leopard2A5 to look right in the game!
+
+Please give me proper credit when using this skin job in your Mods, etc.  Also, do not forget to credit Snafusmith for creation of the model and animations.
+
+Acronym2

@@ -1,0 +1,18 @@
+Armor Ariete 2.1 added roman style texture + little re-set of the uv 
+and texture (ex: shadow under the turret of all textures)
+2.1 version of this italian modernarmor
+
+Corrected by The_Coyote: He corrected the vertices; and made another version Ariete_fx for the texture and the appearance in the game
+
+modelled by me
+uses Snafusmith's CV9040 driver front turret
+
+meshes uploaded on Snafusmith's amx30.nif
+
+Uses Snafusmith's amx30 animations, included
+
+Feel free to use it as You want
+
+
+
+KrugerPritz

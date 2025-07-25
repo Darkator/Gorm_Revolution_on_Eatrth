@@ -121,9 +121,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>52</iPlotX>
+					<iPlotY>41</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>53</iPlotX>
+					<iPlotY>38</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>53</iPlotX>
 					<iPlotY>38</iPlotY>
@@ -149,9 +177,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>56</iPlotX>
+					<iPlotY>41</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>60</iPlotX>
+					<iPlotY>38</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>38</iPlotY>
@@ -177,6 +233,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>62</iPlotX>
+					<iPlotY>40</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
@@ -191,9 +261,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>60</iPlotX>
+					<iPlotY>41</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>57</iPlotX>
+					<iPlotY>37</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>57</iPlotX>
 					<iPlotY>37</iPlotY>
@@ -229,6 +327,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>63</iPlotX>
+					<iPlotY>36</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
@@ -243,9 +355,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>63</iPlotX>
+					<iPlotY>34</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>63</iPlotX>
+					<iPlotY>32</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>63</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -281,9 +421,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>64</iPlotX>
+					<iPlotY>31</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>66</iPlotX>
+					<iPlotY>32</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>66</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -309,9 +477,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>68</iPlotX>
+					<iPlotY>32</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>68</iPlotX>
+					<iPlotY>35</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>68</iPlotX>
 					<iPlotY>35</iPlotY>
@@ -337,9 +533,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>66</iPlotX>
+					<iPlotY>35</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>71</iPlotX>
+					<iPlotY>36</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>71</iPlotX>
 					<iPlotY>36</iPlotY>
@@ -375,6 +599,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>74</iPlotX>
+					<iPlotY>32</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
@@ -389,9 +627,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>73</iPlotX>
+					<iPlotY>35</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>71</iPlotX>
+					<iPlotY>32</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>71</iPlotX>
 					<iPlotY>32</iPlotY>
@@ -427,6 +693,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>66</iPlotX>
+					<iPlotY>42</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>15</iQuantity>
@@ -441,9 +721,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>5</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>65</iPlotX>
+					<iPlotY>39</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>67</iPlotX>
+					<iPlotY>40</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>67</iPlotX>
 					<iPlotY>40</iPlotY>
@@ -479,9 +787,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>70</iPlotX>
+					<iPlotY>43</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>70</iPlotX>
+					<iPlotY>40</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>70</iPlotX>
 					<iPlotY>40</iPlotY>
@@ -639,9 +975,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>56</iPlotX>
+					<iPlotY>48</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>58</iPlotX>
+					<iPlotY>45</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>58</iPlotX>
 					<iPlotY>45</iPlotY>
@@ -667,9 +1031,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>60</iPlotX>
+					<iPlotY>45</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>12</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>60</iPlotX>
+					<iPlotY>49</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>60</iPlotX>
 					<iPlotY>49</iPlotY>
@@ -705,9 +1097,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>64</iPlotX>
+					<iPlotY>28</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>7</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>64</iPlotX>
+					<iPlotY>30</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>64</iPlotX>
 					<iPlotY>30</iPlotY>
@@ -743,9 +1163,37 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>74</iPlotX>
+					<iPlotY>29</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>10</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>72</iPlotX>
+					<iPlotY>25</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_AT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>72</iPlotX>
 					<iPlotY>25</iPlotY>

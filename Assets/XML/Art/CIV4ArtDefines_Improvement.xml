@@ -243,9 +243,9 @@
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HEAVY_FABRIC</Type>
 			<bExtraAnimations>0</bExtraAnimations>
-			<fScale>0.05</fScale>
+			<fScale>7.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Structures/Improvements/Industrial factory/Factory.nif</NIF>
+			<NIF>Art/Structures/Improvements/FactoryAfrican/AmmoFactory.nif</NIF>
 			<KFM></KFM>
 			<Button>,Art/Interface/Buttons/Buildings/IronWorks.dds,Art/Interface/Buttons/Buildings_Atlas.dds,2,4</Button>
 		</ImprovementArtInfo>
