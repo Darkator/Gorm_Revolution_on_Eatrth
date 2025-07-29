@@ -618,6 +618,18 @@
 					<UnitClassType>UNITCLASS_TANK_DESTROYER</UnitClassType>
 					<UnitType>UNIT_M10</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ASSULTGUN</UnitClassType>
+					<UnitType>UNIT_LEOPARD2A5</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_JETCAS</UnitClassType>
+					<UnitType>UNIT_G91</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_LATE_JET_CAS</UnitClassType>
+					<UnitType>UNIT_ALPHAJET</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -2384,6 +2396,18 @@
 					<UnitClassType>UNITCLASS_TANK</UnitClassType>
 					<UnitType>UNIT_SHERMAN</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANKIIIGEN</UnitClassType>
+					<UnitType>UNIT_LEOPARD2A4</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_JETCAS</UnitClassType>
+					<UnitType>UNIT_G91</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_LATE_JET_CAS</UnitClassType>
+					<UnitType>UNIT_CASAC101</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -2860,6 +2884,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_PREAPC</UnitClassType>
 					<UnitType>UNIT_HALFTTRACK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANKIIIGEN</UnitClassType>
+					<UnitType>UNIT_LEOPARD2A4</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4957,6 +4985,10 @@
 					<UnitClassType>UNITCLASS_PREAPC</UnitClassType>
 					<UnitType>UNIT_HALFTTRACK</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MBT_TANKIIIGEN</UnitClassType>
+					<UnitType>UNIT_LEOPARD2A4</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -5384,6 +5416,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_TANK</UnitClassType>
 					<UnitType>UNIT_SHERMAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_LATE_JET_CAS</UnitClassType>
+					<UnitType>UNIT_T4KAWASAKI</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -6652,6 +6688,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_TANK_DESTROYER</UnitClassType>
 					<UnitType>UNIT_M10</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CW_JETCAS</UnitClassType>
+					<UnitType>UNIT_G91</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
