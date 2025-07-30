@@ -70121,7 +70121,7 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_3GEN_JET_CAS</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_AMXINTER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
