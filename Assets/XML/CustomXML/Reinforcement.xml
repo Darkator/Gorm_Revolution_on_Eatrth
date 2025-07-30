@@ -1111,6 +1111,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_TANK_DESTROYER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>64</iPlotX>
+					<iPlotY>28</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>7</iQuantity>
@@ -1128,6 +1142,20 @@
 					<Type>UNIT_AT_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>64</iPlotX>
+					<iPlotY>30</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_TANK_DESTROYER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>64</iPlotX>
 					<iPlotY>30</iPlotY>
@@ -1177,6 +1205,20 @@
 					<iDamage>0</iDamage>
 				</Unit>
 				<Unit>
+					<Type>UNIT_TANK_DESTROYER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>74</iPlotX>
+					<iPlotY>29</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
 					<Type>UNIT_EARLY_COLDWAR_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>10</iQuantity>
@@ -1194,6 +1236,20 @@
 					<Type>UNIT_AT_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
 					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>72</iPlotX>
+					<iPlotY>25</iPlotY>
+					<sName>NONE</sName>
+					<iLevel>1</iLevel>
+					<iExperience>0</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_TANK_DESTROYER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>72</iPlotX>
 					<iPlotY>25</iPlotY>

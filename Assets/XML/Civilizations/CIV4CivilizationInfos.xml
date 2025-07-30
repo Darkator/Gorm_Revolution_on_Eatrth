@@ -4989,6 +4989,14 @@
 					<UnitClassType>UNITCLASS_MBT_TANKIIIGEN</UnitClassType>
 					<UnitType>UNIT_LEOPARD2A4</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ASSULTGUN</UnitClassType>
+					<UnitType>UNIT_K9SPH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWSPH</UnitClassType>
+					<UnitType>UNIT_T155</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -5420,6 +5428,18 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_CW_LATE_JET_CAS</UnitClassType>
 					<UnitType>UNIT_T4KAWASAKI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ASSULTGUN</UnitClassType>
+					<UnitType>UNIT_K9SPH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECWSPH</UnitClassType>
+					<UnitType>UNIT_TYPE99SPH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATE_MOBILE_SAM</UnitClassType>
+					<UnitType>UNIT_CROTALE</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
