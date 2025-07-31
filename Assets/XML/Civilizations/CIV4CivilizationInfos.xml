@@ -5009,6 +5009,10 @@
 					<UnitClassType>UNITCLASS_LATECWSPH</UnitClassType>
 					<UnitType>UNIT_T155</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_AGUNSHIP</UnitClassType>
+					<UnitType>UNIT_AH1</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
