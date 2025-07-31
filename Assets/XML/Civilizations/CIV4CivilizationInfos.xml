@@ -85,6 +85,10 @@
 			</Buildings>
 			<Units>
 				<Unit>
+					<UnitClassType>UNITCLASS_LATECW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_B1LANCER</UnitType>
+				</Unit>
+				<Unit>
 					<UnitClassType>UNITCLASS_CWTD</UnitClassType>
 					<UnitType>UNIT_M901ITV</UnitType>
 				</Unit>
@@ -1013,6 +1017,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
 					<UnitType>UNIT_TU4</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_TU22</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4231,6 +4239,10 @@
 					<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
 					<UnitType>UNIT_TU4</UnitType>
 				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_H6</UnitType>
+				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
@@ -6879,6 +6891,10 @@
 			<Buildings/>
 			<Units>
 				<Unit>
+					<UnitClassType>UNITCLASS_LATECW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_VICTOR</UnitType>
+				</Unit>
+				<Unit>
 					<UnitClassType>UNITCLASS_EARLYIFV</UnitClassType>
 					<UnitType>UNIT_CHALLENGERII</UnitType>
 				</Unit>
@@ -7402,6 +7418,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_TACT_BOMBER</UnitClassType>
 					<UnitType>UNIT_JU88</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LATECW_JET_BOMBER</UnitClassType>
+					<UnitType>UNIT_MIRAGEIVP</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
