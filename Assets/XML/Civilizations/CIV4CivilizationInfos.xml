@@ -5327,7 +5327,12 @@
 				<City>TXT_KEY_CITY_NAME_WW2_JAPAN39</City>
 				<City>TXT_KEY_CITY_NAME_WW2_JAPAN40</City>
 			</Cities>
-			<Buildings/>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+					<BuildingType>BUILDING_JAPAN_NUCLEAR_PLANT</BuildingType>
+				</Building>
+			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_I_FIGHTER</UnitClassType>
