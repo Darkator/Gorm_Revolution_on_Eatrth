@@ -357,21 +357,32 @@ class CvEventManager:
 ## GORM ##
 #		if (not gc.getGame().isPbem()):
 #			GORM.Escalation(self, argsList)
-		for iPlayer in range(gc.getMAX_PLAYERS()):
-			player = gc.getPlayer(iPlayer)
-			if (player.isAlive() and player.isHuman()):
-				count = 0
+		if (not gc.getGame().isPbem()):
+			GORM.Escalation(self, argsList)
+			GORM.WarYear(self, argsList)
+		if (gc.getGame().isPbem()):
+			count = 0
+			for iPlayer in range(gc.getMAX_PLAYERS()):
+				player = gc.getPlayer(iPlayer)
 				if (player.isAlive() and player.isHuman() and count == 0):
 					count = 1
 					GORM.Escalation(self, argsList)
 					GORM.WarYear(self, argsList)
-					
-			if (gc.getGame().isPbem()):
-				count = 0
-				if (player.isAlive() and player.isHuman() and count == 0):
-					count = 1
-					GORM.Escalation(self, argsList)
-					GORM.WarYear(self, argsList)
+#		for iPlayer in range(gc.getMAX_PLAYERS()):
+#			player = gc.getPlayer(iPlayer)
+#			if (player.isAlive() and player.isHuman()):
+#				count = 0
+#				if (player.isAlive() and player.isHuman() and count == 0):
+#					count = 1
+#					GORM.Escalation(self, argsList)
+#					GORM.WarYear(self, argsList)
+#					
+#			if (gc.getGame().isPbem()):
+#				count = 0
+#				if (player.isAlive() and player.isHuman() and count == 0):
+#					count = 1
+#					GORM.Escalation(self, argsList)
+#					GORM.WarYear(self, argsList)
 ## GORM ##
 
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
