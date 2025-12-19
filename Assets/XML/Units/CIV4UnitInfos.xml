@@ -10432,19 +10432,9 @@
 			<iTradeMultiplier>0</iTradeMultiplier>
 			<iGreatWorkCulture>0</iGreatWorkCulture>
 			<iEspionagePoints>0</iEspionagePoints>
-			<TerrainImpassables>
-				<TerrainImpassable>
-					<TerrainType>TERRAIN_OCEAN</TerrainType>
-					<bTerrainImpassable>1</bTerrainImpassable>
-				</TerrainImpassable>
-			</TerrainImpassables>
+			<TerrainImpassables/>
 			<FeatureImpassables/>
-			<TerrainPassableTechs>
-				<TerrainPassableTech>
-					<TerrainType>TERRAIN_OCEAN</TerrainType>
-					<PassableTech>NONE</PassableTech>
-				</TerrainPassableTech>
-			</TerrainPassableTechs>
+			<TerrainPassableTechs/>
 			<FeaturePassableTechs/>
 			<iCombat>0</iCombat>
 			<iCombatLimit>0</iCombatLimit>

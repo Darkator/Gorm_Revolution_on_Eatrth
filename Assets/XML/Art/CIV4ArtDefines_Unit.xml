@@ -9205,7 +9205,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GVOZDIKA</Type>
 			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,7,11</Button>
-			<fScale>0.57</fScale>
+			<fScale>0.41</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -9922,7 +9922,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TUNGUSKA</Type>
 			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,6,11</Button>
-			<fScale>0.57</fScale>
+			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -10298,7 +10298,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_2S19</Type>
 			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,7,11</Button>
-			<fScale>0.57</fScale>
+			<fScale>0.45</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -11300,7 +11300,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_M901ITV</Type>
 			<Button>,Art/Interface/Buttons/Units/MechanizedInfantry.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,8</Button>
-			<fScale>0.43</fScale>
+			<fScale>0.40</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -14322,7 +14322,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AMX30</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.48</fScale>
+			<fScale>0.42</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -14419,7 +14419,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ROLAND</Type>
 			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,6,11</Button>
-			<fScale>0.43</fScale>
+			<fScale>0.35</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -14850,7 +14850,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_OT64SKOT</Type>
 			<Button>,Art/Interface/Buttons/Units/MechanizedInfantry.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,8</Button>
-			<fScale>0.83</fScale>
+			<fScale>0.75</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -15359,7 +15359,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TYPE99</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.40</fScale>
+			<fScale>0.35</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -15742,7 +15742,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_K1KOREA</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.40</fScale>
+			<fScale>0.34</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -16259,7 +16259,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TYPE74</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.48</fScale>
+			<fScale>0.41</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -16294,7 +16294,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_LEOPARD1</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.40</fScale>
+			<fScale>0.35</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -16399,7 +16399,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TYPE90</Type>
 			<Button>,Art/Interface/Buttons/Units/ModernArmor.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,11</Button>
-			<fScale>0.40</fScale>
+			<fScale>0.35</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>

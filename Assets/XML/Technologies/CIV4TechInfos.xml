@@ -126,7 +126,12 @@
 				<bFlexible>1</bFlexible>
 				<bFlexible>1</bFlexible>
 			</CommerceFlexible>
-			<TerrainTrades/>
+			<TerrainTrades>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+			</TerrainTrades>
 			<bRiverTrade>0</bRiverTrade>
 			<Flavors>
 				<Flavor>
@@ -822,7 +827,12 @@
 			<iGridY>5</iGridY>
 			<DomainExtraMoves/>
 			<CommerceFlexible/>
-			<TerrainTrades/>
+			<TerrainTrades>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+			</TerrainTrades>
 			<bRiverTrade>0</bRiverTrade>
 			<Flavors>
 				

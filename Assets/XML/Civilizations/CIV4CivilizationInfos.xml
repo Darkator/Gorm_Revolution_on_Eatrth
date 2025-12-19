@@ -3240,6 +3240,10 @@
 					<LeaderName>LEADER_TITO_YUGOSLAVIA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AUSTRIA_CW</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_GREECE_SELECT</CivilizationSelectionSound>
@@ -5331,6 +5335,10 @@
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
 					<BuildingType>BUILDING_JAPAN_NUCLEAR_PLANT</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COAL_MANUFACTURE</BuildingClassType>
+					<BuildingType>BUILDING_JAPAN_MANUFACTURE</BuildingType>
 				</Building>
 			</Buildings>
 			<Units>

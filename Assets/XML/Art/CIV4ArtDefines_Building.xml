@@ -1679,7 +1679,7 @@
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CW_PCAS</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
+			<LSystem>LSYSTEM_3x3</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
@@ -1703,9 +1703,39 @@
 			<bAnimated>0</bAnimated>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/ind10/Ind10.nif</NIF>
+			<NIF>Art/Structures/Buildings/plane_factory/plane_factory.nif</NIF>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/TechTree/Flight.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,10</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_COAL_WORKSHOP</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/ind10/Ind10.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/Steam Power.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,12</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_URAN_MANUFACTURE</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Desal/desal.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/Physics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,6</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PARTWORSHOP</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.8</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/partworshop/partworkshop.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/Replaceable Parts.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,7</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>
