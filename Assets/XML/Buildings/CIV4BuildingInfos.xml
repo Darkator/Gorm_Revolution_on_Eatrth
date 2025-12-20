@@ -8454,7 +8454,7 @@
 				<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
 				<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 				<VictoryPrereq>NONE</VictoryPrereq>
-				<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+				<FreeStartEra>NONE</FreeStartEra>
 				<MaxStartEra>NONE</MaxStartEra>
 				<ObsoleteTech>NONE</ObsoleteTech>
 				<PrereqTech>TECH_CVNUCLEARELECTRICITY</PrereqTech>
@@ -8653,7 +8653,7 @@
 				<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
 				<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 				<VictoryPrereq>NONE</VictoryPrereq>
-				<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+				<FreeStartEra>NONE</FreeStartEra>
 				<MaxStartEra>NONE</MaxStartEra>
 				<ObsoleteTech>NONE</ObsoleteTech>
 				<PrereqTech>TECH_HVINDUSTRIALISMII</PrereqTech>

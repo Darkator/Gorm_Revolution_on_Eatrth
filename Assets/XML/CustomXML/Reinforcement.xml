@@ -789,7 +789,7 @@
 				<Unit>
 					<Type>UNIT_AT_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>2</iQuantity>
+					<iQuantity>4</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>70</iPlotX>
 					<iPlotY>43</iPlotY>
@@ -817,7 +817,7 @@
 				<Unit>
 					<Type>UNIT_AT_INFANTRY</Type>
 					<LeaderUnit>NONE</LeaderUnit>
-					<iQuantity>2</iQuantity>
+					<iQuantity>4</iQuantity>
 					<bCapital>0</bCapital>
 					<iPlotX>70</iPlotX>
 					<iPlotY>40</iPlotY>
