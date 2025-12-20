@@ -8815,14 +8815,16 @@
 					</PrereqBuildingClass>
 				</PrereqBuildingClasses>
 				<BuildingClassNeededs/>
-				<SpecialistYieldChange>
-					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-					<YieldChanges>
-						<iYield>0</iYield>
-						<iYield>2</iYield>
-						<iYield>0</iYield>
-					</YieldChanges>
-				</SpecialistYieldChange>
+				<SpecialistYieldChanges>
+					<SpecialistYieldChange>
+						<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+						<YieldChanges>
+							<iYield>0</iYield>
+							<iYield>2</iYield>
+							<iYield>0</iYield>
+						</YieldChanges>
+					<SpecialistYieldChange>
+				</SpecialistYieldChanges>
 				<BonusYieldModifiers/>
 				<ImprovementFreeSpecialists/>
 				<Flavors>
