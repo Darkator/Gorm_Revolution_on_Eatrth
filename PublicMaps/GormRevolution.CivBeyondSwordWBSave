@@ -2675,7 +2675,7 @@ BeginPlayer
 	ArtStyle=
 	PlayableCiv=1
 	MinorNationStatus=0
-	StartingGold=261
+	StartingGold=3200
 	StartingX=34, StartingY=2
 	StateReligion=
 	StartingEra=ERA_INDUSTRIAL
@@ -3255,7 +3255,7 @@ BeginPlayer
 	ArtStyle=ARTSTYLE_ASIAN
 	PlayableCiv=1
 	MinorNationStatus=0
-	StartingGold=50
+	StartingGold=1200
 	StartingX=10, StartingY=6
 	StateReligion=
 	StartingEra=ERA_INDUSTRIAL
