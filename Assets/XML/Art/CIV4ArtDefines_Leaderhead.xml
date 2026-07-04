@@ -615,6 +615,14 @@
 			<BackgroundKFM>art/LeaderHeads/Saladin/saladin_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SALADIN1</Type>
+			<Button>,Art/interface/LeaderHeads/Btn_LH_Arabia_Saladin.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,11</Button>
+			<NIF>art/LeaderHeads/gorm.dds</NIF>
+			<KFM>art/LeaderHeads/Saladin/saladin.kfm</KFM>
+			<NoShaderNIF>art/LeaderHeads/Saladin/saladin_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>art/LeaderHeads/Saladin/saladin_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_TOKUGAWA</Type>
 			<Button>,Art/interface/LeaderHeads/Btn_LH_Japan_Tokugawa.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,12</Button>
 			<NIF>art/LeaderHeads/Tokugawa/tokugawa.nif</NIF>

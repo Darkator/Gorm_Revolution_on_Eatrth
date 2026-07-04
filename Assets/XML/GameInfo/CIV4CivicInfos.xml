@@ -910,7 +910,7 @@
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>2</iYield>
+						<iYield>3</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
@@ -926,6 +926,14 @@
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
+						<iYield>2</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
@@ -1022,9 +1030,17 @@
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 					<ImprovementYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
 						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+						<iYield>0</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 			</ImprovementYieldChanges>
@@ -1111,6 +1127,14 @@
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<ImprovementYields>
+						<iYield>3</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 					<ImprovementYields>
 						<iYield>2</iYield>
 						<iYield>0</iYield>
@@ -1203,12 +1227,20 @@
 					<ImprovementType>IMPROVEMENT_WORKSHOP</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 						<iYield>0</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
-					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+					<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -1263,7 +1295,7 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
@@ -1328,7 +1360,7 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
@@ -1393,7 +1425,7 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
@@ -1458,7 +1490,7 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
@@ -1523,7 +1555,7 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>0</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>

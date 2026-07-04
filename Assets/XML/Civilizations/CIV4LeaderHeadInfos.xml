@@ -19750,9 +19750,9 @@
 		</LeaderHeadInfo>
 		<LeaderHeadInfo>
 			<Type>LEADER_SALADIN</Type>
-			<Description>TXT_KEY_LEADER_SALADIN</Description>
+			<Description>Gorimit Leadaer</Description>
 			<Civilopedia>TXT_KEY_LEADER_SALADIN_PEDIA</Civilopedia>
-			<ArtDefineTag>ART_DEF_LEADER_SALADIN</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_LEADER_SALADIN1</ArtDefineTag>
 			<iWonderConstructRand>10</iWonderConstructRand>
 			<iBaseAttitude>0</iBaseAttitude>
 			<iBasePeaceWeight>4</iBasePeaceWeight>

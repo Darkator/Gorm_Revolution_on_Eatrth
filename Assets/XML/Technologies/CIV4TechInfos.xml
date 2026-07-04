@@ -529,7 +529,7 @@
 			<FirstFreeUnitClass>NONE</FirstFreeUnitClass>
 			<iFeatureProductionModifier>0</iFeatureProductionModifier>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iTradeRoutes>0</iTradeRoutes>
+			<iTradeRoutes>1</iTradeRoutes>
 			<iHealth>0</iHealth>
 			<iHappiness>0</iHappiness>
 			<iFirstFreeTechs>0</iFirstFreeTechs>
@@ -540,7 +540,7 @@
 			<bDisable>0</bDisable>
 			<bGoodyTech>0</bGoodyTech>
 			<bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
-			<bMapCentering>0</bMapCentering>
+			<bMapCentering>1</bMapCentering>
 			<bMapVisible>0</bMapVisible>
 			<bMapTrading>0</bMapTrading>
 			<bTechTrading>0</bTechTrading>
@@ -549,15 +549,20 @@
 			<bDefensivePactTrading>0</bDefensivePactTrading>
 			<bPermanentAllianceTrading>0</bPermanentAllianceTrading>
 			<bVassalTrading>0</bVassalTrading>
-			<bBridgeBuilding>0</bBridgeBuilding>
+			<bBridgeBuilding>1</bBridgeBuilding>
 			<bIrrigation>0</bIrrigation>
-			<bIgnoreIrrigation>0</bIgnoreIrrigation>
-			<bWaterWork>0</bWaterWork>
+			<bIgnoreIrrigation>1</bIgnoreIrrigation>
+			<bWaterWork>1</bWaterWork>
 			<iGridX>21</iGridX>
 			<iGridY>6</iGridY>
 			<DomainExtraMoves/>
 			<CommerceFlexible/>
-			<TerrainTrades/>
+			<TerrainTrades>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+			</TerrainTrades>
 			<bRiverTrade>0</bRiverTrade>
 			<Flavors>
 				<Flavor>
@@ -2453,7 +2458,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2517,7 +2522,7 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2584,7 +2589,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2651,7 +2656,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2715,7 +2720,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2781,7 +2786,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2100</iCost>
+			<iCost>6100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2847,7 +2852,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7550</iCost>
+			<iCost>9550</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2916,7 +2921,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2100</iCost>
+			<iCost>6100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -2983,7 +2988,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2100</iCost>
+			<iCost>6100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -3050,7 +3055,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2100</iCost>
+			<iCost>7100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -3116,7 +3121,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2100</iCost>
+			<iCost>6100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_MODERN</Era>
@@ -3182,7 +3187,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>2450</iCost>
+			<iCost>10450</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
 			<Era>ERA_FUTURE</Era>
@@ -3521,6 +3526,198 @@
 			<Sound>AS2D_TECH_MYSTICISM</Sound>
 			<SoundMP>AS2D_TECH_MP_MYSTICISM</SoundMP>
 			<Button>,Art/Interface/Buttons/Civics/Pacifism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,2</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_ENERGHEA</Type>
+			<Description>Era Energheia</Description>
+			<Civilopedia>TXT_KEY_TECH_INDUSTRIALISM_PEDIA</Civilopedia>
+			<Help/>
+			<Strategy>TXT_KEY_TECH_INDUSTRIALISM_STRATEGY</Strategy>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iAIWeight>0</iAIWeight>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>1680</iCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<Era>ERA_MEDIEVAL</Era>
+			<FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+			<iFeatureProductionModifier>0</iFeatureProductionModifier>
+			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>
+			<iTradeRoutes>0</iTradeRoutes>
+			<iHealth>0</iHealth>
+			<iHappiness>0</iHappiness>
+			<iFirstFreeTechs>0</iFirstFreeTechs>
+			<iAsset>40</iAsset>
+			<iPower>10</iPower>
+			<bRepeat>0</bRepeat>
+			<bTrade>0</bTrade>
+			<bDisable>0</bDisable>
+			<bGoodyTech>0</bGoodyTech>
+			<bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+			<bMapCentering>0</bMapCentering>
+			<bMapVisible>0</bMapVisible>
+			<bMapTrading>0</bMapTrading>
+			<bTechTrading>0</bTechTrading>
+			<bGoldTrading>0</bGoldTrading>
+			<bOpenBordersTrading>0</bOpenBordersTrading>
+			<bDefensivePactTrading>0</bDefensivePactTrading>
+			<bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+			<bVassalTrading>0</bVassalTrading>
+			<bBridgeBuilding>0</bBridgeBuilding>
+			<bIrrigation>0</bIrrigation>
+			<bIgnoreIrrigation>0</bIgnoreIrrigation>
+			<bWaterWork>0</bWaterWork>
+			<iGridX>1</iGridX>
+			<iGridY>1</iGridY>
+			<DomainExtraMoves/>
+			<CommerceFlexible/>
+			<TerrainTrades/>
+			<bRiverTrade>0</bRiverTrade>
+			<Flavors>
+				
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				
+			</Flavors>
+			<OrPreReqs/>
+				
+			<AndPreReqs>
+				<PrereqTech>TECH_GORM_FOLKS</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_CALENDAR_QUOTE</Quote>
+			<Sound>AS2D_TECH_CALENDAR</Sound>
+			<SoundMP>AS2D_TECH_MP_CALENDAR</SoundMP>
+			<Button>,Art/Interface/Buttons/TechTree/Calendar.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,9</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_ERAII</Type>
+			<Description>Era II</Description>
+			<Civilopedia>TXT_KEY_TECH_INDUSTRIALISM_PEDIA</Civilopedia>
+			<Help/>
+			<Strategy>TXT_KEY_TECH_INDUSTRIALISM_STRATEGY</Strategy>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<iAIWeight>0</iAIWeight>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>8900</iCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<Era>ERA_MEDIEVAL</Era>
+			<FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+			<iFeatureProductionModifier>0</iFeatureProductionModifier>
+			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>
+			<iTradeRoutes>0</iTradeRoutes>
+			<iHealth>0</iHealth>
+			<iHappiness>0</iHappiness>
+			<iFirstFreeTechs>0</iFirstFreeTechs>
+			<iAsset>40</iAsset>
+			<iPower>10</iPower>
+			<bRepeat>0</bRepeat>
+			<bTrade>0</bTrade>
+			<bDisable>0</bDisable>
+			<bGoodyTech>0</bGoodyTech>
+			<bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+			<bMapCentering>0</bMapCentering>
+			<bMapVisible>0</bMapVisible>
+			<bMapTrading>0</bMapTrading>
+			<bTechTrading>0</bTechTrading>
+			<bGoldTrading>0</bGoldTrading>
+			<bOpenBordersTrading>0</bOpenBordersTrading>
+			<bDefensivePactTrading>0</bDefensivePactTrading>
+			<bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+			<bVassalTrading>0</bVassalTrading>
+			<bBridgeBuilding>0</bBridgeBuilding>
+			<bIrrigation>0</bIrrigation>
+			<bIgnoreIrrigation>0</bIgnoreIrrigation>
+			<bWaterWork>0</bWaterWork>
+			<iGridX>2</iGridX>
+			<iGridY>1</iGridY>
+			<DomainExtraMoves/>
+			<CommerceFlexible/>
+			<TerrainTrades/>
+			<bRiverTrade>0</bRiverTrade>
+			<Flavors>
+				
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				
+			</Flavors>
+			<OrPreReqs/>
+				
+			<AndPreReqs>
+				<PrereqTech>TECH_ENERGHEA</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_CALENDAR_QUOTE</Quote>
+			<Sound>AS2D_TECH_CALENDAR</Sound>
+			<SoundMP>AS2D_TECH_MP_CALENDAR</SoundMP>
+			<Button>,Art/Interface/Buttons/TechTree/Biology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,9</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_ERA_END</Type>
+			<Description>Era Of Endeless</Description>
+			<Civilopedia>TXT_KEY_TECH_FUTURE_TECH_PEDIA</Civilopedia>
+			<Help/>
+			<Strategy>TXT_KEY_TECH_FUTURE_TECH_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iAIWeight>0</iAIWeight>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>4200</iCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<Era>ERA_FUTURE</Era>
+			<FirstFreeUnitClass>NONE</FirstFreeUnitClass>
+			<iFeatureProductionModifier>0</iFeatureProductionModifier>
+			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
+			<iTradeRoutes>0</iTradeRoutes>
+			<iHealth>1</iHealth>
+			<iHappiness>1</iHappiness>
+			<iFirstFreeTechs>0</iFirstFreeTechs>
+			<iAsset>40</iAsset>
+			<iPower>10</iPower>
+			<bRepeat>1</bRepeat>
+			<bTrade>0</bTrade>
+			<bDisable>0</bDisable>
+			<bGoodyTech>0</bGoodyTech>
+			<bExtraWaterSeeFrom>0</bExtraWaterSeeFrom>
+			<bMapCentering>0</bMapCentering>
+			<bMapVisible>0</bMapVisible>
+			<bMapTrading>0</bMapTrading>
+			<bTechTrading>0</bTechTrading>
+			<bGoldTrading>0</bGoldTrading>
+			<bOpenBordersTrading>0</bOpenBordersTrading>
+			<bDefensivePactTrading>0</bDefensivePactTrading>
+			<bPermanentAllianceTrading>0</bPermanentAllianceTrading>
+			<bVassalTrading>0</bVassalTrading>
+			<bBridgeBuilding>0</bBridgeBuilding>
+			<bIrrigation>0</bIrrigation>
+			<bIgnoreIrrigation>0</bIgnoreIrrigation>
+			<bWaterWork>0</bWaterWork>
+			<iGridX>7</iGridX>
+			<iGridY>2</iGridY>
+			<DomainExtraMoves/>
+			<CommerceFlexible/>
+			<TerrainTrades/>
+			<bRiverTrade>0</bRiverTrade>
+			<Flavors>
+				
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				
+			</Flavors>
+			<OrPreReqs/>
+				
+			<AndPreReqs>
+				<PrereqTech>TECH_ERAII</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_FUTURE_TECH_QUOTE</Quote>
+			<Sound>AS2D_TECH_FUTURE</Sound>
+			<SoundMP>AS2D_TECH_MP_FUTURE</SoundMP>
+			<Button>,Art/Interface/Buttons/TechTree/Future Tech.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,4</Button>
 		</TechInfo>
 	</TechInfos>
 </Civ4TechInfos>
